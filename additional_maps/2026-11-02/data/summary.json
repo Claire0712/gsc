@@ -1,0 +1,169 @@
+{
+  "status": "completed",
+  "pilot": false,
+  "cells": 37206,
+  "tiles": 11,
+  "samples": [
+    "sample_USA_1_0.npz",
+    "sample_USA_1_1.npz",
+    "sample_USA_2_1.npz",
+    "sample_CHN_1_4.npz",
+    "sample_CHN_1_5.npz",
+    "sample_CHN_2_4.npz",
+    "sample_CHN_2_5.npz",
+    "sample_AUS_3_4.npz",
+    "sample_AUS_3_5.npz",
+    "sample_AUS_4_4.npz",
+    "sample_AUS_4_5.npz"
+  ],
+  "countries": [
+    {
+      "country_id": "USA",
+      "bbox": [
+        -125,
+        -66,
+        24,
+        50
+      ],
+      "positive_cells": 13673,
+      "represented_country_population_weight": 0.9836189252786338,
+      "national_nonhot_days": 1301,
+      "original_country_fraction_bound_checks": 1461,
+      "minimum_difference": -6.106226635438361e-16,
+      "maximum_difference": 0.014487518867166725
+    },
+    {
+      "country_id": "CHN",
+      "bbox": [
+        74,
+        135,
+        18,
+        54
+      ],
+      "positive_cells": 13393,
+      "represented_country_population_weight": 0.9999999557059109,
+      "national_nonhot_days": 1177,
+      "original_country_fraction_bound_checks": 1461,
+      "minimum_difference": -1.5543122344752192e-15,
+      "maximum_difference": 4.4294089840413164e-08
+    },
+    {
+      "country_id": "AUS",
+      "bbox": [
+        112,
+        154,
+        -44,
+        -10
+      ],
+      "positive_cells": 10140,
+      "represented_country_population_weight": 0.9998684554686547,
+      "national_nonhot_days": 1323,
+      "original_country_fraction_bound_checks": 1461,
+      "minimum_difference": -5.551115123125783e-16,
+      "maximum_difference": 0.0001315445313455621
+    }
+  ],
+  "tile_timings": [
+    {
+      "country": "USA",
+      "tile": [
+        1,
+        0
+      ],
+      "cells": 825,
+      "seconds": 107.84451410500333
+    },
+    {
+      "country": "USA",
+      "tile": [
+        1,
+        1
+      ],
+      "cells": 12402,
+      "seconds": 123.93826397397788
+    },
+    {
+      "country": "USA",
+      "tile": [
+        2,
+        1
+      ],
+      "cells": 446,
+      "seconds": 102.14335351501359
+    },
+    {
+      "country": "CHN",
+      "tile": [
+        1,
+        4
+      ],
+      "cells": 8112,
+      "seconds": 107.96964672999457
+    },
+    {
+      "country": "CHN",
+      "tile": [
+        1,
+        5
+      ],
+      "cells": 2277,
+      "seconds": 99.70145265600877
+    },
+    {
+      "country": "CHN",
+      "tile": [
+        2,
+        4
+      ],
+      "cells": 2927,
+      "seconds": 110.43860076996498
+    },
+    {
+      "country": "CHN",
+      "tile": [
+        2,
+        5
+      ],
+      "cells": 77,
+      "seconds": 98.87955122900894
+    },
+    {
+      "country": "AUS",
+      "tile": [
+        3,
+        4
+      ],
+      "cells": 946,
+      "seconds": 104.48778340301942
+    },
+    {
+      "country": "AUS",
+      "tile": [
+        3,
+        5
+      ],
+      "cells": 6609,
+      "seconds": 118.83867966302205
+    },
+    {
+      "country": "AUS",
+      "tile": [
+        4,
+        4
+      ],
+      "cells": 296,
+      "seconds": 103.3650821299525
+    },
+    {
+      "country": "AUS",
+      "tile": [
+        4,
+        5
+      ],
+      "cells": 2289,
+      "seconds": 113.0000309710158
+    }
+  ],
+  "elapsed_seconds": 1193.4454280019854,
+  "scope": "Discrete existing-source weather grid diagnostics, fixed population support. Not network-fault/state-effect evidence or a new climatological normal."
+}

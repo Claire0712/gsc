@@ -1,0 +1,20 @@
+{
+  "input": "analysis/2026-11-02_regional_maps/v2/context/adm1_orientation.geojson",
+  "input_sha256": "f0c4b74d96fe69a3e3d0cfba57e2a9f577a2ee92bcb30ae1ca754b1bf802d2f3",
+  "output_sha256": "d0a51205a30d6e52584d47358061ee419cd3f214e7421589611508a7ddf00f8f",
+  "shapely": "2.1.2",
+  "geos": "3.13.1",
+  "features": 98,
+  "changes": [
+    {
+      "country": "AUS",
+      "name": "Queensland",
+      "before_area_deg2_not_valid_area": 152.03828380401228,
+      "after_area_deg2": 152.03828380368776,
+      "bounds_unchanged": true,
+      "rule": "Geometric union of individually valid multipart land polygons; no new hole or smoothing"
+    }
+  ],
+  "all_output_geometries_valid": true,
+  "scope": "Display context only. Input preserved; no ERA5 values, population weights or network mapping changed."
+}

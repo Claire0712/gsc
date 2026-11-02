@@ -1,0 +1,201 @@
+{
+  "USA": {
+    "cells": 13673,
+    "represented_country_weight": 0.983618925278558,
+    "national_nonhot_days": 1301,
+    "metrics": {
+      "absolute35_days_per_year": {
+        "weighted_mean": 16.512996990086158,
+        "equal_cell_mean": 18.46979448548234,
+        "cell_min": 0.0,
+        "cell_median": 6.75,
+        "cell_max": 168.25
+      },
+      "local_q90_days_per_year": {
+        "weighted_mean": 44.69670772367629,
+        "equal_cell_mean": 47.10328750091421,
+        "cell_min": 19.75,
+        "cell_median": 45.0,
+        "cell_max": 102.5
+      },
+      "local_hot_on_national_nonhot_percent": {
+        "weighted_mean": 9.725972990470515,
+        "equal_cell_mean": 11.05090891776423,
+        "cell_min": 4.534973097617217,
+        "cell_median": 10.83781706379708,
+        "cell_max": 26.82551883166795
+      }
+    },
+    "annual_relative_percentage": {
+      "2022": 12.708637195948535,
+      "2023": 12.878868316451863,
+      "2024": 12.214169361987398,
+      "2025": 11.147555043717759
+    },
+    "cut_sensitivity": {
+      "absolute35_days_per_year": {
+        "SW_minus_NE": {
+          "min": 40.02828814378951,
+          "max": 51.38470180572116
+        },
+        "south_minus_north": {
+          "min": 22.5221764005868,
+          "max": 24.327976039942502
+        }
+      },
+      "local_q90_days_per_year": {
+        "SW_minus_NE": {
+          "min": -11.202697928028137,
+          "max": 10.202180896194093
+        },
+        "south_minus_north": {
+          "min": 2.8986732289378168,
+          "max": 5.8821879146141995
+        }
+      },
+      "local_hot_on_national_nonhot_percent": {
+        "SW_minus_NE": {
+          "min": -0.1860252257358015,
+          "max": 5.201495229484303
+        },
+        "south_minus_north": {
+          "min": 2.007890712879364,
+          "max": 3.327686319737971
+        }
+      }
+    }
+  },
+  "CHN": {
+    "cells": 13393,
+    "represented_country_weight": 0.9999999557057865,
+    "national_nonhot_days": 1177,
+    "metrics": {
+      "absolute35_days_per_year": {
+        "weighted_mean": 18.219664215109063,
+        "equal_cell_mean": 8.914638243858732,
+        "cell_min": 0.0,
+        "cell_median": 0.25,
+        "cell_max": 105.0
+      },
+      "local_q90_days_per_year": {
+        "weighted_mean": 53.442644375167006,
+        "equal_cell_mean": 50.58308444709923,
+        "cell_min": 17.5,
+        "cell_median": 50.25,
+        "cell_max": 112.75
+      },
+      "local_hot_on_national_nonhot_percent": {
+        "weighted_mean": 8.417554868598017,
+        "equal_cell_mean": 10.23858124442821,
+        "cell_min": 2.3789294817332203,
+        "cell_median": 9.60067969413764,
+        "cell_max": 29.651656754460493
+      }
+    },
+    "annual_relative_percentage": {
+      "2022": 13.614671075381889,
+      "2023": 14.990244213907857,
+      "2024": 14.210279774641775,
+      "2025": 15.713154169745636
+    },
+    "cut_sensitivity": {
+      "absolute35_days_per_year": {
+        "SW_minus_NE": {
+          "min": -13.29228067832614,
+          "max": 7.90146577125047
+        },
+        "south_minus_north": {
+          "min": 7.597705317756299,
+          "max": 12.25237055567122
+        }
+      },
+      "local_q90_days_per_year": {
+        "SW_minus_NE": {
+          "min": 1.4381920435422373,
+          "max": 22.888120061768312
+        },
+        "south_minus_north": {
+          "min": 10.21014383075017,
+          "max": 15.733681764080778
+        }
+      },
+      "local_hot_on_national_nonhot_percent": {
+        "SW_minus_NE": {
+          "min": 4.305019176390892,
+          "max": 6.005680465096464
+        },
+        "south_minus_north": {
+          "min": 0.8449957795574843,
+          "max": 3.1201767558714284
+        }
+      }
+    }
+  },
+  "AUS": {
+    "cells": 10140,
+    "represented_country_weight": 0.9998684554686293,
+    "national_nonhot_days": 1323,
+    "metrics": {
+      "absolute35_days_per_year": {
+        "weighted_mean": 6.549211719985963,
+        "equal_cell_mean": 75.43668639053254,
+        "cell_min": 0.0,
+        "cell_median": 73.75,
+        "cell_max": 203.25
+      },
+      "local_q90_days_per_year": {
+        "weighted_mean": 36.24154388818294,
+        "equal_cell_mean": 33.88996548323471,
+        "cell_min": 8.0,
+        "cell_median": 33.25,
+        "cell_max": 110.0
+      },
+      "local_hot_on_national_nonhot_percent": {
+        "weighted_mean": 7.187147535572493,
+        "equal_cell_mean": 7.828742279291729,
+        "cell_min": 2.1919879062736203,
+        "cell_median": 7.4074074074074066,
+        "cell_max": 31.368102796674226
+      }
+    },
+    "annual_relative_percentage": {
+      "2022": 4.6559132908605925,
+      "2023": 11.485011912507408,
+      "2024": 11.098538004514792,
+      "2025": 12.446890264086145
+    },
+    "cut_sensitivity": {
+      "absolute35_days_per_year": {
+        "SW_minus_NE": {
+          "min": -5.760697725377577,
+          "max": 11.71176314755119
+        },
+        "south_minus_north": {
+          "min": -20.39836082350272,
+          "max": -1.7602442457771126
+        }
+      },
+      "local_q90_days_per_year": {
+        "SW_minus_NE": {
+          "min": -12.849156825993404,
+          "max": 7.01468370012811
+        },
+        "south_minus_north": {
+          "min": -16.75962377214276,
+          "max": -4.32289638655147
+        }
+      },
+      "local_hot_on_national_nonhot_percent": {
+        "SW_minus_NE": {
+          "min": -3.6370210258306113,
+          "max": 3.23403463584404
+        },
+        "south_minus_north": {
+          "min": -8.016283633640747,
+          "max": -4.185957116470378
+        }
+      }
+    }
+  },
+  "interpretation": "Cell weather metrics on original fixed-country population support. Weighted means normalize only within the represented region. Conditional local Q90 includes every national non-exceedance day, all seasons; not an absolute hazardous-heat rate. Spatial cuts and neighbouring alternatives are descriptive, correlated cells are not independent samples, no causal or state-network inference."
+}

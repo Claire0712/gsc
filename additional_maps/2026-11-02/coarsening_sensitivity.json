@@ -1,0 +1,100 @@
+{
+  "USA": {
+    "absolute35_days_per_year": {
+      "SW_minus_NE": {
+        "min": 39.95700106140567,
+        "max": 63.982983172136585
+      },
+      "south_minus_north": {
+        "min": 22.5221764005868,
+        "max": 27.46833130971801
+      }
+    },
+    "local_q90_days_per_year": {
+      "SW_minus_NE": {
+        "min": -11.202697928028137,
+        "max": 15.717039113170316
+      },
+      "south_minus_north": {
+        "min": 2.8986732289378168,
+        "max": 9.792859210570974
+      }
+    },
+    "local_hot_on_national_nonhot_percent": {
+      "SW_minus_NE": {
+        "min": -0.18602522573580504,
+        "max": 6.5163607993343025
+      },
+      "south_minus_north": {
+        "min": 2.007890712879364,
+        "max": 4.31348491346208
+      }
+    }
+  },
+  "CHN": {
+    "absolute35_days_per_year": {
+      "SW_minus_NE": {
+        "min": -13.804360630281618,
+        "max": 7.90146577125047
+      },
+      "south_minus_north": {
+        "min": 7.077424681461871,
+        "max": 12.25237055567122
+      }
+    },
+    "local_q90_days_per_year": {
+      "SW_minus_NE": {
+        "min": 0.17580195234050677,
+        "max": 22.888120061768312
+      },
+      "south_minus_north": {
+        "min": 9.56529017329261,
+        "max": 15.733681764080778
+      }
+    },
+    "local_hot_on_national_nonhot_percent": {
+      "SW_minus_NE": {
+        "min": 4.148498475396237,
+        "max": 6.309948397718501
+      },
+      "south_minus_north": {
+        "min": 0.8449957795574807,
+        "max": 3.3009854018412854
+      }
+    }
+  },
+  "AUS": {
+    "absolute35_days_per_year": {
+      "SW_minus_NE": {
+        "min": -5.760697725377581,
+        "max": 11.71176314755119
+      },
+      "south_minus_north": {
+        "min": -20.398360823502724,
+        "max": -1.7602442457771126
+      }
+    },
+    "local_q90_days_per_year": {
+      "SW_minus_NE": {
+        "min": -12.849156825993411,
+        "max": 7.18580468317667
+      },
+      "south_minus_north": {
+        "min": -16.75962377214276,
+        "max": -4.132394724519173
+      }
+    },
+    "local_hot_on_national_nonhot_percent": {
+      "SW_minus_NE": {
+        "min": -3.6370210258306113,
+        "max": 3.2987198725012217
+      },
+      "south_minus_north": {
+        "min": -8.01628363364075,
+        "max": -4.123855109199407
+      }
+    }
+  },
+  "method": "Native 0.25-degree cell centres, plus fixed global-edge 0.5/1-degree weighted bins; all nine neighbouring cuts. No interpolation, new physical temperature or independent-cell inference. Plot resolution stays native.",
+  "weighted_mean_conservation_max_abs_error": 7.105427357601002e-15
+}

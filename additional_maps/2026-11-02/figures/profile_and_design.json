@@ -1,0 +1,50 @@
+{
+  "regions": {
+    "USA": {
+      "cells": 13673,
+      "represented_country_weight": 0.983618925278558,
+      "national_nonhot_days": 1301
+    },
+    "CHN": {
+      "cells": 13393,
+      "represented_country_weight": 0.9999999557057865,
+      "national_nonhot_days": 1177
+    },
+    "AUS": {
+      "cells": 10140,
+      "represented_country_weight": 0.9998684554686293,
+      "national_nonhot_days": 1323
+    }
+  },
+  "shared_domains": {
+    "absolute35_days_per_year": [
+      0,
+      210.0
+    ],
+    "local_q90_days_per_year": [
+      0,
+      120.0
+    ],
+    "local_hot_on_national_nonhot_percent": [
+      0,
+      40.0
+    ]
+  },
+  "usa_annual_percentage_domain": [
+    0,
+    40.0
+  ],
+  "figures": [
+    "USA_regional_metrics",
+    "CHN_regional_metrics",
+    "AUS_regional_metrics",
+    "USA_annual_relative_exceedance",
+    "USA_state_detail_absolute_heat"
+  ],
+  "panels": 16,
+  "reference": "2018\u20132021 local Q90; \u00b115d; >=112 valid/all4years; target leap-day interpolation",
+  "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+  "placed_width_mm": 180,
+  "minimum_font_pt": 7,
+  "scope": "Descriptive spatial weather diagnostics, no new network or causal result."
+}

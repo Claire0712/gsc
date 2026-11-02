@@ -1,0 +1,25 @@
+{
+  "status": "verified",
+  "standalone_code_tests": 8,
+  "profile_and_coarsening_byte_equal": true,
+  "all_15_figure_files_byte_equal": {
+    "AUS_regional_metrics.pdf": true,
+    "AUS_regional_metrics.png": true,
+    "AUS_regional_metrics.svg": true,
+    "CHN_regional_metrics.pdf": true,
+    "CHN_regional_metrics.png": true,
+    "CHN_regional_metrics.svg": true,
+    "USA_annual_relative_exceedance.pdf": true,
+    "USA_annual_relative_exceedance.png": true,
+    "USA_annual_relative_exceedance.svg": true,
+    "USA_regional_metrics.pdf": true,
+    "USA_regional_metrics.png": true,
+    "USA_regional_metrics.svg": true,
+    "USA_state_detail_absolute_heat.pdf": true,
+    "USA_state_detail_absolute_heat.png": true,
+    "USA_state_detail_absolute_heat.svg": true
+  },
+  "temporary_directory": "/var/folders/74/56y06ytj3056_ftqfx_b4f2w0000gn/T/heatsignal_maps_repro_zda2shsj",
+  "elapsed_seconds": 19.579540832986822,
+  "scope": "Independent local rerender from copied package CSV/geometry/code. Not a fresh all-raw ERA5 recomputation."
+}

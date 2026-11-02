@@ -1,0 +1,115 @@
+{
+  "inputs": {
+    "analysis/2026-10-31_pixel_exceedance/v1/full_outputs/manifest.json": {
+      "bytes": 46141,
+      "sha256": "5e807741205e2f5e5920e38d955b53a60d757f5d0ac5296198ec81c7c84d1dc9"
+    },
+    "analysis/2026-10-31_pixel_exceedance/v1/comparison/manifest.json": {
+      "bytes": 11590,
+      "sha256": "593e9665903f4f3ba7a7697006cfdd96560cc8107f2d7f39b077d2477d427341"
+    },
+    "analysis/2026-10-31_pixel_exceedance/v1/comparison/country_day_spatial_comparison.csv": {
+      "bytes": 25245404,
+      "sha256": "b92ded0bcf6b44562daa2c3ea6a0b4b2d4303031e2d949ad164d55e356b77f80"
+    },
+    "/volume1/homes/Judy/GSC2027/HeatSignal/scripts/run_regional_maps_20261102.py": {
+      "bytes": 10040,
+      "sha256": "b6f8d41c494b04ad1f48c68452f39eb3b2f358c34454698026140de4b6527337"
+    },
+    "/volume1/homes/Judy/GSC2027/HeatSignal/scripts/regional_pixel_maps.py": {
+      "bytes": 1978,
+      "sha256": "a6692e90455c431d16c5ba48a141259d7071075c66e38e6092490f91e9f0be55"
+    },
+    "/volume1/homes/Judy/GSC2027/HeatSignal/scripts/pixel_exceedance_v2.py": {
+      "bytes": 2281,
+      "sha256": "e9860f7f72d33bce02585805cd54b4884092554558fe701baba118ed2f10a2cd"
+    },
+    "docs/superpowers/specs/2026-11-02-regional-map-expansion.md": {
+      "bytes": 3195,
+      "sha256": "c38de6fc23c34f43e8d2a6939c50b2d6cee82713132fedc744444766d9aa5ead"
+    },
+    "analysis/2026-10-06_era5_existing_data/weights/weights.npz": {
+      "bytes": 1732195,
+      "sha256": "2187f72921a078a97a2a03ddf3706072987689ae363dc026f398b3fae6953385"
+    },
+    "analysis/2026-10-06_era5_existing_data/weights/country_metadata.csv": {
+      "bytes": 7296,
+      "sha256": "2574af6df30da6bcccd6967ed78c48b17e6e5410a24a39535c11a18a13e8d216"
+    },
+    "analysis/2026-10-06_era5_existing_data/weights/weights_metadata.json": {
+      "bytes": 31822,
+      "sha256": "52d24b54e0cb19f34e134de432760f389ac8fe0aee69c660ec3a0e2599c7b20a"
+    }
+  },
+  "outputs": {
+    "sample_USA_1_0.npz": {
+      "bytes": 108074,
+      "sha256": "ea64709bfc7ef0d525a0c7d81025360e942fcab84f1ee23aa89a12d7aceba15d"
+    },
+    "sample_USA_1_1.npz": {
+      "bytes": 111393,
+      "sha256": "41c1ca0cf17a6825ce8f59dd18efd3033ad7dbe205faa1fc7d16b2e2920f851f"
+    },
+    "sample_USA_2_1.npz": {
+      "bytes": 103407,
+      "sha256": "a51f815e6e15fd6a33be73f47cbaca8a8ff3561d2a74218c25fbbe7e06b90d12"
+    },
+    "sample_CHN_1_4.npz": {
+      "bytes": 117104,
+      "sha256": "06225a6bb75db34fee58dee931f5f89fe2a06a0502e9d81c18384b45330a810a"
+    },
+    "sample_CHN_1_5.npz": {
+      "bytes": 118004,
+      "sha256": "c96133019b2b66c9d1322596a1df81b1af652cfc970ba6c46db0ff7d1d01d23c"
+    },
+    "sample_CHN_2_4.npz": {
+      "bytes": 108164,
+      "sha256": "cf9c1a8d7dfcecd654dad5f1b3b22f34be75e2b890ed0a14ba9a585d4ab6eeba"
+    },
+    "sample_CHN_2_5.npz": {
+      "bytes": 107159,
+      "sha256": "7ef4462cf7653cd9265c42ecda857f4fbea5113470bcc65e9159e0927c336d33"
+    },
+    "sample_AUS_3_4.npz": {
+      "bytes": 103959,
+      "sha256": "345c84eef64f68e4022a1404c3fff26429c5fdd1e88108fa03c2e84993f49089"
+    },
+    "sample_AUS_3_5.npz": {
+      "bytes": 102199,
+      "sha256": "0d83f90e8c2b7efe11c53dfc960dee09ab6f8c7efe4d5d0004268b93093f036e"
+    },
+    "sample_AUS_4_4.npz": {
+      "bytes": 102682,
+      "sha256": "b7ecf27f21391185734a871a28899540d10abd2cc1537df98bab9cf0dfaca8f0"
+    },
+    "sample_AUS_4_5.npz": {
+      "bytes": 105043,
+      "sha256": "e30b04983a64a37e5299df716450a49aede536f7888591f6c5e251a6d9bed76c"
+    },
+    "pixels.csv": {
+      "bytes": 8629276,
+      "sha256": "837c6fb2573273f6212f0b83f6516ebfc5fe41b5d0d59f5453e162192968c6d1"
+    },
+    "country_daily_subset.csv": {
+      "bytes": 350118,
+      "sha256": "25ef90a4e0e332ee15569fd3e892649a117df2c2ad4cca4a7a822f8ccabaf410"
+    },
+    "country_summaries.json": {
+      "bytes": 1128,
+      "sha256": "cb63a87cc667c3111b8e1f3615f902e91d22d5c012f5f70fbb931359dbc878bb"
+    },
+    "decoded_source_hashes.json": {
+      "bytes": 225123,
+      "sha256": "4c2a80fd5a5b053b10720ac064e8d1b0b9515b77b2b66d819ffed7d4f5d7b904"
+    },
+    "raw_source_provenance.json": {
+      "bytes": 33103,
+      "sha256": "aeca9480925b5af8c6d7d8bae07e050c134b6a952f4c132b1d55aec862b7ae00"
+    },
+    "summary.json": {
+      "bytes": 3379,
+      "sha256": "08a2b83621f588164e21bbdf827141e9ba02d1533bd96dc139bf481d3b429509"
+    }
+  },
+  "raw_full_rehash": false
+}

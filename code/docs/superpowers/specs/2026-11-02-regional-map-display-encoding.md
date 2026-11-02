@@ -1,0 +1,9 @@
+# Display choices frozen before full regional profiles
+
+Supplement to the extraction specification; this file does not change the running source calculation. Show three preselected countries, three metrics each, all four USA study years, and California/Texas/New York enlargements selected for geographic contrast before full regional summaries. Five figure groups, sixteen map panels. No state outcome estimation or new data.
+
+Render native 0.25° quadrilaterals in USA EPSG:5070, China Albers (25/47°, central105°), Australia EPSG:3577. Existing simplified ADM1 geometry is orientation only; state detail colours only cells with centres inside the retained polygon, an approximate display assignment, not state-native population allocation. Zooming creates no extra spatial resolution. North arrows follow projected geographic north. Grey is no displayed supported cell, while true zero uses the lowest colour.
+
+Each country uses identical per-metric linear bounds [0, ceil(full observed maximum/10)*10], never percentile trimming. USA annual percentage panels share [0, ceil(USA all-four-year maximum/5)*5]. Absolute days orange/red, own-reference exceedance purple, national non-exceedance contrast blue. Each figure 180mm wide, Arial >=7pt, editable PDF/SVG and 300dpi PNG. No interpolated surfaces or raster basemap.
+
+Profiles retain every selected country, four years and all nine neighbouring midpoint quadrant cuts (longitude offsets -5/0/+5°, latitude -2.5/0/+2.5°). Report ranges of southwest-minus-northeast and south-minus-north weighted contrasts across these cuts. Population weights normalize only within each displayed geographic subset. No cell-independent significance tests; no selected-year trend, fault, equipment-hazard or causal claim. Q90 counts include cold-season relative anomalies and are not interchangeable with >35°C days. Final prose derives from actual audited data and records null/reversed contrasts too.

@@ -1,0 +1,47 @@
+[
+  {
+    "country_id": "USA",
+    "bbox": [
+      -125,
+      -66,
+      24,
+      50
+    ],
+    "positive_cells": 13673,
+    "represented_country_population_weight": 0.9836189252786338,
+    "national_nonhot_days": 1301,
+    "original_country_fraction_bound_checks": 1461,
+    "minimum_difference": -6.106226635438361e-16,
+    "maximum_difference": 0.014487518867166725
+  },
+  {
+    "country_id": "CHN",
+    "bbox": [
+      74,
+      135,
+      18,
+      54
+    ],
+    "positive_cells": 13393,
+    "represented_country_population_weight": 0.9999999557059109,
+    "national_nonhot_days": 1177,
+    "original_country_fraction_bound_checks": 1461,
+    "minimum_difference": -1.5543122344752192e-15,
+    "maximum_difference": 4.4294089840413164e-08
+  },
+  {
+    "country_id": "AUS",
+    "bbox": [
+      112,
+      154,
+      -44,
+      -10
+    ],
+    "positive_cells": 10140,
+    "represented_country_population_weight": 0.9998684554686547,
+    "national_nonhot_days": 1323,
+    "original_country_fraction_bound_checks": 1461,
+    "minimum_difference": -5.551115123125783e-16,
+    "maximum_difference": 0.0001315445313455621
+  }
+]

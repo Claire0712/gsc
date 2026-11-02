@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "files": 64,
+  "zip_bytes": 26364956,
+  "zip_sha256": "85178d6bb156baabe60932e7ec28e7bf3579e4bba35686ee44655a22c4aacfe6",
+  "folder": "/Users/zhangshizhuo/Desktop/gsc/deliverables/HeatSignal_regional_maps_2026-11-02",
+  "scope": "Five new descriptive map figures / sixteen native-grid panels; original delivery unchanged",
+  "excluded_generated_bytecode_files": 7,
+  "isolated_reproduction": "8 tests; all15 PNG/PDF/SVG and profile/coarsening JSON byte equal"
+}

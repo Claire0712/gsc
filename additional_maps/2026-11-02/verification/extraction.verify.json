@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "scalar_quantile_checks": 32120,
+  "independent_summary_counts": 968,
+  "original_hourly_source_probes": 33,
+  "original_country_day_membership_and_bounds": 4383,
+  "elapsed_seconds": 86.79213086602977,
+  "manifest_sha256": "09ade527f3f240a52ddfeead099889a9cfb509dd6ee252c087c476f542749ea1",
+  "scope": "Sampled scalar/raw-source audit and every national-day bound. Descriptive weather maps only, not independent-cell inference or subnational network effects. Full raw files not newly rehashed."
+}

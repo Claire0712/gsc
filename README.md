@@ -8,6 +8,7 @@
 - [补充材料（19页）](supplement.pdf) · [可编辑Word](supplement.docx)
 - [当前proposal](proposal.md)
 - [图件](figures/)：PDF、SVG、PNG及数值源
+- [新增区域细图（2026-11-02）](additional_maps/2026-11-02/README.md)：美国/中国/澳大利亚、美国逐年和三州放大，共16地图面板；含源数据、PDF/SVG/PNG、方法及独立复现核验
 - [结果表](tables/)：全部方向、不可估与缺失均保留
 - [完整复现包](reproduction.zip) · [源码浏览](code/)
 - [方法与限制](METHODS_AND_LIMITATIONS.txt) · [范围验收](scope_acceptance.json)
@@ -25,3 +26,5 @@
 ## 解释边界
 
 主事件日区间包含零不等于证明没有影响。AP有一项夜温交互通过组内BH/BY，但有事后分析、模型越界和样本选择限制；不认证热致断网、国家韧性排名或未来预测能力。DHRD不是实际断网时长，DLEP不是断网人数，候选异常不是确认故障。原10月28日截止未达到；交付材料未改写这一事实。
+
+新增区域地图独立保存于`additional_maps/2026-11-02/`，使用其自己的`CHECKSUMS.json`。本次8项测试及15个图文件独立重画逐字节一致，属于描述性天气地图补充。

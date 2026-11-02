@@ -1,0 +1,1063 @@
+{
+  "archived_full_hashes": {
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201801.nc": {
+      "bytes": 2239363049,
+      "sha256": "9d8031db008a8218ad39d749f737028236f807027c86d9dc8caedd7d9296cfad"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201802.nc": {
+      "bytes": 2033430861,
+      "sha256": "29844734eb0c6b40fea5053b3117a42b8757a6af52c57cc41d8e91a2e1d0e58d"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201803.nc": {
+      "bytes": 2257412928,
+      "sha256": "7ae7fd4dcb5ead7e40077d5d700ac6819895d0671af57c6d3d585b692bfb80a5"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201804.nc": {
+      "bytes": 2181021805,
+      "sha256": "1d9e88c61f6879da95c54d46e5e3ccd1d09b57b6eb9ef83db579d406a26fa6f5"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201805.nc": {
+      "bytes": 2244507374,
+      "sha256": "c5dc78651881287f67acf3b539f4b731ba49add17fe8550f94b98ab1d3ce94e6"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201806.nc": {
+      "bytes": 2159888445,
+      "sha256": "a0b58c95a5972a9be2cdb3fdc4eabc9f0c459d4c5c0cb323946b09dfceca9e79"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201807.nc": {
+      "bytes": 2226019942,
+      "sha256": "1f77bd16f357e8a4afba913217b26c1de647d5f7eaa1afbeef667c4c08be7a4a"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201808.nc": {
+      "bytes": 2226814624,
+      "sha256": "190aaac2198a9319ec4a1a91350a1774de8c1f17ecc2800821169fb66fb3dfba"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201809.nc": {
+      "bytes": 2164523368,
+      "sha256": "9d2b9c91817ebe1548c5d7101ff6f821ddd18946853c3439ab3963d29e12be68"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201810.nc": {
+      "bytes": 2241216386,
+      "sha256": "572adf73eed7515d3d6df3e62aa9d23b84359b7978494d4d402e44825e4b8a94"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201811.nc": {
+      "bytes": 2174698292,
+      "sha256": "2647b59acd9156edaa82d8d49519d01b2754fa7e54defdc6795836280280fd9a"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201812.nc": {
+      "bytes": 2239635238,
+      "sha256": "5910b03380252d2644d800a9e8a077a329e7f264c495380e880c19b30df919a4"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201901.nc": {
+      "bytes": 2244411873,
+      "sha256": "42df1b5135362b32112ccbf47fdd4b65979257ec8b94580301b79036cffbfad3"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201902.nc": {
+      "bytes": 2032985087,
+      "sha256": "e0090adb422243f42cad826d732e41130fe0e75048420d5de65c9447f9c4b7a4"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201903.nc": {
+      "bytes": 2255864781,
+      "sha256": "a401bf9411910ddf6828f8e5115f8ceaf11bff1fb2462f8b0e9ee6d857dffa26"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201904.nc": {
+      "bytes": 2182691089,
+      "sha256": "65efe6744d90c6c0de275d2e8b4bb6bd25487092d75f6e4e7e84f02aa3e8b5ea"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201905.nc": {
+      "bytes": 2245803642,
+      "sha256": "814298e40500856425e7de0000af7aa86b4b9cfe9827aedcd00ec10d8e52332f"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201906.nc": {
+      "bytes": 2161799172,
+      "sha256": "d993eb62ce58c4ceeed755562087cfbe2a363bf0524004e1f5df3e0a77abe4f0"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201907.nc": {
+      "bytes": 2232739106,
+      "sha256": "7f098a5b742296d638e2288777428499c6042649dd59635010c9c5e74551ab15"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201908.nc": {
+      "bytes": 2233061342,
+      "sha256": "b2912a619f69c9fd8fab17132c38da53189c10e52d0d20483ae8d0c0664bcf4f"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201909.nc": {
+      "bytes": 2164411415,
+      "sha256": "01eaee69d1e0c0531789677c8e514049a7897150c3051b762814039d205ceca1"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201910.nc": {
+      "bytes": 2244005196,
+      "sha256": "d4368e02570894b6cd8f727b058c4f4d30143f5cda0ad10061b16d5570f2b272"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201911.nc": {
+      "bytes": 2178842297,
+      "sha256": "e0d674b8749aabe24b2d8acd5342a065c129e6516cda90b34d89fa3853a7e731"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201912.nc": {
+      "bytes": 2244839784,
+      "sha256": "cb4b474e7f8c2b3150ee8fc91fb50248efaa1f4d219dd8c9da5d1c80e9ebf1c1"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202001.nc": {
+      "bytes": 2239753878,
+      "sha256": "f8ecedfa737b44a5ca26c33c49a42a632db8567a136c87f4248ca3b0e01fab33"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202002.nc": {
+      "bytes": 2101567672,
+      "sha256": "abb3b77a8423cbfdf746e2f1a759610189ba64d992ef1ff5ff720585a463d85b"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202003.nc": {
+      "bytes": 2255439527,
+      "sha256": "e17be6776c3b07a50c2357fbe0fe6dcdf344a1178d9398bb0f85fdcfbd319203"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202004.nc": {
+      "bytes": 2180609686,
+      "sha256": "c6700a1519575e861309463a7ed67922248d331ee1b67f963e74a5fa3faebcf6"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202005.nc": {
+      "bytes": 2240450327,
+      "sha256": "f3d1be346427e979c46ee2103cb7fe66b32018fa9bfc44bc2975d56ef09540ca"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202006.nc": {
+      "bytes": 2160465487,
+      "sha256": "ee32dc2e63b586a5629b1d0b5e8435ba5c23cd9b7510d57f6e797a99b16b1cbf"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202007.nc": {
+      "bytes": 2227111894,
+      "sha256": "93f071a5672eacd6030b724fd8b282baf4b9e220f724bc7b391f63d6efbc5edd"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202008.nc": {
+      "bytes": 2228980651,
+      "sha256": "d22dfa2ce2f0693f376b8b903e03b97344c31cb06ace10bac5f9082644c63056"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202009.nc": {
+      "bytes": 2161994027,
+      "sha256": "5f29a6cded5c100e948c270f19d3498a8d5cbf3055c97a3c1e91a6cdb2ef68f0"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202010.nc": {
+      "bytes": 2244376002,
+      "sha256": "78d6953141aebf89e1e7175d811dc603030f74cc5e6568878bb715f5580c7905"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202011.nc": {
+      "bytes": 2171269526,
+      "sha256": "5dc1d347fb1cfe01c2760b1310e6be4d6e7a447dbbf6a33642753856e78d053e"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202012.nc": {
+      "bytes": 2242140370,
+      "sha256": "e3afefbd0aa98defa4a1dbce2417eaa67bd15bdc86f43389a7ad7efa3d75de1e"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202101.nc": {
+      "bytes": 2243686309,
+      "sha256": "aeb9c4c22046ea9b95ced7aff727d4cbadb898fd818c3d1358f8903959b29862"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202102.nc": {
+      "bytes": 2034354076,
+      "sha256": "042e816bf87246a489bb32fe08b9aee8543cf9d464c8a152f178eff736feed18"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202103.nc": {
+      "bytes": 2257785905,
+      "sha256": "655fbb6efca6c07eb09fa5909735beee0e3d25d20909990207e5c299e828fbb7"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202104.nc": {
+      "bytes": 2180004055,
+      "sha256": "73b88fee52f68bef94ac15cd496e146a2094dce138496ef0064347267ef135fa"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202105.nc": {
+      "bytes": 2242168967,
+      "sha256": "621f594a9cce0aafc2ca967d7c0c2549a77bb8899e7cc82a3954b4558f479af0"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202106.nc": {
+      "bytes": 2163383419,
+      "sha256": "a4468ec3f5a4f54091fea941a84c007be5664bcc81e20a791fea7797910d55c1"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202107.nc": {
+      "bytes": 2229555054,
+      "sha256": "258ec4deccbec6a8fbad6b83332a98ab70324b2b82bf02fa2c7ce004142cd06c"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202108.nc": {
+      "bytes": 2228832742,
+      "sha256": "0c360766ff5b7c4d99be8eee9422b9355e00523024a7a67e8450a8d04886bef4"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202109.nc": {
+      "bytes": 2164381467,
+      "sha256": "e7ab3f872097fef8383f8d456084978fe9404a798009a7f267df36df60958801"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202110.nc": {
+      "bytes": 2243450452,
+      "sha256": "b5d720d8da6fb7c7483c59ade0c0dbdc0b7f6a5d75ce77a02a9e59fdecb26244"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202111.nc": {
+      "bytes": 2178246109,
+      "sha256": "5f18bdb075734c72c20b9ac68b1617b447c2ddb6ed718b6f2a1a05d183999ec2"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202112.nc": {
+      "bytes": 2242984383,
+      "sha256": "7441307fbb53d03954b8fe34dcae975b24ddc929abf8ab62f5f308e92ecdcb8e"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202201.nc": {
+      "bytes": 2245871249,
+      "sha256": "10db59991e83a4b42ee6d65c3983fe4014e678db960ae037bf0bf72ad0e64455"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202202.nc": {
+      "bytes": 2030608672,
+      "sha256": "cf421b61072fddf5a0987d3b6a6e2f68852146f5b31fabfb64efbf5ccfb49cb1"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202203.nc": {
+      "bytes": 2254433143,
+      "sha256": "3fee19ad5d6f80dce7c3d0b5130a11d790ea53640ec91b73ff7ef249481bdd59"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202204.nc": {
+      "bytes": 2179792572,
+      "sha256": "347f6bbcc4704f64f6f88c36b3ebfc96137a1baac1cfa4984f86e1d40a8459d1"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202205.nc": {
+      "bytes": 2246962951,
+      "sha256": "9df52e2b7089b231870592b7e4fd6e353aadcda2bb93914047b6e6fa8671c169"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202206.nc": {
+      "bytes": 2163266984,
+      "sha256": "49680edb14f97d6e34ed681f029dd8340ba21d373289938c28468a9767c570b6"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202207.nc": {
+      "bytes": 2230349585,
+      "sha256": "480e088d3fe96c8ebeb79782c4096f2d15729edffeaf7455431d5332836831be"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202208.nc": {
+      "bytes": 2230705525,
+      "sha256": "cf200acd98c83a7f617efd5122efd29d9fc73193b393654bc447f3550c380919"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202209.nc": {
+      "bytes": 2164558665,
+      "sha256": "45c45b6f7966c61daa106bf1367c7ee175e30a7d28fe37cd0df8eae0ded53d5b"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202210.nc": {
+      "bytes": 2245979209,
+      "sha256": "dc85c18f7060a4e86713ac1090900142b096cbcce2746657d81383ec4a789d22"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202211.nc": {
+      "bytes": 2178798689,
+      "sha256": "71bde52920dcf8a4329e5ad4e8bbbfa86a5ce6cbe899149556b3c3f2291309c1"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202212.nc": {
+      "bytes": 2244455467,
+      "sha256": "c5e56802a234ba77d16bf44465c92448cdf2db8fd32ce9ba386f74adc031efbb"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202301.nc": {
+      "bytes": 2244478325,
+      "sha256": "c94445b6dde5816feea6493b6169c18aad0970205c4081a66fc8a7806d163e13"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202302.nc": {
+      "bytes": 2033396251,
+      "sha256": "65dd914d8f9f36195d8a90d3aa93498f8c431b2b48b71819d4161feec9169f63"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202303.nc": {
+      "bytes": 2258127421,
+      "sha256": "42976022ef44716aa33479853251e36df252a7d9a5cb091fd39a3fc5c9b13f84"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202304.nc": {
+      "bytes": 2181905563,
+      "sha256": "15f3783cfd41c5b50ede40bb3ceb2f76fd6b9684da2c8fc33a1824982f1d3c7b"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202305.nc": {
+      "bytes": 2246065782,
+      "sha256": "63edc845781f879c864716751401b6de90bd581c06fb86b3b710237426fa2267"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202306.nc": {
+      "bytes": 2163913534,
+      "sha256": "f2c3d4c4ba977ddca0e491522227e1bd427f5dae8ec211074f7c460a53313cdf"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202307.nc": {
+      "bytes": 2230039306,
+      "sha256": "5c7a9277d79c74c1a5cea62013a9f99aa7414251179ebecb63bfa468babccf89"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202308.nc": {
+      "bytes": 2231457704,
+      "sha256": "6a7681828a522eef4ff5ea9df84c65d8c5d839c4c702fad166ee7ad46570bae9"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202309.nc": {
+      "bytes": 2162189059,
+      "sha256": "4a854d27c4e8247d7b2d47405615cfda87ee389c0facadd5e712c3e6e51749d0"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202310.nc": {
+      "bytes": 2244498334,
+      "sha256": "3231dba2ca3611655209a3a876a46091c4a81754abdf447f16b678acbda2a212"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202311.nc": {
+      "bytes": 2177250330,
+      "sha256": "6f4c6b39a1a93a9b79425b03792f5659b48157180ea5ef53357f2f6f223c0f27"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202312.nc": {
+      "bytes": 2242122428,
+      "sha256": "8b844e820d1b7ca3df99598a661f9ebfaebcf1fc24fe7d69c1f0b38d927a5e36"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202401.nc": {
+      "bytes": 2244847771,
+      "sha256": "03a480715d7a59abf82309144438197482fd8266e2c826778779208d3718e362"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202402.nc": {
+      "bytes": 2106350271,
+      "sha256": "a265aad422f91257c8f772cca069984c2aee5f1b13e6fe8eb8d32aadd2827e5c"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202403.nc": {
+      "bytes": 2257020991,
+      "sha256": "44131fa25eb3400f7dafcd09a678ab82d39bb5598bc245108211c4e86e2c1f3f"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202404.nc": {
+      "bytes": 2182237098,
+      "sha256": "0f0e851c41b9b8a1343edfe8f51e89578364455c4e5430cf4420b9cbba932d59"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202405.nc": {
+      "bytes": 2243349524,
+      "sha256": "e25fdf810e8ff1dc859a4e1db8fbeb958700f4d1c7efbcfd4d173c14aed67432"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202406.nc": {
+      "bytes": 2159677810,
+      "sha256": "923a0f6a7d388a7140c3bc9e683a0543871c0170e6ea69ff3ae9a47b66efb5b8"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202407.nc": {
+      "bytes": 2229756545,
+      "sha256": "9046cb88ee39e65b2127a0d311c39cd715973dc4aae9839bcd8b10614f2ecca1"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202408.nc": {
+      "bytes": 2233128309,
+      "sha256": "ee856ef2fec209d99eb29783bd86699c28c8c0a1b547287ac90b32104e35a70a"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202409.nc": {
+      "bytes": 2164314684,
+      "sha256": "58064872846f1a42016395bfd5e8758f90c27ccf4c2837f58ad8af84399e0e64"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202410.nc": {
+      "bytes": 2241393805,
+      "sha256": "8a75750062a70f5b3baf0e16d292611b322a5ef602affdbcb797a921deac31a0"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202411.nc": {
+      "bytes": 2172443441,
+      "sha256": "ae776f0e0dddf69b9d6a54ebaed76da5b664d4bf90159b734091e71eea1ad22d"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202412.nc": {
+      "bytes": 2241473625,
+      "sha256": "32240351fa116452a42978e572857d19cfcc73a296387ce6c1eb2bb58ccce6c5"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202501.nc": {
+      "bytes": 2242754346,
+      "sha256": "a991716c4b4c7597208ee86dd1b4695fe6f2beb8159df1e1edeee8837eede5f8"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202502.nc": {
+      "bytes": 2032458782,
+      "sha256": "ad6e76be45a5bb4771f43417bcc35013c4c494398028f87930deae284ade3d79"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202503.nc": {
+      "bytes": 2256464575,
+      "sha256": "d5630b5b365eb13aa49ecaaee7ab267cdb04ee7ef0529b96b04b42e2ca751fab"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202504.nc": {
+      "bytes": 2179388972,
+      "sha256": "cae0053d387bad816a81085f5b98002d15ebfa9c47ce8fac73dcd5814457a13b"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202505.nc": {
+      "bytes": 2242439130,
+      "sha256": "e27cfa867f7233ddb8101fe4dbe89555a1e3d546be91a05c06d0b63f0af308c8"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202506.nc": {
+      "bytes": 2161428153,
+      "sha256": "29f9795166ed9c20da59c7a5f7f05e9308cb2ab6b4b87c4e7374029d8663fe05"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202507.nc": {
+      "bytes": 2230800123,
+      "sha256": "659117a333c30f53d79242dc1be11a55b8e446029306058f52e087a40c029ef4"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202508.nc": {
+      "bytes": 2235780255,
+      "sha256": "7da22f56c7d448f89df9c79a4af82bdc8c2e44dd65acd5c5ba88d1398e96a23f"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202509.nc": {
+      "bytes": 2167375134,
+      "sha256": "e75c6e1ddd614e6c60b70daf212b711ef95beb2b99e4f23d9d06db5ede984dc9"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202510.nc": {
+      "bytes": 2237277297,
+      "sha256": "47d30a1034d9ef34533d6f05796d2bb23c9f503c23258dfc6fb6d505b648daf6"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202511.nc": {
+      "bytes": 2177366826,
+      "sha256": "1bfdac3dc3c804f571422ad211fbed7f548bca0b07a25d2b7f9d8b19ee4d69bd"
+    },
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202512.nc": {
+      "bytes": 2250153212,
+      "sha256": "d29b1ff6c4949759631ef2dad0e7d6c01eda54463403d4808e80e9f7814bf584"
+    }
+  },
+  "before_after_fingerprints": {
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201801.nc": [
+      36,
+      155283505,
+      2239363049,
+      1791143051120172369,
+      1791143051123172400
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201802.nc": [
+      36,
+      155283662,
+      2033430861,
+      1791143363626422386,
+      1791143363628422406
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201803.nc": [
+      36,
+      155283969,
+      2257412928,
+      1791144023983088083,
+      1791144024006088369
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201804.nc": [
+      36,
+      155284312,
+      2181021805,
+      1791144745107077338,
+      1791144745110077369
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201805.nc": [
+      36,
+      155284806,
+      2244507374,
+      1791145473154540487,
+      1791145473156540508
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201806.nc": [
+      36,
+      155285176,
+      2159888445,
+      1791146090424853040,
+      1791146090426853060
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201807.nc": [
+      36,
+      155285607,
+      2226019942,
+      1791146913378039932,
+      1791146913381039961
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201808.nc": [
+      36,
+      155286068,
+      2226814624,
+      1791147511312694396,
+      1791147511314694415
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201809.nc": [
+      36,
+      155286410,
+      2164523368,
+      1791148123549087079,
+      1791148123551087098
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201810.nc": [
+      36,
+      155286802,
+      2241216386,
+      1791148753922203934,
+      1791148753924203953
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201811.nc": [
+      36,
+      155287298,
+      2174698292,
+      1791149371289221836,
+      1791149371291221855
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201812.nc": [
+      36,
+      155287677,
+      2239635238,
+      1791150009714506216,
+      1791150009716506236
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201901.nc": [
+      36,
+      155288093,
+      2244411873,
+      1791150608492473908,
+      1791150608494473928
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201902.nc": [
+      36,
+      155288455,
+      2032985087,
+      1791151197169434147,
+      1791151197172434177
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201903.nc": [
+      36,
+      155288783,
+      2255864781,
+      1791151886615339803,
+      1791151886617339823
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201904.nc": [
+      36,
+      155289196,
+      2182691089,
+      1791152538533851500,
+      1791152538536851530
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201905.nc": [
+      36,
+      155289604,
+      2245803642,
+      1791153157088004240,
+      1791153157090004260
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201906.nc": [
+      36,
+      155290009,
+      2161799172,
+      1791153804499415969,
+      1791153804502415999
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201907.nc": [
+      36,
+      155290318,
+      2232739106,
+      1791154343568793278,
+      1791154343571793308
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201908.nc": [
+      36,
+      155290763,
+      2233061342,
+      1791154967298978057,
+      1791154967300978077
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201909.nc": [
+      36,
+      155291304,
+      2164411415,
+      1791155642112644731,
+      1791155642114644751
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201910.nc": [
+      36,
+      155291801,
+      2244005196,
+      1791156572146786554,
+      1791156572148786574
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201911.nc": [
+      36,
+      155292573,
+      2178842297,
+      1791157265342616293,
+      1791157265345616322
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_201912.nc": [
+      36,
+      155292997,
+      2244839784,
+      1791158533684149320,
+      1791158533752149992
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202001.nc": [
+      36,
+      155294080,
+      2239753878,
+      1791159544452223387,
+      1791159544848227337
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202002.nc": [
+      36,
+      155294836,
+      2101567672,
+      1791160360197537364,
+      1791160360223537630
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202003.nc": [
+      36,
+      155295384,
+      2255439527,
+      1791160989146871188,
+      1791160989148871208
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202004.nc": [
+      36,
+      155295877,
+      2180609686,
+      1791161571413641400,
+      1791161571415641419
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202005.nc": [
+      36,
+      155296561,
+      2240450327,
+      1791162334452936433,
+      1791162334454936452
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202006.nc": [
+      36,
+      155297475,
+      2160465487,
+      1791162979068102729,
+      1791162979070102749
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202007.nc": [
+      36,
+      155298611,
+      2227111894,
+      1791163740354508314,
+      1791163740357508343
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202008.nc": [
+      36,
+      155299211,
+      2228980651,
+      1791164487319510460,
+      1791164487321510479
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202009.nc": [
+      36,
+      155300556,
+      2161994027,
+      1791165113973189581,
+      1791165113977189617
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202010.nc": [
+      36,
+      155301384,
+      2244376002,
+      1791165912047586417,
+      1791165912049586436
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202011.nc": [
+      36,
+      155302360,
+      2171269526,
+      1791166584133107184,
+      1791166584136107214
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202012.nc": [
+      36,
+      155303276,
+      2242140370,
+      1791167184003903503,
+      1791167184004903513
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202101.nc": [
+      36,
+      155304085,
+      2243686309,
+      1791167979922552035,
+      1791167979925552063
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202102.nc": [
+      36,
+      155304607,
+      2034354076,
+      1791168699884350590,
+      1791168699886350609
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202103.nc": [
+      36,
+      155305386,
+      2257785905,
+      1791169580202725699,
+      1791169580222725890
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202104.nc": [
+      36,
+      155306898,
+      2180004055,
+      1791170209600751628,
+      1791170209617751792
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202105.nc": [
+      36,
+      155309375,
+      2242168967,
+      1791170948748870331,
+      1791170948750870350
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202106.nc": [
+      36,
+      155310674,
+      2163383419,
+      1791171869306818569,
+      1791171869310818608
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202107.nc": [
+      36,
+      155311131,
+      2229555054,
+      1791172592670805558,
+      1791172592672805577
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202108.nc": [
+      36,
+      155312569,
+      2228832742,
+      1791173333815948116,
+      1791173333818948145
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202109.nc": [
+      36,
+      155313635,
+      2164381467,
+      1791174151935840407,
+      1791174151937840427
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202110.nc": [
+      36,
+      155314489,
+      2243450452,
+      1791175082328703563,
+      1791175082330703583
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202111.nc": [
+      36,
+      155315703,
+      2178246109,
+      1791175794673412377,
+      1791175794676412405
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202112.nc": [
+      36,
+      155316845,
+      2242984383,
+      1791176565919569356,
+      1791176565921569374
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202201.nc": [
+      36,
+      155317718,
+      2245871249,
+      1791177333131363349,
+      1791177333133363362
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202202.nc": [
+      36,
+      155318477,
+      2030608672,
+      1791178453086473247,
+      1791178453088473264
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202203.nc": [
+      36,
+      155320659,
+      2254433143,
+      1791181334360392267,
+      1791181334362392286
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202204.nc": [
+      36,
+      155323894,
+      2179792572,
+      1791182871274191881,
+      1791182871639195118
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202205.nc": [
+      36,
+      155324472,
+      2246962951,
+      1791184014741442689,
+      1791184014987444918
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202206.nc": [
+      36,
+      155326206,
+      2163266984,
+      1791185665422473416,
+      1791185665423473425
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202207.nc": [
+      36,
+      155327835,
+      2230349585,
+      1791187224944839124,
+      1791187224947839152
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202208.nc": [
+      36,
+      155329192,
+      2230705525,
+      1791188255823168889,
+      1791188255825168910
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202209.nc": [
+      36,
+      155330598,
+      2164558665,
+      1791189244444002149,
+      1791189244445002159
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202210.nc": [
+      36,
+      155331501,
+      2245979209,
+      1791190428842242785,
+      1791190428845242817
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202211.nc": [
+      36,
+      155332039,
+      2178798689,
+      1791191460196408832,
+      1791191460199408861
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202212.nc": [
+      36,
+      155332718,
+      2244455467,
+      1791192280549379428,
+      1791192280551379447
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202301.nc": [
+      36,
+      155334496,
+      2244478325,
+      1791193205585244967,
+      1791193205587244986
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202302.nc": [
+      36,
+      155335406,
+      2033396251,
+      1791193889039723509,
+      1791193889041723527
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202303.nc": [
+      36,
+      155336116,
+      2258127421,
+      1791194545571976958,
+      1791194545573976977
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202304.nc": [
+      36,
+      155336576,
+      2181905563,
+      1791195440372529739,
+      1791195440374529758
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202305.nc": [
+      36,
+      155337245,
+      2246065782,
+      1791196069075495710,
+      1791196069076495719
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202306.nc": [
+      36,
+      155337709,
+      2163913534,
+      1791196856052837581,
+      1791196856054837600
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202307.nc": [
+      36,
+      155338810,
+      2230039306,
+      1791197498017715854,
+      1791197498019715872
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202308.nc": [
+      36,
+      155339339,
+      2231457704,
+      1791198225109139952,
+      1791198225112139977
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202309.nc": [
+      36,
+      155340101,
+      2162189059,
+      1791198838262414000,
+      1791198838265414029
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202310.nc": [
+      36,
+      155340805,
+      2244498334,
+      1791199473982259271,
+      1791199473985259298
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202311.nc": [
+      36,
+      155341278,
+      2177250330,
+      1791200170584665387,
+      1791200170586665405
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202312.nc": [
+      36,
+      155341689,
+      2242122428,
+      1791201692408889229,
+      1791201692410889247
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202401.nc": [
+      36,
+      155343154,
+      2244847771,
+      1791202718759793026,
+      1791202718761793047
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202402.nc": [
+      36,
+      155344248,
+      2106350271,
+      1791203670688526585,
+      1791203670691526614
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202403.nc": [
+      36,
+      155345303,
+      2257020991,
+      1791204636533870432,
+      1791204636535870452
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202404.nc": [
+      36,
+      155345850,
+      2182237098,
+      1791205619369330680,
+      1791205619371330700
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202405.nc": [
+      36,
+      155346196,
+      2243349524,
+      1791206377019514188,
+      1791206377021514207
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202406.nc": [
+      36,
+      155346386,
+      2159677810,
+      1791207010653181961,
+      1791207010655181978
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202407.nc": [
+      36,
+      155347487,
+      2229756545,
+      1791208853918533133,
+      1791208853919533142
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202408.nc": [
+      36,
+      155349872,
+      2233128309,
+      1791212122874165903,
+      1791212122876165922
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202409.nc": [
+      36,
+      155351923,
+      2164314684,
+      1791216032143772033,
+      1791216032145772052
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202410.nc": [
+      36,
+      155354336,
+      2241393805,
+      1791219703419220442,
+      1791219703421220461
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202411.nc": [
+      36,
+      155354927,
+      2172443441,
+      1791224242911387477,
+      1791224242913387495
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202412.nc": [
+      36,
+      155355739,
+      2241473625,
+      1791226627363910011,
+      1791226627366910038
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202501.nc": [
+      36,
+      155356395,
+      2242754346,
+      1791229838741937797,
+      1791229838743937815
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202502.nc": [
+      36,
+      155356539,
+      2032458782,
+      1791232388584123309,
+      1791232388586123327
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202503.nc": [
+      36,
+      155356957,
+      2256464575,
+      1791235052707134563,
+      1791235052709134581
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202504.nc": [
+      36,
+      155357303,
+      2179388972,
+      1791236538121613601,
+      1791236538122613610
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202505.nc": [
+      36,
+      155357457,
+      2242439130,
+      1791237833389554535,
+      1791237833403554665
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202506.nc": [
+      36,
+      155357657,
+      2161428153,
+      1791238924999482152,
+      1791238925051482626
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202507.nc": [
+      36,
+      155357682,
+      2230800123,
+      1791239444095279219,
+      1791239444212280324
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202508.nc": [
+      36,
+      155357974,
+      2235780255,
+      1791240034357854744,
+      1791240034407855216
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202509.nc": [
+      36,
+      155358112,
+      2167375134,
+      1791240901703043325,
+      1791240901705043344
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202510.nc": [
+      36,
+      155358185,
+      2237277297,
+      1791241456703268005,
+      1791241456705268023
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202511.nc": [
+      36,
+      155358267,
+      2177366826,
+      1791242063816935087,
+      1791242063818935106
+    ],
+    "/volume1/homes/Judy/GSC2027/era5/era5_2m_202512.nc": [
+      36,
+      155358352,
+      2250153212,
+      1791242727249136021,
+      1791242727251136039
+    ]
+  },
+  "check": "Original full SHA ledger reused; byte sizes/mtime predating prior audit and full fingerprints checked stable. Fresh decoded subset hashes recorded. Full raw files not freshly rehashed."
+}

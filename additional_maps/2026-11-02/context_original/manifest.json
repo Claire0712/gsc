@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "source_sha256": {
+      "data/boundaries/geoBoundariesCGAZ_ADM1.gpkg": {
+        "bytes": 152539136,
+        "sha256": "6467b0433a6db18e0653fcc30214b431c84df3a0d43a47e468def9e1bdc4d4d3"
+      },
+      "/volume1/homes/Judy/GSC2027/HeatSignal/scripts/extract_regional_map_boundaries_20261102.py": {
+        "bytes": 2174,
+        "sha256": "5890e73c2c255c2455ecc4dafa5ff74659362553f0ef66e1c4511dae833f5e40"
+      }
+    },
+    "features": 98,
+    "counts": {
+      "USA": 56,
+      "CHN": 33,
+      "AUS": 9
+    },
+    "invalid_source_geometries": 0,
+    "simplification_degrees": 0.025,
+    "scope": "Display outlines from retained source only. Not approved IODA ADM1 links, native state population allocation, historical border inference or a state connectivity result."
+  },
+  "output_sha256": "f0c4b74d96fe69a3e3d0cfba57e2a9f577a2ee92bcb30ae1ca754b1bf802d2f3"
+}

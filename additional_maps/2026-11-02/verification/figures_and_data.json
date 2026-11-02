@@ -1,0 +1,129 @@
+{
+  "status": "verified_descriptive_map_supplement",
+  "utc": "2026-11-02T13:36:58.642264+00:00",
+  "figures": [
+    {
+      "figure": "AUS_regional_metrics",
+      "png_sha256": "da9e45aa4d9012c22da96fd60dd0570c32ab5c4ee5050cf2c02e144f7899a4af",
+      "pixels": [
+        2125,
+        1086
+      ],
+      "dpi": 300,
+      "width_mm": 180,
+      "minimum_font_pt": 7.0,
+      "svg_raster_images": 0,
+      "quad_meshes": 6,
+      "pdf_embedded_Arial": true,
+      "native_visual_review": true
+    },
+    {
+      "figure": "CHN_regional_metrics",
+      "png_sha256": "a468b6e26ac0cf3fae2c157da4a0b934a35ff5c58845abbaa9f4e275e9cf4c24",
+      "pixels": [
+        2125,
+        944
+      ],
+      "dpi": 300,
+      "width_mm": 180,
+      "minimum_font_pt": 7.0,
+      "svg_raster_images": 0,
+      "quad_meshes": 6,
+      "pdf_embedded_Arial": true,
+      "native_visual_review": true
+    },
+    {
+      "figure": "USA_annual_relative_exceedance",
+      "png_sha256": "4d9da1e496d9728b6efd2b95871dc8a172e0d258a9eb1281cdb67bf9b0e62991",
+      "pixels": [
+        2125,
+        1535
+      ],
+      "dpi": 300,
+      "width_mm": 180,
+      "minimum_font_pt": 7.0,
+      "svg_raster_images": 0,
+      "quad_meshes": 5,
+      "pdf_embedded_Arial": true,
+      "native_visual_review": true
+    },
+    {
+      "figure": "USA_regional_metrics",
+      "png_sha256": "001a0c1d305cdbae12baa7d6af951740f6a27c5c12d9e945e536298c7bead1b4",
+      "pixels": [
+        2125,
+        826
+      ],
+      "dpi": 300,
+      "width_mm": 180,
+      "minimum_font_pt": 7.0,
+      "svg_raster_images": 0,
+      "quad_meshes": 6,
+      "pdf_embedded_Arial": true,
+      "native_visual_review": true
+    },
+    {
+      "figure": "USA_state_detail_absolute_heat",
+      "png_sha256": "7a9137a162717cb8ac5526e5ff0b620c5721141c40ebbe35327e4c1041bdfb28",
+      "pixels": [
+        2125,
+        1039
+      ],
+      "dpi": 300,
+      "width_mm": 180,
+      "minimum_font_pt": 7.0,
+      "svg_raster_images": 0,
+      "quad_meshes": 4,
+      "pdf_embedded_Arial": true,
+      "native_visual_review": true
+    }
+  ],
+  "panels": 16,
+  "extraction": {
+    "status": "verified",
+    "scalar_quantile_checks": 32120,
+    "independent_summary_counts": 968,
+    "original_hourly_source_probes": 33,
+    "original_country_day_membership_and_bounds": 4383,
+    "elapsed_seconds": 86.79213086602977,
+    "manifest_sha256": "09ade527f3f240a52ddfeead099889a9cfb509dd6ee252c087c476f542749ea1",
+    "scope": "Sampled scalar/raw-source audit and every national-day bound. Descriptive weather maps only, not independent-cell inference or subnational network effects. Full raw files not newly rehashed."
+  },
+  "unit_tests": "8 passed (strict thresholds/missingness/leap years/JSON serialization, nested-shell land union, geographic weighted conservation/country separation)",
+  "legend_colourbar_overlap_assertions": "passed for final five figures; v3 collision reproduction failed before layout correction",
+  "geometry_normalization": {
+    "input": "analysis/2026-11-02_regional_maps/v2/context/adm1_orientation.geojson",
+    "input_sha256": "f0c4b74d96fe69a3e3d0cfba57e2a9f577a2ee92bcb30ae1ca754b1bf802d2f3",
+    "output_sha256": "d0a51205a30d6e52584d47358061ee419cd3f214e7421589611508a7ddf00f8f",
+    "shapely": "2.1.2",
+    "geos": "3.13.1",
+    "features": 98,
+    "changes": [
+      {
+        "country": "AUS",
+        "name": "Queensland",
+        "before_area_deg2_not_valid_area": 152.03828380401228,
+        "after_area_deg2": 152.03828380368776,
+        "bounds_unchanged": true,
+        "rule": "Geometric union of individually valid multipart land polygons; no new hole or smoothing"
+      }
+    ],
+    "all_output_geometries_valid": true,
+    "scope": "Display context only. Input preserved; no ERA5 values, population weights or network mapping changed."
+  },
+  "coarse_weight_conservation": 7.105427357601002e-15,
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.1",
+    "geopandas": "1.1.4",
+    "pyproj": "3.7.2",
+    "shapely": "2.1.2"
+  },
+  "scope": "Existing-source regional weather maps only. No new subnational network observation, fault confirmation, causal effect, physiological/equipment threshold, long-term trend or state resilience ranking. Original accepted delivery unchanged.",
+  "raw_input_rehash": "Archived full raw SHA ledger reused; source fingerprints stable, decoded subsets freshly hashed; not a fresh ~200GB full-file rehash.",
+  "metadata_date": "Figure SVG/PDF metadata normalized to 2026-11-02T00:00:00Z for reproducibility; actual audits retain their run time.",
+  "isolated_reproduction_receipt": "isolated_reproduction.json",
+  "isolated_reproduction_receipt_sha256": "89f88bd8c8b89a987f571f6b8fc6031264a14c682bc4c93495393a8e5a05e581"
+}

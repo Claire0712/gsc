@@ -1,0 +1,84 @@
+{
+  "inputs": {
+    "analysis/2026-11-02_regional_maps/v2/full_outputs/pixels.csv": "837c6fb2573273f6212f0b83f6516ebfc5fe41b5d0d59f5453e162192968c6d1",
+    "analysis/2026-11-02_regional_maps/v2/context_normalized/adm1_orientation.geojson": "d0a51205a30d6e52584d47358061ee419cd3f214e7421589611508a7ddf00f8f",
+    "/Users/zhangshizhuo/Desktop/gsc/scripts/plot_regional_maps_20261102.py": "9568ff7e415e13bbe4dd0fa7be0015f2dfca6b45ac0f8415fd4eb2a95f8e759c"
+  },
+  "outputs": {
+    "USA_state_detail_absolute_heat.svg": {
+      "bytes": 1110880,
+      "sha256": "988948718e8146f65531a46ae100ac73f73b7beac8e596934359dc0e958f4f4a"
+    },
+    "AUS_regional_metrics.png": {
+      "bytes": 365731,
+      "sha256": "da9e45aa4d9012c22da96fd60dd0570c32ab5c4ee5050cf2c02e144f7899a4af"
+    },
+    "USA_regional_metrics.pdf": {
+      "bytes": 2455820,
+      "sha256": "7b684e1a27a3b7ae847af3d467a45d126cb79192980544c0c8ab06cb838671ff"
+    },
+    "AUS_regional_metrics.pdf": {
+      "bytes": 1937900,
+      "sha256": "c070e2fe3f207079c212b2bc131ce450e6ffc716e96f7bde88d3b64e3e99c55c"
+    },
+    "USA_regional_metrics.png": {
+      "bytes": 368253,
+      "sha256": "001a0c1d305cdbae12baa7d6af951740f6a27c5c12d9e945e536298c7bead1b4"
+    },
+    "USA_annual_relative_exceedance.svg": {
+      "bytes": 19135436,
+      "sha256": "72eeccf393d6c950bfa891d8b420dd2e88905e33d4ceff186414dfe990eb63fd"
+    },
+    "captions.json": {
+      "bytes": 3832,
+      "sha256": "6bdafe0e43be0a0700c4815e176c906397b258b7d967e3b9a2e3b3a558e53cd6"
+    },
+    "state_display_ranges.json": {
+      "bytes": 387,
+      "sha256": "039cedd0bb249c3136037bfcc3825cbbb3e7d7fa9294700470d202c87acf1b3e"
+    },
+    "USA_annual_relative_exceedance.png": {
+      "bytes": 666634,
+      "sha256": "4d9da1e496d9728b6efd2b95871dc8a172e0d258a9eb1281cdb67bf9b0e62991"
+    },
+    "USA_annual_relative_exceedance.pdf": {
+      "bytes": 3268902,
+      "sha256": "66de898dc57527a4b18c894aa5af2a6f613f420dfd675a658c30271663e40155"
+    },
+    "USA_state_detail_absolute_heat.pdf": {
+      "bytes": 210925,
+      "sha256": "4982ae031e1ea9c581a32fd0ed27522e4bd8e2cfcc66a4725e7b71e2d474c74b"
+    },
+    "USA_regional_metrics.svg": {
+      "bytes": 14220384,
+      "sha256": "c8a93b2236461fb1458e8bbb926ed96d78870dad6048f38d2b8b091b39f3188a"
+    },
+    "AUS_regional_metrics.svg": {
+      "bytes": 14250057,
+      "sha256": "4888f822f9ac6c95fa4322fc598a67c35b6f93fcc0aa308ec8053e653e40e8c4"
+    },
+    "USA_state_detail_absolute_heat.png": {
+      "bytes": 240869,
+      "sha256": "7a9137a162717cb8ac5526e5ff0b620c5721141c40ebbe35327e4c1041bdfb28"
+    },
+    "profile_and_design.json": {
+      "bytes": 1198,
+      "sha256": "1fb64af77fc174ac29695e79853e3ad82012e868b57a944ed27da6fe76b7870a"
+    },
+    "CHN_regional_metrics.svg": {
+      "bytes": 20039274,
+      "sha256": "501ee8d21c2698016b4ed83fad1971438095f657a6a85c325e41d0e0d3e7c370"
+    },
+    "CHN_regional_metrics.png": {
+      "bytes": 392563,
+      "sha256": "a468b6e26ac0cf3fae2c157da4a0b934a35ff5c58845abbaa9f4e275e9cf4c24"
+    },
+    "CHN_regional_metrics.pdf": {
+      "bytes": 3128380,
+      "sha256": "d8df8ddebbec3a05555b87a12671616e34b943cf9cee0c551dbbd4ed5f052d07"
+    }
+  },
+  "status": "rendered_native_review_pending",
+  "raster_dpi": 300,
+  "editable_vectors": true
+}

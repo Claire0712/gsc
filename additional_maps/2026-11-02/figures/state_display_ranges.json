@@ -1,0 +1,23 @@
+[
+  {
+    "state": "California",
+    "cell_centres_inside": 660,
+    "minimum": 0.0,
+    "median": 20.375,
+    "maximum": 168.25
+  },
+  {
+    "state": "Texas",
+    "cell_centres_inside": 1049,
+    "minimum": 0.25,
+    "median": 67.5,
+    "maximum": 154.25
+  },
+  {
+    "state": "New York",
+    "cell_centres_inside": 230,
+    "minimum": 0.0,
+    "median": 0.0,
+    "maximum": 2.25
+  }
+]

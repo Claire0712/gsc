@@ -1,0 +1,418 @@
+{
+  "states": [
+    {
+      "signal": "AP",
+      "state": "no_significant_deficit",
+      "label": "No full-window threshold shortfall",
+      "n": 168,
+      "denominator": 910,
+      "percent": 18.461538461538463
+    },
+    {
+      "signal": "AP",
+      "state": "delayed_onset",
+      "label": "Delayed onset",
+      "n": 41,
+      "denominator": 910,
+      "percent": 4.5054945054945055
+    },
+    {
+      "signal": "AP",
+      "state": "damaged_at_end",
+      "label": "Damaged at event end",
+      "n": 23,
+      "denominator": 910,
+      "percent": 2.5274725274725274
+    },
+    {
+      "signal": "AP",
+      "state": "stable_recovered_before_end",
+      "label": "Stable recovery before event end",
+      "n": 156,
+      "denominator": 910,
+      "percent": 17.142857142857142
+    },
+    {
+      "signal": "AP",
+      "state": "awaiting_confirmation",
+      "label": "Awaiting confirmation",
+      "n": 96,
+      "denominator": 910,
+      "percent": 10.54945054945055
+    },
+    {
+      "signal": "AP",
+      "state": "insufficient_observation",
+      "label": "Insufficient full-window observation",
+      "n": 426,
+      "denominator": 910,
+      "percent": 46.81318681318681
+    },
+    {
+      "signal": "BGP",
+      "state": "no_significant_deficit",
+      "label": "No full-window threshold shortfall",
+      "n": 579,
+      "denominator": 910,
+      "percent": 63.62637362637362
+    },
+    {
+      "signal": "BGP",
+      "state": "delayed_onset",
+      "label": "Delayed onset",
+      "n": 12,
+      "denominator": 910,
+      "percent": 1.3186813186813187
+    },
+    {
+      "signal": "BGP",
+      "state": "damaged_at_end",
+      "label": "Damaged at event end",
+      "n": 2,
+      "denominator": 910,
+      "percent": 0.21978021978021978
+    },
+    {
+      "signal": "BGP",
+      "state": "stable_recovered_before_end",
+      "label": "Stable recovery before event end",
+      "n": 27,
+      "denominator": 910,
+      "percent": 2.9670329670329667
+    },
+    {
+      "signal": "BGP",
+      "state": "awaiting_confirmation",
+      "label": "Awaiting confirmation",
+      "n": 2,
+      "denominator": 910,
+      "percent": 0.21978021978021978
+    },
+    {
+      "signal": "BGP",
+      "state": "insufficient_observation",
+      "label": "Insufficient full-window observation",
+      "n": 288,
+      "denominator": 910,
+      "percent": 31.648351648351646
+    },
+    {
+      "signal": "Telescope",
+      "state": "no_significant_deficit",
+      "label": "No full-window threshold shortfall",
+      "n": 3,
+      "denominator": 910,
+      "percent": 0.32967032967032966
+    },
+    {
+      "signal": "Telescope",
+      "state": "delayed_onset",
+      "label": "Delayed onset",
+      "n": 5,
+      "denominator": 910,
+      "percent": 0.5494505494505495
+    },
+    {
+      "signal": "Telescope",
+      "state": "damaged_at_end",
+      "label": "Damaged at event end",
+      "n": 133,
+      "denominator": 910,
+      "percent": 14.615384615384617
+    },
+    {
+      "signal": "Telescope",
+      "state": "stable_recovered_before_end",
+      "label": "Stable recovery before event end",
+      "n": 67,
+      "denominator": 910,
+      "percent": 7.362637362637363
+    },
+    {
+      "signal": "Telescope",
+      "state": "awaiting_confirmation",
+      "label": "Awaiting confirmation",
+      "n": 104,
+      "denominator": 910,
+      "percent": 11.428571428571429
+    },
+    {
+      "signal": "Telescope",
+      "state": "insufficient_observation",
+      "label": "Insufficient full-window observation",
+      "n": 598,
+      "denominator": 910,
+      "percent": 65.71428571428571
+    }
+  ],
+  "distributions": [
+    {
+      "signal": "AP",
+      "field": "dhrd_hours",
+      "label": "DHRD (deficit-hours)",
+      "n": 466,
+      "countries": 129,
+      "q25": 0.37215685939637183,
+      "median": 0.9207902426204816,
+      "q75": 2.1749844135416265
+    },
+    {
+      "signal": "AP",
+      "field": "mean_deficit",
+      "label": "Mean full-window deficit (ratio)",
+      "n": 466,
+      "countries": 129,
+      "q25": 0.002415499363458745,
+      "median": 0.005560025114866139,
+      "q75": 0.01242757852377693
+    },
+    {
+      "signal": "AP",
+      "field": "disruption_hours_full",
+      "label": "Full-window time below 95% (hours)",
+      "n": 466,
+      "countries": 129,
+      "q25": 0.0,
+      "median": 0.8333333333333334,
+      "q75": 7.958333333333333
+    },
+    {
+      "signal": "AP",
+      "field": "disruption_hours_core",
+      "label": "Core time below 95% (hours)",
+      "n": 466,
+      "countries": 129,
+      "q25": 0.0,
+      "median": 0.25,
+      "q75": 3.9583333333333335
+    },
+    {
+      "signal": "AP",
+      "field": "disruption_hours_post",
+      "label": "Post-event time below 95% (hours)",
+      "n": 466,
+      "countries": 129,
+      "q25": 0.0,
+      "median": 0.08333333333333333,
+      "q75": 2.791666666666667
+    },
+    {
+      "signal": "AP",
+      "field": "maintenance_core",
+      "label": "Core maintenance (fraction)",
+      "n": 466,
+      "countries": 129,
+      "q25": 0.9655257936507937,
+      "median": 0.996933621933622,
+      "q75": 1.0
+    },
+    {
+      "signal": "AP",
+      "field": "peak_loss_core",
+      "label": "Core peak loss (ratio)",
+      "n": 466,
+      "countries": 129,
+      "q25": 0.02474520700728805,
+      "median": 0.06813383461633377,
+      "q75": 0.1683328471764902
+    },
+    {
+      "signal": "BGP",
+      "field": "dhrd_hours",
+      "label": "DHRD (deficit-hours)",
+      "n": 601,
+      "countries": 137,
+      "q25": 0.002805337956813314,
+      "median": 0.028299776286353422,
+      "q75": 0.1465505271989501
+    },
+    {
+      "signal": "BGP",
+      "field": "mean_deficit",
+      "label": "Mean full-window deficit (ratio)",
+      "n": 601,
+      "countries": 137,
+      "q25": 1.837154614932401e-05,
+      "median": 0.00015412922203071478,
+      "q75": 0.0007480743135376568
+    },
+    {
+      "signal": "BGP",
+      "field": "disruption_hours_full",
+      "label": "Full-window time below 95% (hours)",
+      "n": 601,
+      "countries": 137,
+      "q25": 0.0,
+      "median": 0.0,
+      "q75": 0.0
+    },
+    {
+      "signal": "BGP",
+      "field": "disruption_hours_core",
+      "label": "Core time below 95% (hours)",
+      "n": 601,
+      "countries": 137,
+      "q25": 0.0,
+      "median": 0.0,
+      "q75": 0.0
+    },
+    {
+      "signal": "BGP",
+      "field": "disruption_hours_post",
+      "label": "Post-event time below 95% (hours)",
+      "n": 601,
+      "countries": 137,
+      "q25": 0.0,
+      "median": 0.0,
+      "q75": 0.0
+    },
+    {
+      "signal": "BGP",
+      "field": "maintenance_core",
+      "label": "Core maintenance (fraction)",
+      "n": 601,
+      "countries": 137,
+      "q25": 1.0,
+      "median": 1.0,
+      "q75": 1.0
+    },
+    {
+      "signal": "BGP",
+      "field": "peak_loss_core",
+      "label": "Core peak loss (ratio)",
+      "n": 601,
+      "countries": 137,
+      "q25": 0.00017270411467551483,
+      "median": 0.0012832542223203403,
+      "q75": 0.006249999999999978
+    },
+    {
+      "signal": "Telescope",
+      "field": "dhrd_hours",
+      "label": "DHRD (deficit-hours)",
+      "n": 302,
+      "countries": 93,
+      "q25": 5.011849429391424,
+      "median": 13.144881506297311,
+      "q75": 24.68807970200674
+    },
+    {
+      "signal": "Telescope",
+      "field": "mean_deficit",
+      "label": "Mean full-window deficit (ratio)",
+      "n": 302,
+      "countries": 93,
+      "q25": 0.02845058526996598,
+      "median": 0.07834057028064623,
+      "q75": 0.14269620986556483
+    },
+    {
+      "signal": "Telescope",
+      "field": "disruption_hours_full",
+      "label": "Full-window time below 95% (hours)",
+      "n": 302,
+      "countries": 93,
+      "q25": 32.083333333333336,
+      "median": 65.91666666666666,
+      "q75": 99.625
+    },
+    {
+      "signal": "Telescope",
+      "field": "disruption_hours_core",
+      "label": "Core time below 95% (hours)",
+      "n": 302,
+      "countries": 93,
+      "q25": 13.166666666666666,
+      "median": 31.083333333333336,
+      "q75": 58.79166666666667
+    },
+    {
+      "signal": "Telescope",
+      "field": "disruption_hours_post",
+      "label": "Post-event time below 95% (hours)",
+      "n": 302,
+      "countries": 93,
+      "q25": 10.833333333333334,
+      "median": 26.583333333333336,
+      "q75": 43.0
+    },
+    {
+      "signal": "Telescope",
+      "field": "maintenance_core",
+      "label": "Core maintenance (fraction)",
+      "n": 302,
+      "countries": 93,
+      "q25": 0.39814814814814814,
+      "median": 0.5896990740740741,
+      "q75": 0.8309027777777778
+    },
+    {
+      "signal": "Telescope",
+      "field": "peak_loss_core",
+      "label": "Core peak loss (ratio)",
+      "n": 302,
+      "countries": 93,
+      "q25": 0.32115639001493496,
+      "median": 0.4769541206457095,
+      "q75": 0.6779060410992821
+    }
+  ],
+  "conditional_recovery": [
+    {
+      "signal": "AP",
+      "qualified_core_risk": 27,
+      "zero_followup": 0,
+      "positive_followup": 27,
+      "countries": 20,
+      "confirmed": 14,
+      "right_censored_72h": 10,
+      "missingness_censored": 3,
+      "administrative_censored": 0,
+      "causes": {
+        "observation_or_reference_missing": 3
+      }
+    },
+    {
+      "signal": "BGP",
+      "qualified_core_risk": 2,
+      "zero_followup": 0,
+      "positive_followup": 2,
+      "countries": 2,
+      "confirmed": 0,
+      "right_censored_72h": 1,
+      "missingness_censored": 1,
+      "administrative_censored": 0,
+      "causes": {
+        "observation_or_reference_missing": 1
+      }
+    },
+    {
+      "signal": "Telescope",
+      "qualified_core_risk": 155,
+      "zero_followup": 1,
+      "positive_followup": 154,
+      "countries": 76,
+      "confirmed": 70,
+      "right_censored_72h": 68,
+      "missingness_censored": 16,
+      "administrative_censored": 0,
+      "causes": {
+        "observation_or_reference_missing": 15,
+        "cyclone_candidate": 1
+      }
+    }
+  ],
+  "notes": [
+    "Panel A uses all 910 forward technical records per signal, including observation insufficiency; these are not all global heat events or confirmed heat failures.",
+    "Panel B uses complete observed integral windows without flagged interference (AP 466/129 countries; BGP 601/137; Telescope 302/93). Medians [25th, 75th percentiles] describe selected events; no heat-versus-control contrast is implied. A ratio shortfall is not a fraction of people disconnected.",
+    "Panel C conditions on observed damaged-at-end cores. Unlike Panel A classification, it does not require complete subsequent observation; it can therefore contain more damaged cores than Panel A. First missing/flagged follow-up censors. Telescope has one eligible zero-follow-up record excluded from positive-time fits. Administrative and missingness censoring are not known 72-hour non-recovery.",
+    "AP recovery is sparse and exploratory; BGP has no confirmed endpoints and no fitted recovery effect. Confirmation requires 24 consecutive ten-minute slots at or above 95%. These panels are distinct denominators and must not be added together."
+  ],
+  "source_sha256": {
+    "analysis/2026-10-12_resilience_metrics/v1/full_outputs/event_metrics.json": "e7ca4ff855fab45daf07b510c40effc4f6cf20082f31aa8c734f96b9ed410585",
+    "analysis/2026-10-15_recovery_qualification/v1/full_outputs/rows.json": "44b2e8eb26f13666a79c447c569352b27bce470ea4c077f634e8cc34fa5fd8a2",
+    "deliverables/2026-11-01_primary_figures_v2/source_data.json": "989009434a8c4c2447e1ac56e103441defbf6f4f7f99b505a91f422180287d14",
+    "analysis/2026-10-13_event_panel/v1/full_outputs/manifest.json": "edfdb007b0020a42d169fb81372bf7e02eb74f8f8d5b8abb6af82e886dca14cf"
+  },
+  "whole_study_accepted": false
+}

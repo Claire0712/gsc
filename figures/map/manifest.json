@@ -1,0 +1,57 @@
+{
+  "inputs": {
+    "outputs/2026-10-31_pixel_country_summary.csv": "e10a1a53f8a974ae5ee0568a54dc50d3c349cc3ec68282d498d2675460889f54",
+    "outputs/2026-10-29_map_boundaries/adm0_display.geojson": "b77ca14679f99e9107dff8b0681c9df39ac1db26414b6c981269ed301ae8ac89",
+    "scripts/plot_pixel_spatial_map_20261101_v3.py": "e9d09ca4235e8352dcbaee375c77d45070d1ada9f273127e51ac21d7fa3b780a"
+  },
+  "outputs": {
+    "pixel_local_exceedance_country_map.svg": {
+      "bytes": 3560238,
+      "sha256": "9686ff6389ba3f1e8a3494d4de4565029f37ab9b6eb59ca13fa15f8127172f53"
+    },
+    "pixel_local_exceedance_country_map.pdf": {
+      "bytes": 1034606,
+      "sha256": "f0eb4a255240eaae40548dc87474dc3a7f0d82c17cc834cbbb54a95ab4008172"
+    },
+    "pixel_local_exceedance_country_map.png": {
+      "bytes": 339255,
+      "sha256": "de33866cb5e86f3f5cfbd35910f5045cac192c48c7e52b663c076d930f3dd25a"
+    },
+    "caption.txt": {
+      "bytes": 1244,
+      "sha256": "b24cfa0ccfb48a80065954a49245bf7cda7d16689eedaa7831ceaf5c56af5002"
+    }
+  },
+  "countries_with_values": 214,
+  "missing_entities": 4,
+  "field": "country_nonexceedance_mean_pixel_fraction",
+  "colour_domain": [
+    0,
+    0.15
+  ],
+  "observed_country_mean_range": [
+    0.0,
+    0.1248250769285077
+  ],
+  "projection": "EPSG:8857",
+  "panel_placed_width_mm": 180,
+  "panel_drawn_width_mm": 180,
+  "draw_scale": 1,
+  "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+  "landed_report": [
+    [
+      [
+        8.5,
+        8.5,
+        47,
+        "1e7",
+        "ok"
+      ]
+    ],
+    0
+  ],
+  "source_profile": "214 unique exact-ID summaries, 1461 supported days each. Integer day-count columns are counts, not temporal axes, despite generic profiler labels.",
+  "decision": "Supplementary measurement-diagnostic country choropleth requested by user. A colour scale labelled in percent covers observed country means; no values clipped. A site scatter or interpolated heat field would invent locations or resolution; no causal/uncertainty encoding.",
+  "cold_read_pending": true,
+  "browser_or_whole_study_accepted": false
+}

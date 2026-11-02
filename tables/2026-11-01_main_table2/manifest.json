@@ -1,0 +1,15 @@
+{
+  "status": "numerical_source_linkage_passed_render_pending",
+  "source_sha256": {
+    "analysis/2026-10-13_heat_associations/v2/full_outputs/results.json": "1a3c3ccc051ce00dfc771443ce84502d993e69f54457d7f2ff94fca614882151",
+    "analysis/2026-10-13_heat_inference/v1/full_outputs/inference.json": "ff5ba51cf9ff71be015d218ce37b53ba93d53e3b5b96f962f83dfc48bfbb9484",
+    "analysis/2026-10-28_common_associations/v1/full_outputs/results.json": "c5ce554f86d5548001db99e04f5d63e7a1f85df0cd72e507a4a62a5c011da4f8"
+  },
+  "outputs": {
+    "all_230_slopes.csv": "567a7d4523268b12c0dd2149f9d4f9daf46262e1ca4cb289642c639675954d34",
+    "common_sample_unavailable.json": "c5ce554f86d5548001db99e04f5d63e7a1f85df0cd72e507a4a62a5c011da4f8",
+    "all_230_slopes.json": "f1b2de81a1f3193c4a0bacd02d2b0144f08d9a09543e68c36c0c1ca3f01ce79c",
+    "table2.docx": "f8fbbee9abad438aa03451d981357f30cbab5ede57979a5343488eb9c16451c6"
+  },
+  "whole_study_accepted": false
+}

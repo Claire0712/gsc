@@ -1,0 +1,13 @@
+year,signal,source_entities,qualified_source_entities,exact_joint_entities,qualified_joint_entities
+2022,bgp,253,252,195,194
+2022,merit-nt,253,251,195,194
+2022,ping-slash24,253,248,195,194
+2023,bgp,253,252,195,194
+2023,merit-nt,253,251,195,194
+2023,ping-slash24,253,248,195,194
+2024,bgp,253,252,195,194
+2024,merit-nt,253,167,195,154
+2024,ping-slash24,253,244,195,194
+2025,bgp,253,253,195,195
+2025,merit-nt,253,150,195,141
+2025,ping-slash24,253,247,195,195

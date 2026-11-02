@@ -1,0 +1,64 @@
+{
+  "status": "verified_isolated_M3_scientific_reproduction",
+  "base_archive_sha256": "d073b4597b0d1be113cf1b0ae76ce8be374318f6520503d1d8b1bdf26bdcf96d",
+  "required_status_metadata_added": {
+    "analysis/2026-10-13_event_panel/v1/full_outputs/status.json": "0cb87b61f0afab118ac222a0af92bc06c579959aeea208461294d16becf11b39",
+    "analysis/2026-10-13_heat_associations/v2/full_outputs/status.json": "0cb87b61f0afab118ac222a0af92bc06c579959aeea208461294d16becf11b39"
+  },
+  "prior_packaging_failure": "v5 omitted two original status.json ledgers; first attempt failed before model output. Original status files added explicitly; final distribution must include them.",
+  "results_sha256": "be7a8747dc7e538bc25f590a4bea0729e8dacab727080965e2fc80a214217c37",
+  "results_byte_identical": true,
+  "elapsed_seconds": 3.649806859000819,
+  "raw_global_pipeline_rerun": false,
+  "environment": {
+    "python": "3.11.16",
+    "packages": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "pandas": "3.0.6",
+      "statsmodels": "0.15.0"
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "-m",
+        "scripts.run_proposal_interactions_20261101",
+        "--panel",
+        "analysis/2026-10-13_event_panel/v1/full_outputs",
+        "--original",
+        "analysis/2026-10-13_heat_associations/v2/full_outputs",
+        "--output",
+        "derived_rebuilt_interactions_v2"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"completed\", \"models\": 6, \"outcome_cases\": 30, \"estimated_outcome_cases\": 20, \"family_size\": 30, \"bh05\": 1, \"by05\": 1, \"elapsed_seconds\": 1.7247646120085847, \"scope\": \"Post-hoc completion of proposal 9.3, original A/M2 rows/main effects and FE, separate centered HD\\u00d7NTRD and HD\\u00d7dewpoint. Normal CR0 uncertainty approximate; distinct 30-test family. No causal or predictive interpretation. Not pre-registered; all prior results had been viewed.\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.audit_proposal_interactions_20261101",
+        "--panel",
+        "analysis/2026-10-13_event_panel/v1/full_outputs",
+        "--original",
+        "analysis/2026-10-13_heat_associations/v2/full_outputs",
+        "--output",
+        "derived_rebuilt_interactions_v2"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"verified\", \"raw_product_rows_checked\": 1270, \"estimated_outcome_fits\": 20, \"max_beta_absolute_error\": 1.0928757898653885e-16, \"max_cov_absolute_error\": 8.551238059664734e-16, \"elapsed_seconds\": 0.40768216401920654, \"manifest_sha256\": \"461d003560ed11747ed589189a742115a7ca6a38f214c13eae719163cd156d9c\", \"scope\": \"Independent raw-row product/identity, dense OLS and country-score CR0 plus analytic normal p and BH/BY audit. Numerical agreement is not causal or small-cluster certification.\"}\n",
+      "stderr": ""
+    }
+  ],
+  "independent_audit": {
+    "status": "verified",
+    "raw_product_rows_checked": 1270,
+    "estimated_outcome_fits": 20,
+    "max_beta_absolute_error": 1.0928757898653885e-16,
+    "max_cov_absolute_error": 8.551238059664734e-16,
+    "elapsed_seconds": 0.40768216401920654,
+    "manifest_sha256": "461d003560ed11747ed589189a742115a7ca6a38f214c13eae719163cd156d9c",
+    "scope": "Independent raw-row product/identity, dense OLS and country-score CR0 plus analytic normal p and BH/BY audit. Numerical agreement is not causal or small-cluster certification."
+  }
+}

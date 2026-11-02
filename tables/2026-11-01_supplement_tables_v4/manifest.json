@@ -1,0 +1,17 @@
+{
+  "status": "formatted_component_verified",
+  "outputs": {
+    "supplement_tables.pdf": "bdd74fd46d7c7d6c5be2b429422d4ed81a40ae4e07bb2a71e8b97947cb8bab5c",
+    "S3_exclusion_counts.csv": "846877bb804d074a63af006b59bb407f875723613f63dec1f7056a165c61b745",
+    "S2_signed_day_zero.csv": "4c33b76dc081d5b768c67c696dc5ceab645e323c845709a56fa06652c1b3bff5",
+    "interaction_source_link.json": "fd6bf53714a70a4c682b80dea2270b72fe955f21c27ca1f28a4b6507be4da7ca",
+    "S1_variables.csv": "20b5b6f5c25c84b17a1387aeab86bd1de8556ac82fe9e5c12b5452d9f3435325",
+    "S2_unavailable.csv": "edce7775ed02fa3fed3ca60e6cab59c8a9087b117e4cab0733666175d6114c69",
+    "visual_review.json": "926f2d3e08078a7a7c9223c996dc80baba3459801807f21d0e57d133982314fb",
+    "supplement_source.json": "0606626ee23b0dcc6fa4f0243fd5bf1276def082b1666bc8c3e6cd8a2d5fd76f",
+    "supplement_tables.docx": "3ab827390f29a3701f31b45ecdda1ab1bf5028f3c23b38f1b0b89114a8abb384",
+    "source_index.json": "413da374d0d16fc914a9ae98670fbf27b4502b302b6db5c624f80f13d5b02e61",
+    "S2_curve_family_overview.csv": "74e27efd38588d85a3ab7c62795871d1f8e0d42849f8e15ac771ad623b14d52b"
+  },
+  "whole_study_accepted": false
+}

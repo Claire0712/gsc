@@ -1,0 +1,840 @@
+{
+  "curves": [
+    {
+      "signal": "AP",
+      "color": "#3C5488",
+      "groups": 202,
+      "countries": 99,
+      "days": [
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "beta": [
+        -3.300809735566538e-05,
+        -0.0015914811172532547,
+        -0.002709792564598487,
+        -0.0013921596017171176,
+        -0.0009177680022534717,
+        -0.00032416028795053395,
+        -0.0027760670560101532,
+        -0.0017113109109469114,
+        -0.0019650080515098657,
+        -0.0008616121441136016,
+        -0.0011327544865441744,
+        -0.00041530690961238465,
+        -0.00048271179539479607,
+        -0.0009769254748285582
+      ],
+      "interval95": [
+        [
+          -0.0031505797392293545,
+          0.0030572690686155412
+        ],
+        [
+          -0.0042094475326113455,
+          0.0010482549434619865
+        ],
+        [
+          -0.005352623247878971,
+          -4.9330863077802576e-05
+        ],
+        [
+          -0.004296724477742467,
+          0.0015255224575903632
+        ],
+        [
+          -0.0033949710020550116,
+          0.0015340569458464684
+        ],
+        [
+          -0.0022664881730735365,
+          0.0016070501748202941
+        ],
+        [
+          -0.005634482052456773,
+          0.00010119102715002706
+        ],
+        [
+          -0.004115428277398839,
+          0.0007415961339681753
+        ],
+        [
+          -0.005367091223485944,
+          0.001326068181329642
+        ],
+        [
+          -0.005282497436271729,
+          0.003413642414126462
+        ],
+        [
+          -0.004125928721353702,
+          0.0017997565524784606
+        ],
+        [
+          -0.004021832718607656,
+          0.003113471846280299
+        ],
+        [
+          -0.0036002623287347615,
+          0.0025728555838936493
+        ],
+        [
+          -0.004484506638997585,
+          0.0026106308335148943
+        ]
+      ]
+    },
+    {
+      "signal": "BGP",
+      "color": "#00A087",
+      "groups": 352,
+      "countries": 126,
+      "days": [
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "beta": [
+        5.293105293566667e-05,
+        -0.0004119006970729326,
+        -0.00037679127827073053,
+        -0.00026171137345424656,
+        6.069813538399655e-05,
+        -4.066726951351973e-05,
+        -1.1180713656540372e-05,
+        -0.00014258786057599332,
+        -0.00023191939997226722,
+        0.00029037247419239683,
+        0.00012228713817409096,
+        0.00014378887707955598,
+        -7.193597573243639e-06,
+        -0.00023450156057505545
+      ],
+      "interval95": [
+        [
+          -0.0011946129376804498,
+          0.0013154867592108602
+        ],
+        [
+          -0.0013550268038876796,
+          0.0005294880548819061
+        ],
+        [
+          -0.0011556885943503653,
+          0.0003835087860530738
+        ],
+        [
+          -0.0009298153365246064,
+          0.00040880604207774434
+        ],
+        [
+          -0.0006938717900887656,
+          0.0008176054060362492
+        ],
+        [
+          -0.0004491349229161609,
+          0.00037232314304631593
+        ],
+        [
+          -0.0004225828231416754,
+          0.00039993209431666264
+        ],
+        [
+          -0.0006882416332108201,
+          0.00040417757530675463
+        ],
+        [
+          -0.0009360768873518914,
+          0.0004952233615937622
+        ],
+        [
+          -0.0004669224545928313,
+          0.0010109481217158212
+        ],
+        [
+          -0.0006560785951634845,
+          0.0008827515078712786
+        ],
+        [
+          -0.0005243791028119697,
+          0.0008016626918880046
+        ],
+        [
+          -0.000675164147266993,
+          0.0006493608885143848
+        ],
+        [
+          -0.0008808195224892222,
+          0.0003994197844772189
+        ]
+      ]
+    },
+    {
+      "signal": "Telescope",
+      "color": "#E64B35",
+      "groups": 16,
+      "countries": 15,
+      "days": [
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "beta": [
+        0.03955570593549906,
+        -0.05459546877868202,
+        -0.06964673041470758,
+        -0.03630922501700289,
+        -0.03719421827254815,
+        0.006789731695635215,
+        0.014333564781823167,
+        0.006365876277891548,
+        -0.011949667092113732,
+        -0.015262680649792963,
+        0.014753287388414518,
+        0.05397045846721006,
+        0.02539959703374021,
+        0.0006828628914311791
+      ],
+      "interval95": [
+        [
+          -0.00647962140505802,
+          0.0855910332760561
+        ],
+        [
+          -0.16648536493321642,
+          0.057294427375852365
+        ],
+        [
+          -0.17962437024263744,
+          0.04033090941322229
+        ],
+        [
+          -0.11060934969247863,
+          0.03799089965847283
+        ],
+        [
+          -0.13725055694963909,
+          0.06286212040454277
+        ],
+        [
+          -0.07227326766994586,
+          0.08585273106121628
+        ],
+        [
+          -0.08407806155609526,
+          0.11274519111974159
+        ],
+        [
+          -0.10755284943859457,
+          0.12028460199437765
+        ],
+        [
+          -0.16975062416829628,
+          0.14585128998406882
+        ],
+        [
+          -0.17771017610772818,
+          0.14718481480814224
+        ],
+        [
+          -0.1847180733192273,
+          0.2142246480960562
+        ],
+        [
+          -0.11129449187393979,
+          0.2192354088083599
+        ],
+        [
+          -0.08276850452757507,
+          0.1335676985950555
+        ],
+        [
+          -0.09490747667425316,
+          0.09627320245711553
+        ]
+      ]
+    }
+  ],
+  "technical_states": {
+    "ping-slash24": {
+      "awaiting_confirmation": 96,
+      "stable_recovered_before_end": 156,
+      "insufficient_observation": 426,
+      "no_significant_deficit": 168,
+      "delayed_onset": 41,
+      "damaged_at_end": 23
+    },
+    "bgp": {
+      "delayed_onset": 12,
+      "no_significant_deficit": 579,
+      "insufficient_observation": 288,
+      "stable_recovered_before_end": 27,
+      "damaged_at_end": 2,
+      "awaiting_confirmation": 2
+    },
+    "merit-nt": {
+      "insufficient_observation": 598,
+      "awaiting_confirmation": 104,
+      "damaged_at_end": 133,
+      "stable_recovered_before_end": 67,
+      "delayed_onset": 5,
+      "no_significant_deficit": 3
+    }
+  },
+  "conditional_recovery": [
+    {
+      "signal": "bgp",
+      "sample": "primary",
+      "model": "M1",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c"
+      ],
+      "eligible_positive_rows": 2,
+      "uninformative_early_censored": 0,
+      "rows": 2,
+      "events": 0,
+      "countries": 2,
+      "exploratory_sparse": true,
+      "estimable": false,
+      "reason": "Insufficient recovery endpoints"
+    },
+    {
+      "signal": "bgp",
+      "sample": "primary",
+      "model": "M2",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days"
+      ],
+      "eligible_positive_rows": 2,
+      "uninformative_early_censored": 0,
+      "rows": 2,
+      "events": 0,
+      "countries": 2,
+      "exploratory_sparse": true,
+      "estimable": false,
+      "reason": "Insufficient recovery endpoints"
+    },
+    {
+      "signal": "bgp",
+      "sample": "complete72",
+      "model": "M1",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c"
+      ],
+      "eligible_positive_rows": 1,
+      "uninformative_early_censored": 0,
+      "rows": 1,
+      "events": 0,
+      "countries": 1,
+      "exploratory_sparse": true,
+      "estimable": false,
+      "reason": "Insufficient recovery endpoints"
+    },
+    {
+      "signal": "bgp",
+      "sample": "complete72",
+      "model": "M2",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days"
+      ],
+      "eligible_positive_rows": 1,
+      "uninformative_early_censored": 0,
+      "rows": 1,
+      "events": 0,
+      "countries": 1,
+      "exploratory_sparse": true,
+      "estimable": false,
+      "reason": "Insufficient recovery endpoints"
+    },
+    {
+      "signal": "merit-nt",
+      "sample": "primary",
+      "model": "M1",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c"
+      ],
+      "eligible_positive_rows": 154,
+      "uninformative_early_censored": 0,
+      "rows": 154,
+      "events": 70,
+      "countries": 76,
+      "exploratory_sparse": false,
+      "estimable": true,
+      "matrix": "merit-nt_primary_M1.npz",
+      "beta_per_original_unit": [
+        0.003635804633167748,
+        0.013852486889730202,
+        -0.0014832155987137962
+      ],
+      "hazard_ratio": [
+        1.0036424221884486,
+        1.013948877153603,
+        0.9985178838219159
+      ],
+      "hazard_ratio95": [
+        [
+          0.9607796368663127,
+          1.048417423689066
+        ],
+        [
+          0.9525338018044036,
+          1.0793237190465226
+        ],
+        [
+          0.9438647000850902,
+          1.0563356847886285
+        ]
+      ],
+      "loglike": -327.4091247332639,
+      "score_max": 2.55351295663786e-15,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 0.8675997057878249,
+        "df": 3,
+        "p_asymptotic": 0.8332388551896809
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "sample": "primary",
+      "model": "M2",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days"
+      ],
+      "eligible_positive_rows": 154,
+      "uninformative_early_censored": 0,
+      "rows": 154,
+      "events": 70,
+      "countries": 76,
+      "exploratory_sparse": false,
+      "estimable": true,
+      "matrix": "merit-nt_primary_M2.npz",
+      "beta_per_original_unit": [
+        -0.009887653409129069,
+        0.011434875902499227,
+        -0.006168500983754249,
+        0.027831868733958563
+      ],
+      "hazard_ratio": [
+        0.9901610687211001,
+        1.0115005040071452,
+        0.9938504851596983,
+        1.0282227934876047
+      ],
+      "hazard_ratio95": [
+        [
+          0.931094915818213,
+          1.0529742192280729
+        ],
+        [
+          0.9501947877433036,
+          1.0767616101500967
+        ],
+        [
+          0.9351203491091554,
+          1.056269161282972
+        ],
+        [
+          0.9485965428657068,
+          1.1145329602968284
+        ]
+      ],
+      "loglike": -327.24762021041795,
+      "score_max": 1.6653345369377348e-14,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 1.878837542865881,
+        "df": 4,
+        "p_asymptotic": 0.7580314180366208
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "sample": "complete72",
+      "model": "M1",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c"
+      ],
+      "eligible_positive_rows": 130,
+      "uninformative_early_censored": 0,
+      "rows": 130,
+      "events": 62,
+      "countries": 68,
+      "exploratory_sparse": false,
+      "estimable": true,
+      "matrix": "merit-nt_complete72_M1.npz",
+      "beta_per_original_unit": [
+        0.023524835073170363,
+        -0.0011064000956885864,
+        -0.011148216655356905
+      ],
+      "hazard_ratio": [
+        1.0238037266713647,
+        0.9988942117392318,
+        0.9889136944322912
+      ],
+      "hazard_ratio95": [
+        [
+          0.9684788094133703,
+          1.0822891121191152
+        ],
+        [
+          0.9337683646765293,
+          1.0685622730341584
+        ],
+        [
+          0.9313851769397804,
+          1.0499955542012596
+        ]
+      ],
+      "loglike": -283.73586237077006,
+      "score_max": 4.884981308350689e-15,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 1.0091038011885303,
+        "df": 3,
+        "p_asymptotic": 0.7990491186769889
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "sample": "complete72",
+      "model": "M2",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days"
+      ],
+      "eligible_positive_rows": 130,
+      "uninformative_early_censored": 0,
+      "rows": 130,
+      "events": 62,
+      "countries": 68,
+      "exploratory_sparse": false,
+      "estimable": true,
+      "matrix": "merit-nt_complete72_M2.npz",
+      "beta_per_original_unit": [
+        0.00743604647665156,
+        -0.0049467950941368116,
+        -0.017200511579825214,
+        0.032644880757585204
+      ],
+      "hazard_ratio": [
+        1.0074637625269405,
+        0.9950654201463172,
+        0.982946572703781,
+        1.033183570719461
+      ],
+      "hazard_ratio95": [
+        [
+          0.9414823479763732,
+          1.0780693180138208
+        ],
+        [
+          0.9285712486592796,
+          1.0663211808470328
+        ],
+        [
+          0.922363064777112,
+          1.047509382895321
+        ],
+        [
+          0.9555290737427861,
+          1.117148938884053
+        ]
+      ],
+      "loglike": -283.53505483297374,
+      "score_max": 2.886579864025407e-15,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 2.336916227951633,
+        "df": 4,
+        "p_asymptotic": 0.6740562291330101
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "sample": "primary",
+      "model": "M1",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c"
+      ],
+      "eligible_positive_rows": 27,
+      "uninformative_early_censored": 0,
+      "rows": 27,
+      "events": 14,
+      "countries": 20,
+      "exploratory_sparse": true,
+      "estimable": true,
+      "matrix": "ping-slash24_primary_M1.npz",
+      "beta_per_original_unit": [
+        0.1606345928846929,
+        -0.10666543026416803,
+        0.048705599529655384
+      ],
+      "hazard_ratio": [
+        1.174255808981826,
+        0.8988263427820579,
+        1.0499112108824973
+      ],
+      "hazard_ratio95": [
+        [
+          0.9143665890824502,
+          1.5080130019965403
+        ],
+        [
+          0.5586331051810471,
+          1.4461885394657035
+        ],
+        [
+          0.9245283653320227,
+          1.1922982485679408
+        ]
+      ],
+      "loglike": -39.36556506633798,
+      "score_max": 3.3306690738754696e-16,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 6.739718042626123,
+        "df": 3,
+        "p_asymptotic": 0.08067319097476851
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "sample": "primary",
+      "model": "M2",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days"
+      ],
+      "eligible_positive_rows": 27,
+      "uninformative_early_censored": 0,
+      "rows": 27,
+      "events": 14,
+      "countries": 20,
+      "exploratory_sparse": true,
+      "estimable": true,
+      "matrix": "ping-slash24_primary_M2.npz",
+      "beta_per_original_unit": [
+        0.1914869501160038,
+        -0.07423264462615482,
+        0.05568918008487098,
+        -0.08194343998633564
+      ],
+      "hazard_ratio": [
+        1.2110490289875298,
+        0.9284556684917956,
+        1.0572690123957569,
+        0.9213240673245395
+      ],
+      "hazard_ratio95": [
+        [
+          0.954140590009253,
+          1.5371317036176144
+        ],
+        [
+          0.5690211754380387,
+          1.5149347081695985
+        ],
+        [
+          0.9330551678138049,
+          1.1980189415716993
+        ],
+        [
+          0.6394852348377664,
+          1.327377069537466
+        ]
+      ],
+      "loglike": -39.200234982776536,
+      "score_max": 1.2212453270876722e-15,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 6.483676486744244,
+        "df": 4,
+        "p_asymptotic": 0.1658218068137758
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "sample": "complete72",
+      "model": "M1",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c"
+      ],
+      "eligible_positive_rows": 23,
+      "uninformative_early_censored": 0,
+      "rows": 23,
+      "events": 13,
+      "countries": 17,
+      "exploratory_sparse": true,
+      "estimable": true,
+      "matrix": "ping-slash24_complete72_M1.npz",
+      "beta_per_original_unit": [
+        0.11716138933086212,
+        -0.021037585452996617,
+        0.04321389217216817
+      ],
+      "hazard_ratio": [
+        1.1243008652135886,
+        0.9791821608727395,
+        1.0441612088762604
+      ],
+      "hazard_ratio95": [
+        [
+          0.8253014268204331,
+          1.5316251668071492
+        ],
+        [
+          0.5520245231819744,
+          1.7368752001174064
+        ],
+        [
+          0.9128625325293506,
+          1.1943448123574718
+        ]
+      ],
+      "loglike": -35.14270096999869,
+      "score_max": 6.661338147750939e-16,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 6.544803803690165,
+        "df": 3,
+        "p_asymptotic": 0.08791220099610335
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "sample": "complete72",
+      "model": "M2",
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days"
+      ],
+      "eligible_positive_rows": 23,
+      "uninformative_early_censored": 0,
+      "rows": 23,
+      "events": 13,
+      "countries": 17,
+      "exploratory_sparse": true,
+      "estimable": true,
+      "matrix": "ping-slash24_complete72_M2.npz",
+      "beta_per_original_unit": [
+        0.14979315662914022,
+        0.07591445233197085,
+        0.056053527847809884,
+        -0.14697092520722607
+      ],
+      "hazard_ratio": [
+        1.161593949869486,
+        1.0788702753732031,
+        1.057654296179628,
+        0.8633190778747093
+      ],
+      "hazard_ratio95": [
+        [
+          0.8852326307844367,
+          1.524232679016509
+        ],
+        [
+          0.584462825201607,
+          1.9915057397916618
+        ],
+        [
+          0.9321193480903676,
+          1.2000959024388522
+        ],
+        [
+          0.56862251884734,
+          1.3107462429262968
+        ]
+      ],
+      "loglike": -34.653285834014284,
+      "score_max": 1.5543122344752192e-15,
+      "warnings": [],
+      "ph_diagnostic": {
+        "converged": true,
+        "lr": 5.774703360326214,
+        "df": 4,
+        "p_asymptotic": 0.2166171961270439
+      }
+    }
+  ],
+  "source_linkage": {
+    "status": "verified",
+    "models_checked": 12,
+    "accepted_models_with_risk_arrays_beta_cov_and_CI_equivalence": 8,
+    "max_array_difference": 0,
+    "old_manifest_sha256": "319f9518c7743bac3cc9a0e5f2fcb629c6f8afccf384234621b5483fad91327d",
+    "independently_verified_current_refit_manifest_sha256": "37f8c6ab7f7d55833cfadd40074265b1224c10992b589d31588a0283bd810b12",
+    "source_risk_set_manifest": "analysis/2026-10-22_main_recovery_cox/v2/full_outputs/manifest.json",
+    "scope": "Numerical equivalence permits preserved primary figure objects to be reused; no model refit or broader inference/PH certificate."
+  }
+}

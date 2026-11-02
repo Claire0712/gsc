@@ -1,0 +1,1 @@
+Exact archived helper copied from the existing Nature figure skill. Frozen plotting scripts retain their historical absolute import path; for a portable render set PYTHONPATH to this vendor directory. Arial must be available. The downstream default reproduction uses already verified figures and does not rerender maps.

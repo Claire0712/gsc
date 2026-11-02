@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "native_png_review": true,
+  "native_png_size": [
+    2125,
+    1181
+  ],
+  "review": "Exact country source IDs, condition country Tmax <= Q90 visible, no overlapping or clipped labels, gray unavailable differs from observed zero; all data within colour limits.",
+  "pdf_width_mm": 179.9999222222222,
+  "editable_svg_text": true,
+  "pdf_vector_only": true,
+  "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nFFXFMS+ArialMT                       CID TrueType      Identity-H       yes yes yes     15  0\n",
+  "landed_font_violations": 0,
+  "input_country_summary_bound_to_verified_remote_manifest": true,
+  "comparison_manifest_sha256": "593e9665903f4f3ba7a7697006cfdd96560cc8107f2d7f39b077d2477d427341",
+  "figure_manifest_sha256": "5c29a1f06054d75a5f6b40bbd17c48255d7cc0a2059157cb6292a6b2aef1c213",
+  "whole_study_accepted": false
+}

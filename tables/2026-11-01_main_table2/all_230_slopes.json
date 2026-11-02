@@ -1,0 +1,5332 @@
+[
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": -8.687707719276793e-06,
+    "interval95_country_wild_basic": [
+      -5.2087549195840265e-05,
+      3.4980063897592594e-05
+    ],
+    "interval95_normal_cr0": [
+      -5.242185992838338e-05,
+      3.50464444898298e-05
+    ],
+    "p_normal_cr0": 0.6970222923913814,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 88
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 7.120229637188955e-05,
+    "interval95_country_wild_basic": [
+      -1.4475493497763853e-05,
+      0.00015591634870587985
+    ],
+    "interval95_normal_cr0": [
+      -1.3884933975948262e-05,
+      0.00015628952671972737
+    ],
+    "p_normal_cr0": 0.10097858607030175,
+    "fdr_bh": 0.566465238930961,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 88
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0001287346223733718,
+    "interval95_country_wild_basic": [
+      -0.00023745561245327535,
+      -2.3114488011330845e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.0002380475300992396,
+      -1.9421714647504032e-05
+    ],
+    "p_normal_cr0": 0.02098843739983649,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 88
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00024524435083752536,
+    "interval95_country_wild_basic": [
+      -7.928395135404191e-05,
+      0.0005671952749556237
+    ],
+    "interval95_normal_cr0": [
+      -8.091277981533843e-05,
+      0.0005714014814903891
+    ],
+    "p_normal_cr0": 0.14055219877272146,
+    "fdr_bh": 0.7055783328753867,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0008885430437340254,
+    "interval95_country_wild_basic": [
+      -0.0017810804304770399,
+      4.797661564705539e-06
+    ],
+    "interval95_normal_cr0": [
+      -0.0017982412334889728,
+      2.115514602092205e-05
+    ],
+    "p_normal_cr0": 0.05557100945395093,
+    "fdr_bh": 0.4240774298859595,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00047798331686882536,
+    "interval95_country_wild_basic": [
+      -0.00017528559671797322,
+      0.0011280272805216818
+    ],
+    "interval95_normal_cr0": [
+      -0.0001852220888299354,
+      0.001141188722567586
+    ],
+    "p_normal_cr0": 0.15777952175233123,
+    "fdr_bh": 0.711554705941886,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00019211890255583228,
+    "interval95_country_wild_basic": [
+      -0.001095398563548375,
+      0.0007094237952367731
+    ],
+    "interval95_normal_cr0": [
+      -0.0011032266897042582,
+      0.0007189888845925938
+    ],
+    "p_normal_cr0": 0.6793986643118587,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.001964032398988762,
+    "interval95_country_wild_basic": [
+      0.00010660705742932615,
+      0.0038154044535581837
+    ],
+    "interval95_normal_cr0": [
+      8.568955263983983e-05,
+      0.0038423752453376836
+    ],
+    "p_normal_cr0": 0.04042525726722627,
+    "fdr_bh": 0.37191236685848167,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 6.807214377030833e-05,
+    "interval95_country_wild_basic": [
+      -0.001816144914374453,
+      0.0019484875533671982
+    ],
+    "interval95_normal_cr0": [
+      -0.002049425275284433,
+      0.0021855695628250496
+    ],
+    "p_normal_cr0": 0.9497602569635588,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 1.1618749107338688e-05,
+    "interval95_country_wild_basic": [
+      -4.5560410128977726e-05,
+      6.949190832806457e-05
+    ],
+    "interval95_normal_cr0": [
+      -4.819522256262923e-05,
+      7.14327207773066e-05
+    ],
+    "p_normal_cr0": 0.7034115912123007,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 77
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 2.90629226075728e-05,
+    "interval95_country_wild_basic": [
+      -9.189492874662501e-05,
+      0.00014615079328764535
+    ],
+    "interval95_normal_cr0": [
+      -9.589340621946299e-05,
+      0.0001540192514346086
+    ],
+    "p_normal_cr0": 0.6484924417367409,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 77
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00012576722899524835,
+    "interval95_country_wild_basic": [
+      -0.00022287063068548502,
+      -2.7765497892291377e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.0002254759653919373,
+      -2.6058492598559382e-05
+    ],
+    "p_normal_cr0": 0.013428700034188785,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 77
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.000224226011648341,
+    "interval95_country_wild_basic": [
+      -0.006373682649380208,
+      0.006909689132264403
+    ],
+    "interval95_normal_cr0": [
+      -0.0065193442938648975,
+      0.00696779631716158
+    ],
+    "p_normal_cr0": 0.9480390683165569,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.017520075952035596,
+    "interval95_country_wild_basic": [
+      0.006506107755093683,
+      0.027973946782355714
+    ],
+    "interval95_normal_cr0": [
+      0.006692640985612969,
+      0.028347510918458222
+    ],
+    "p_normal_cr0": 0.0015167760167712006,
+    "fdr_bh": 0.06715747866470137,
+    "fdr_by": 0.40411793259242634,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 210,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.016011533546206567,
+    "interval95_country_wild_basic": [
+      -0.026257148411797333,
+      -0.005679026091365613
+    ],
+    "interval95_normal_cr0": [
+      -0.02659249021983135,
+      -0.005430576872581784
+    ],
+    "p_normal_cr0": 0.003018014134657425,
+    "fdr_bh": 0.08476012808579075,
+    "fdr_by": 0.5100413000808913,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -1.910004214598368e-05,
+    "interval95_country_wild_basic": [
+      -7.016545236354874e-05,
+      3.150747482272505e-05
+    ],
+    "interval95_normal_cr0": [
+      -7.088564323103145e-05,
+      3.268555893906409e-05
+    ],
+    "p_normal_cr0": 0.4697462629787682,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 88
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 6.808607576828398e-05,
+    "interval95_country_wild_basic": [
+      -1.838315273410713e-05,
+      0.00015185590543860934
+    ],
+    "interval95_normal_cr0": [
+      -1.6723677634277815e-05,
+      0.00015289582917084576
+    ],
+    "p_normal_cr0": 0.11560824620507719,
+    "fdr_bh": 0.6194931060307343,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 88
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00013881637150902883,
+    "interval95_country_wild_basic": [
+      -0.00025607134754836186,
+      -2.6055236841263636e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.0002554881721683013,
+      -2.2144570849756323e-05
+    ],
+    "p_normal_cr0": 0.01970229213818083,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 88
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 2.1488984158256858e-05,
+    "interval95_country_wild_basic": [
+      -3.394666495599784e-05,
+      7.650850712915646e-05
+    ],
+    "interval95_normal_cr0": [
+      -3.38973486382878e-05,
+      7.687531695480151e-05
+    ],
+    "p_normal_cr0": 0.4469953744945996,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 88
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00020201495198785712,
+    "interval95_country_wild_basic": [
+      -9.039345367843268e-05,
+      0.0004979473018164524
+    ],
+    "interval95_normal_cr0": [
+      -9.705834280865475e-05,
+      0.000501088246784369
+    ],
+    "p_normal_cr0": 0.18553748519170976,
+    "fdr_bh": 0.805162671586665,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 178
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0009014808094507424,
+    "interval95_country_wild_basic": [
+      -0.0018164153985388515,
+      1.8133029752608943e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.001837234775155623,
+      3.427315625413802e-05
+    ],
+    "p_normal_cr0": 0.0590020772015248,
+    "fdr_bh": 0.4240774298859595,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 178
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0004361264251645252,
+    "interval95_country_wild_basic": [
+      -0.00021737342194858657,
+      0.0010873096599942694
+    ],
+    "interval95_normal_cr0": [
+      -0.00022376094269924797,
+      0.0010960137930282983
+    ],
+    "p_normal_cr0": 0.1951958687055645,
+    "fdr_bh": 0.8313898111533302,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 178
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 8.921686808952262e-05,
+    "interval95_country_wild_basic": [
+      -0.00018887398484653347,
+      0.0003648002530085024
+    ],
+    "interval95_normal_cr0": [
+      -0.0001901252250194558,
+      0.000368558961198501
+    ],
+    "p_normal_cr0": 0.5313297389363825,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 178
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0007264968209609055,
+    "interval95_country_wild_basic": [
+      -0.0019223638620346267,
+      0.0004653106548313786
+    ],
+    "interval95_normal_cr0": [
+      -0.0019395047659431096,
+      0.0004865111240212987
+    ],
+    "p_normal_cr0": 0.2404490926993441,
+    "fdr_bh": 0.9066113331286745,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 107
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0018041028950751587,
+    "interval95_country_wild_basic": [
+      4.698340050323432e-05,
+      0.0035752040191486816
+    ],
+    "interval95_normal_cr0": [
+      2.8631420947243524e-05,
+      0.003579574369203074
+    ],
+    "p_normal_cr0": 0.04641819740129789,
+    "fdr_bh": 0.40414351689806066,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 107
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0004493396004372247,
+    "interval95_country_wild_basic": [
+      -0.0024570439294439306,
+      0.0015453798986537108
+    ],
+    "interval95_normal_cr0": [
+      -0.0025841284237078745,
+      0.0016854492228334252
+    ],
+    "p_normal_cr0": 0.6799424147747477,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 107
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0011028495774852592,
+    "interval95_country_wild_basic": [
+      -0.00032663745420350495,
+      0.0025616030673731513
+    ],
+    "interval95_normal_cr0": [
+      -0.00038858151047400794,
+      0.0025942806654445263
+    ],
+    "p_normal_cr0": 0.14725113033921114,
+    "fdr_bh": 0.7055783328753867,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 107
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 1.1222827494021922e-05,
+    "interval95_country_wild_basic": [
+      -4.806339191187109e-05,
+      7.133136011916699e-05
+    ],
+    "interval95_normal_cr0": [
+      -4.9587278026741005e-05,
+      7.203293301478485e-05
+    ],
+    "p_normal_cr0": 0.7175599731335112,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 77
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 2.8944430534780213e-05,
+    "interval95_country_wild_basic": [
+      -9.332889979789688e-05,
+      0.00014798517616138084
+    ],
+    "interval95_normal_cr0": [
+      -9.794861085649926e-05,
+      0.00015583747192605968
+    ],
+    "p_normal_cr0": 0.6548246931387063,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 77
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0001261505803379219,
+    "interval95_country_wild_basic": [
+      -0.00023109965525825864,
+      -2.116154230246118e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.00023382547609579162,
+      -1.847568458005218e-05
+    ],
+    "p_normal_cr0": 0.021660468891135203,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 77
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 8.171033437663448e-07,
+    "interval95_country_wild_basic": [
+      -5.651150885516919e-05,
+      5.85660365779318e-05
+    ],
+    "interval95_normal_cr0": [
+      -5.7095191190694435e-05,
+      5.872939787822713e-05
+    ],
+    "p_normal_cr0": 0.9779382978185248,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 77
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "hd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0004153320186836178,
+    "interval95_country_wild_basic": [
+      -0.007017489228724054,
+      0.008013016184402368
+    ],
+    "interval95_normal_cr0": [
+      -0.007228693628880918,
+      0.008059357666248154
+    ],
+    "p_normal_cr0": 0.91519114934393,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "span_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.017577270472706092,
+    "interval95_country_wild_basic": [
+      0.006418167217526733,
+      0.028280201966209992
+    ],
+    "interval95_normal_cr0": [
+      0.006592522501829434,
+      0.02856201844358275
+    ],
+    "p_normal_cr0": 0.001711285089900206,
+    "fdr_bh": 0.06715747866470137,
+    "fdr_by": 0.40411793259242634,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.01582649503877014,
+    "interval95_country_wild_basic": [
+      -0.02670201529692774,
+      -0.005142349671410935
+    ],
+    "interval95_normal_cr0": [
+      -0.026914920778163584,
+      -0.004738069299376693
+    ],
+    "p_normal_cr0": 0.0051507110536651544,
+    "fdr_bh": 0.11219277002356864,
+    "fdr_by": 0.6751163262115255,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0003944047309117844,
+    "interval95_country_wild_basic": [
+      -0.008493686944700285,
+      0.007771362472946027
+    ],
+    "interval95_normal_cr0": [
+      -0.008693479304400325,
+      0.007904669842576754
+    ],
+    "p_normal_cr0": 0.9257881988500313,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -5.3843061900155255e-05,
+    "interval95_country_wild_basic": [
+      -0.00024193844181148957,
+      0.00013511963405694462
+    ],
+    "interval95_normal_cr0": [
+      -0.0002448774650266552,
+      0.00013719134122634467
+    ],
+    "p_normal_cr0": 0.5806633662964777,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 91
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 8.504996232068266e-05,
+    "interval95_country_wild_basic": [
+      -2.8333892384284904e-05,
+      0.00019799896802168547
+    ],
+    "interval95_normal_cr0": [
+      -2.961305181159755e-05,
+      0.00019971297645296287
+    ],
+    "p_normal_cr0": 0.14600714963406183,
+    "fdr_bh": 0.7055783328753867,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 91
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 3.000958904164109e-05,
+    "interval95_country_wild_basic": [
+      -0.00012768612646373446,
+      0.00019123109285220402
+    ],
+    "interval95_normal_cr0": [
+      -0.00013067660090368204,
+      0.00019069577898696424
+    ],
+    "p_normal_cr0": 0.7143345744398978,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 91
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00013005546217785007,
+    "interval95_country_wild_basic": [
+      -0.0002393983568609183,
+      -2.277823103732476e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.0002411570786142786,
+      -1.8953845741421564e-05
+    ],
+    "p_normal_cr0": 0.021771421350642976,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 91
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0006647865870891117,
+    "interval95_country_wild_basic": [
+      -0.001960571857869904,
+      0.0006351397601313393
+    ],
+    "interval95_normal_cr0": [
+      -0.001989685636722045,
+      0.0006601124625438217
+    ],
+    "p_normal_cr0": 0.3253912856829322,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 176
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -5.561267815890609e-05,
+    "interval95_country_wild_basic": [
+      -0.0007166338340268866,
+      0.000612937453951897
+    ],
+    "interval95_normal_cr0": [
+      -0.00076824829542938,
+      0.0006570229391115678
+    ],
+    "p_normal_cr0": 0.8784363458592441,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 176
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0016518571257080118,
+    "interval95_country_wild_basic": [
+      -0.0033542226376356054,
+      3.57241995628053e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.003357322434716548,
+      5.3608183300524626e-05
+    ],
+    "p_normal_cr0": 0.05764918837045209,
+    "fdr_bh": 0.4240774298859595,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 176
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0004123509683824483,
+    "interval95_country_wild_basic": [
+      -0.00022081717902790627,
+      0.001045662082251943
+    ],
+    "interval95_normal_cr0": [
+      -0.00023236912309848096,
+      0.0010570710598633776
+    ],
+    "p_normal_cr0": 0.21000325877155335,
+    "fdr_bh": 0.8508986013955505,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 176
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0019657190596902136,
+    "interval95_country_wild_basic": [
+      -0.004620404446643734,
+      0.0006418136030174426
+    ],
+    "interval95_normal_cr0": [
+      -0.0046451325219168775,
+      0.0007136944025364503
+    ],
+    "p_normal_cr0": 0.1504613766197741,
+    "fdr_bh": 0.7062472780111846,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 98
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.002564576432105362,
+    "interval95_country_wild_basic": [
+      0.0002056510213783204,
+      0.004902303166767277
+    ],
+    "interval95_normal_cr0": [
+      -8.316672002003402e-05,
+      0.005212319584230758
+    ],
+    "p_normal_cr0": 0.05764331802812868,
+    "fdr_bh": 0.4240774298859595,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 98
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0006701543547859747,
+    "interval95_country_wild_basic": [
+      -0.0023094120808985754,
+      0.003724851865724392
+    ],
+    "interval95_normal_cr0": [
+      -0.002381690865066592,
+      0.003721999574638541
+    ],
+    "p_normal_cr0": 0.6669132230441348,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 98
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 3.0318709225296937e-06,
+    "interval95_country_wild_basic": [
+      -0.001895082558335551,
+      0.0018896020104380792
+    ],
+    "interval95_normal_cr0": [
+      -0.0020569938627590344,
+      0.0020630576046040934
+    ],
+    "p_normal_cr0": 0.9976984224509312,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 98
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -1.0586920966830924e-05,
+    "interval95_country_wild_basic": [
+      -0.00016038068143522255,
+      0.00013872241609921919
+    ],
+    "interval95_normal_cr0": [
+      -0.0001631073394981214,
+      0.00014193349756445953
+    ],
+    "p_normal_cr0": 0.8917839265678846,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 76
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00010638931035887106,
+    "interval95_country_wild_basic": [
+      -1.984390883713079e-07,
+      0.0002096791746185181
+    ],
+    "interval95_normal_cr0": [
+      1.2000653424186795e-06,
+      0.00021157855537532345
+    ],
+    "p_normal_cr0": 0.04744293459238103,
+    "fdr_bh": 0.40414351689806066,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 76
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -9.515094316750245e-05,
+    "interval95_country_wild_basic": [
+      -0.0003003753079216737,
+      0.00010853866937167852
+    ],
+    "interval95_normal_cr0": [
+      -0.0003064148153771806,
+      0.00011611292904217573
+    ],
+    "p_normal_cr0": 0.3773733086359644,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 76
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00012813256072664094,
+    "interval95_country_wild_basic": [
+      -0.00022874722256713444,
+      -2.6229279543770072e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.00023237709470015188,
+      -2.3888026753129984e-05
+    ],
+    "p_normal_cr0": 0.015992042652675526,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 76
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0022110641491494966,
+    "interval95_country_wild_basic": [
+      -0.018171172146634922,
+      0.01364403262264132
+    ],
+    "interval95_normal_cr0": [
+      -0.018375708486737436,
+      0.013953580188438442
+    ],
+    "p_normal_cr0": 0.7886287764322937,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.023919015972289636,
+    "interval95_country_wild_basic": [
+      0.008817475918532252,
+      0.038766335326878634
+    ],
+    "interval95_normal_cr0": [
+      0.008938138777293908,
+      0.038899893167285364
+    ],
+    "p_normal_cr0": 0.001751934226035688,
+    "fdr_bh": 0.06715747866470137,
+    "fdr_by": 0.40411793259242634,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.005229495347997878,
+    "interval95_country_wild_basic": [
+      -0.014499933658987416,
+      0.02503792085268757
+    ],
+    "interval95_normal_cr0": [
+      -0.01484257398705871,
+      0.025301564683054466
+    ],
+    "p_normal_cr0": 0.6096024267663667,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 209,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.01617009254627689,
+    "interval95_country_wild_basic": [
+      -0.026674717820700654,
+      -0.0057357746405142206
+    ],
+    "interval95_normal_cr0": [
+      -0.026961881402840858,
+      -0.00537830368971292
+    ],
+    "p_normal_cr0": 0.003316700664226595,
+    "fdr_bh": 0.08476012808579075,
+    "fdr_by": 0.5100413000808913,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -6.55847673541418e-05,
+    "interval95_country_wild_basic": [
+      -0.00025892843261455004,
+      0.00012529952790643194
+    ],
+    "interval95_normal_cr0": [
+      -0.00025957937098286846,
+      0.00012840983627458488
+    ],
+    "p_normal_cr0": 0.5075770034558224,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 89
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 7.350864586709791e-05,
+    "interval95_country_wild_basic": [
+      -6.710478444654224e-05,
+      0.0002108785951216953
+    ],
+    "interval95_normal_cr0": [
+      -6.551419949867842e-05,
+      0.00021253149123287424
+    ],
+    "p_normal_cr0": 0.30004568852177826,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 89
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 3.07916385608848e-05,
+    "interval95_country_wild_basic": [
+      -0.00012757605563964931,
+      0.00019280691560807906
+    ],
+    "interval95_normal_cr0": [
+      -0.000130722265038611,
+      0.00019230554216038065
+    ],
+    "p_normal_cr0": 0.7086608938930367,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 89
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00013600085018302869,
+    "interval95_country_wild_basic": [
+      -0.0002528928159544011,
+      -2.377680949836047e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.0002529692362049884,
+      -1.9032464161068918e-05
+    ],
+    "p_normal_cr0": 0.022674274504666546,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 89
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 1.3482124518045303e-05,
+    "interval95_country_wild_basic": [
+      -4.075692762150583e-05,
+      6.824337380681205e-05
+    ],
+    "interval95_normal_cr0": [
+      -4.064976279833228e-05,
+      6.761401183442288e-05
+    ],
+    "p_normal_cr0": 0.625443627522988,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 89
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0008115785673592071,
+    "interval95_country_wild_basic": [
+      -0.002159812763012048,
+      0.0005334518555543325
+    ],
+    "interval95_normal_cr0": [
+      -0.002217855094258964,
+      0.0005946979595405497
+    ],
+    "p_normal_cr0": 0.2580054081579597,
+    "fdr_bh": 0.9571168367150118,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00019989944329576473,
+    "interval95_country_wild_basic": [
+      -0.0011200145747493732,
+      0.0007273337482909962
+    ],
+    "interval95_normal_cr0": [
+      -0.001182138401537286,
+      0.0007823395149457565
+    ],
+    "p_normal_cr0": 0.6899814511921303,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0016420801305305306,
+    "interval95_country_wild_basic": [
+      -0.0033317951361523527,
+      2.9751092512565703e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.003336833695210141,
+      5.267343414908023e-05
+    ],
+    "p_normal_cr0": 0.05755820023959858,
+    "fdr_bh": 0.4240774298859595,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0003380231561089798,
+    "interval95_country_wild_basic": [
+      -0.0002956522333190068,
+      0.0009726076024233918
+    ],
+    "interval95_normal_cr0": [
+      -0.0003029930135567202,
+      0.00097903932577468
+    ],
+    "p_normal_cr0": 0.30135318782438814,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00016855028121829773,
+    "interval95_country_wild_basic": [
+      -0.00022877364468256806,
+      0.0005612085103434371
+    ],
+    "interval95_normal_cr0": [
+      -0.00023320885290193348,
+      0.0005703094153385289
+    ],
+    "p_normal_cr0": 0.4109260829146588,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 177
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0027303140944059767,
+    "interval95_country_wild_basic": [
+      -0.005929973904078645,
+      0.00040978489908155384
+    ],
+    "interval95_normal_cr0": [
+      -0.00598887157772263,
+      0.000528243388910677
+    ],
+    "p_normal_cr0": 0.1005413027801643,
+    "fdr_bh": 0.566465238930961,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0018130303054310504,
+    "interval95_country_wild_basic": [
+      -0.00047994492196447606,
+      0.004105558119179665
+    ],
+    "interval95_normal_cr0": [
+      -0.0007380920481391273,
+      0.004364152659001228
+    ],
+    "p_normal_cr0": 0.16364816228195922,
+    "fdr_bh": 0.7238284100932811,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0007210797660610871,
+    "interval95_country_wild_basic": [
+      -0.002279272626400994,
+      0.0037739666514600744
+    ],
+    "interval95_normal_cr0": [
+      -0.002333728057979082,
+      0.0037758875901012555
+    ],
+    "p_normal_cr0": 0.6436191278528485,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0003841192261674523,
+    "interval95_country_wild_basic": [
+      -0.002374886626133147,
+      0.0015978156724720744
+    ],
+    "interval95_normal_cr0": [
+      -0.0024934356017030234,
+      0.0017251971493681185
+    ],
+    "p_normal_cr0": 0.721150756718224,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0008779274445533931,
+    "interval95_country_wild_basic": [
+      -0.000432114537808496,
+      0.002219463252738149
+    ],
+    "interval95_normal_cr0": [
+      -0.0005085259181819473,
+      0.0022643808072887336
+    ],
+    "p_normal_cr0": 0.21457442991713882,
+    "fdr_bh": 0.8508986013955505,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 102
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 8.844390032381338e-07,
+    "interval95_country_wild_basic": [
+      -0.00015580538473352958,
+      0.00015629025097501094
+    ],
+    "interval95_normal_cr0": [
+      -0.00015492136902678532,
+      0.00015669024703326157
+    ],
+    "p_normal_cr0": 0.9911230568971889,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 80
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00011766489516095794,
+    "interval95_country_wild_basic": [
+      -1.2718880616775378e-05,
+      0.0002472151574786603
+    ],
+    "interval95_normal_cr0": [
+      -1.3260784234586713e-05,
+      0.00024859057455650256
+    ],
+    "p_normal_cr0": 0.07816237355567467,
+    "fdr_bh": 0.5136384547944335,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 80
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -9.591498648172273e-05,
+    "interval95_country_wild_basic": [
+      -0.0003010223839503207,
+      0.00010694329468018064
+    ],
+    "interval95_normal_cr0": [
+      -0.00030657194818592176,
+      0.00011474197522247633
+    ],
+    "p_normal_cr0": 0.3721794703639515,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 80
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.000122324061591962,
+    "interval95_country_wild_basic": [
+      -0.00022995310564321355,
+      -1.5184441543848734e-05
+    ],
+    "interval95_normal_cr0": [
+      -0.0002320716793710193,
+      -1.2576443812904677e-05
+    ],
+    "p_normal_cr0": 0.028920789608572278,
+    "fdr_bh": 0.2892078960857228,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 80
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -1.3171706964875384e-05,
+    "interval95_country_wild_basic": [
+      -7.16033469301805e-05,
+      4.552502269804018e-05
+    ],
+    "interval95_normal_cr0": [
+      -7.227727200474517e-05,
+      4.5933858074994396e-05
+    ],
+    "p_normal_cr0": 0.6622716095611446,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 80
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "peak_excess_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.000386990125499771,
+    "interval95_country_wild_basic": [
+      -0.01706198461106471,
+      0.015976083121436235
+    ],
+    "interval95_normal_cr0": [
+      -0.016850438614184383,
+      0.01607645836318484
+    ],
+    "p_normal_cr0": 0.9632537001392064,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "hot_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.025711959563338216,
+    "interval95_country_wild_basic": [
+      0.007751637922977315,
+      0.04365715595162456
+    ],
+    "interval95_normal_cr0": [
+      0.007611881029053594,
+      0.04381203809762284
+    ],
+    "p_normal_cr0": 0.0053657411750402395,
+    "fdr_bh": 0.11219277002356864,
+    "fdr_by": 0.6751163262115255,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "bridge_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.005108003949763625,
+    "interval95_country_wild_basic": [
+      -0.014479717362175043,
+      0.024836995579622413
+    ],
+    "interval95_normal_cr0": [
+      -0.014874267855330865,
+      0.025090275754858116
+    ],
+    "p_normal_cr0": 0.6163575420978524,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.015246476478469353,
+    "interval95_country_wild_basic": [
+      -0.02602398206635066,
+      -0.00446566054399008
+    ],
+    "interval95_normal_cr0": [
+      -0.026301311096923997,
+      -0.0041916418600147064
+    ],
+    "p_normal_cr0": 0.006869193762863502,
+    "fdr_bh": 0.13165954712155048,
+    "fdr_by": 0.7922570210602873,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "ntrd_c_days",
+    "n": 384,
+    "countries": 130,
+    "residual_df": 208,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0020944481373127715,
+    "interval95_country_wild_basic": [
+      -0.0100924491558749,
+      0.005817952504516796
+    ],
+    "interval95_normal_cr0": [
+      -0.010142930440350324,
+      0.0059540341657247815
+    ],
+    "p_normal_cr0": 0.6100238737071576,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "hd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "span_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "peak_excess_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "hot_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "ntrd_c_days",
+    "n": 18,
+    "countries": 17,
+    "residual_df": null,
+    "estimable": false,
+    "reason": "No residual degrees of freedom",
+    "beta": null,
+    "interval95_country_wild_basic": null,
+    "interval95_normal_cr0": null,
+    "p_normal_cr0": null,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00023580471689419464,
+    "interval95_country_wild_basic": [
+      -1.3252930315523376e-05,
+      0.00047968995076344664
+    ],
+    "interval95_normal_cr0": [
+      -1.4598671116612558e-05,
+      0.0004862081049050018
+    ],
+    "p_normal_cr0": 0.06493623020678624,
+    "fdr_bh": 0.45258584689578285,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00011031508751594394,
+    "interval95_country_wild_basic": [
+      -0.0002598858010372699,
+      0.00048829125273271
+    ],
+    "interval95_normal_cr0": [
+      -0.0002669013850461156,
+      0.00048753156007800343
+    ],
+    "p_normal_cr0": 0.5665216387708722,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00011145600063526911,
+    "interval95_country_wild_basic": [
+      -0.0003017892202580746,
+      0.000520888651452158
+    ],
+    "interval95_normal_cr0": [
+      -0.000309341464724596,
+      0.0005322534659951343
+    ],
+    "p_normal_cr0": 0.6036681687473677,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00012979661488914562,
+    "interval95_country_wild_basic": [
+      -0.0018783423737419689,
+      0.0015991556262641077
+    ],
+    "interval95_normal_cr0": [
+      -0.0018754529575251402,
+      0.001615859727746849
+    ],
+    "p_normal_cr0": 0.8841335464394808,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 41
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0016752156359874143,
+    "interval95_country_wild_basic": [
+      -0.004233969842632502,
+      0.000904757470566121
+    ],
+    "interval95_normal_cr0": [
+      -0.004318736781298809,
+      0.0009683055093239804
+    ],
+    "p_normal_cr0": 0.2142213422158632,
+    "fdr_bh": 0.8508986013955505,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 41
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.002404569177848627,
+    "interval95_country_wild_basic": [
+      -0.0007296995694661061,
+      0.005529969873608381
+    ],
+    "interval95_normal_cr0": [
+      -0.0008213751538329044,
+      0.005630513509530158
+    ],
+    "p_normal_cr0": 0.14403549200436871,
+    "fdr_bh": 0.7055783328753867,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 41
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.008905730146517995,
+    "interval95_country_wild_basic": [
+      -0.001297793507773596,
+      0.018968537223132798
+    ],
+    "interval95_normal_cr0": [
+      -0.0014801400288342592,
+      0.019291600321870248
+    ],
+    "p_normal_cr0": 0.09283283343494148,
+    "fdr_bh": 0.5618829392114879,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 30
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.01302848617285386,
+    "interval95_country_wild_basic": [
+      -0.0006608139008753081,
+      0.02692853572106741
+    ],
+    "interval95_normal_cr0": [
+      -0.0013051153437825275,
+      0.02736208768949025
+    ],
+    "p_normal_cr0": 0.07483020626891745,
+    "fdr_bh": 0.5062043365250298,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 30
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.003240293036028962,
+    "interval95_country_wild_basic": [
+      -0.012746918769013516,
+      0.01876565687334542
+    ],
+    "interval95_normal_cr0": [
+      -0.013161413655379917,
+      0.019641999727437843
+    ],
+    "p_normal_cr0": 0.6986028777396532,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 30
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00011453077057397995,
+    "interval95_country_wild_basic": [
+      -0.00011193452981735492,
+      0.0003367715165448831
+    ],
+    "interval95_normal_cr0": [
+      -0.00011103430193701712,
+      0.00034009584308497705
+    ],
+    "p_normal_cr0": 0.3196523131953285,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00021498647060940503,
+    "interval95_country_wild_basic": [
+      -0.00017731990837797457,
+      0.0006098398710542986
+    ],
+    "interval95_normal_cr0": [
+      -0.00018406855877074415,
+      0.0006140414999895542
+    ],
+    "p_normal_cr0": 0.2910098576979726,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": -9.278485955785466e-05,
+    "interval95_country_wild_basic": [
+      -0.0004928717449799313,
+      0.0002988708645569961
+    ],
+    "interval95_normal_cr0": [
+      -0.0004954713992427905,
+      0.0003099016801270811
+    ],
+    "p_normal_cr0": 0.6515540535243961,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.01045829274738457,
+    "interval95_country_wild_basic": [
+      -0.006564503031159357,
+      0.026950454255346132
+    ],
+    "interval95_normal_cr0": [
+      -0.0063573295251117875,
+      0.027273915019880926
+    ],
+    "p_normal_cr0": 0.22285246326156838,
+    "fdr_bh": 0.8687468906806902,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0701059983749929,
+    "interval95_country_wild_basic": [
+      0.04289231436834955,
+      0.09829169048577616
+    ],
+    "interval95_normal_cr0": [
+      0.04188575207433344,
+      0.09832624467565236
+    ],
+    "p_normal_cr0": 1.1214726081536993e-06,
+    "fdr_bh": 0.00025793869987535085,
+    "fdr_by": 0.001552137694889273,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 93,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.005713921262053539,
+    "interval95_country_wild_basic": [
+      -0.019249736301697313,
+      0.03035688606223189
+    ],
+    "interval95_normal_cr0": [
+      -0.019422314205078613,
+      0.03085015672918569
+    ],
+    "p_normal_cr0": 0.6559329648100041,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0002595462829115299,
+    "interval95_country_wild_basic": [
+      -4.46168534369925e-05,
+      0.0005584580194330686
+    ],
+    "interval95_normal_cr0": [
+      -4.906855541466048e-05,
+      0.0005681611212377204
+    ],
+    "p_normal_cr0": 0.09928346298583725,
+    "fdr_bh": 0.566465238930961,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00011950692669351307,
+    "interval95_country_wild_basic": [
+      -0.00026380380587749517,
+      0.0005084294368412351
+    ],
+    "interval95_normal_cr0": [
+      -0.00026971633360662337,
+      0.0005087301869936495
+    ],
+    "p_normal_cr0": 0.5473163160641489,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00014364809942923255,
+    "interval95_country_wild_basic": [
+      -0.00034859635968034373,
+      0.0006244752589477909
+    ],
+    "interval95_normal_cr0": [
+      -0.0003562911620850651,
+      0.0006435873609435302
+    ],
+    "p_normal_cr0": 0.5733268819484709,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -6.534106100915282e-05,
+    "interval95_country_wild_basic": [
+      -0.000457630805241129,
+      0.0003287437012726538
+    ],
+    "interval95_normal_cr0": [
+      -0.0004648010957064795,
+      0.0003341189736881739
+    ],
+    "p_normal_cr0": 0.7485149811801355,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 8.410685502096279e-05,
+    "interval95_country_wild_basic": [
+      -0.001739345893420515,
+      0.0018866197098299134
+    ],
+    "interval95_normal_cr0": [
+      -0.0018022352367372814,
+      0.0019704489467792068
+    ],
+    "p_normal_cr0": 0.9303619512758883,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.001592400277746004,
+    "interval95_country_wild_basic": [
+      -0.004147721511146212,
+      0.0009637234027491371
+    ],
+    "interval95_normal_cr0": [
+      -0.004223415549366205,
+      0.0010386149938741963
+    ],
+    "p_normal_cr0": 0.23552278646734914,
+    "fdr_bh": 0.9028373481248384,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0026946090863656067,
+    "interval95_country_wild_basic": [
+      -0.0006551161175778041,
+      0.006050026520462437
+    ],
+    "interval95_normal_cr0": [
+      -0.0007310383915263181,
+      0.0061202565642575315
+    ],
+    "p_normal_cr0": 0.12314537324444493,
+    "fdr_bh": 0.6437144510505075,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0005887008324244696,
+    "interval95_country_wild_basic": [
+      -0.0033349013195991713,
+      0.0021104093650777325
+    ],
+    "interval95_normal_cr0": [
+      -0.0034068198670926635,
+      0.002229418202243724
+    ],
+    "p_normal_cr0": 0.6822215361233068,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.010990785628595212,
+    "interval95_country_wild_basic": [
+      -0.0011164549745056162,
+      0.023154846855792673
+    ],
+    "interval95_normal_cr0": [
+      -0.0014587451338002513,
+      0.023440316390990673
+    ],
+    "p_normal_cr0": 0.08357495519504698,
+    "fdr_bh": 0.5292983551517773,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 28
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.013835741037742249,
+    "interval95_country_wild_basic": [
+      -0.0014406928994969495,
+      0.029015938170223347
+    ],
+    "interval95_normal_cr0": [
+      -0.0019159288512398294,
+      0.029587410926724327
+    ],
+    "p_normal_cr0": 0.08514799626354677,
+    "fdr_bh": 0.5292983551517773,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 28
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.006067499633138647,
+    "interval95_country_wild_basic": [
+      -0.009363565151051467,
+      0.021343389623038056
+    ],
+    "interval95_normal_cr0": [
+      -0.00965052357413634,
+      0.021785522840413633
+    ],
+    "p_normal_cr0": 0.4492962366095442,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 28
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0057384478076298,
+    "interval95_country_wild_basic": [
+      -0.020939004582633373,
+      0.009630965696504467
+    ],
+    "interval95_normal_cr0": [
+      -0.020916932032155108,
+      0.009440036416895507
+    ],
+    "p_normal_cr0": 0.45869766589234595,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 28
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00011756256850100357,
+    "interval95_country_wild_basic": [
+      -0.0001307021041570007,
+      0.00036051140538802436
+    ],
+    "interval95_normal_cr0": [
+      -0.00012971002524662662,
+      0.0003648351622486338
+    ],
+    "p_normal_cr0": 0.35141941484507866,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0002161602684517098,
+    "interval95_country_wild_basic": [
+      -0.00019140072317731547,
+      0.0006251080887285023
+    ],
+    "interval95_normal_cr0": [
+      -0.00019495619567070914,
+      0.0006272767325741287
+    ],
+    "p_normal_cr0": 0.30276299866670175,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -8.867392861425908e-05,
+    "interval95_country_wild_basic": [
+      -0.0005022566174897124,
+      0.0003179080832445008
+    ],
+    "interval95_normal_cr0": [
+      -0.0005035715767561076,
+      0.00032622371952758936
+    ],
+    "p_normal_cr0": 0.6752943579017608,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -8.34405334392983e-06,
+    "interval95_country_wild_basic": [
+      -0.0003472249740035317,
+      0.0003340592298922426
+    ],
+    "interval95_normal_cr0": [
+      -0.000350834810535387,
+      0.00033414670384752736
+    ],
+    "p_normal_cr0": 0.9619152284218637,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "hd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00973479016540607,
+    "interval95_country_wild_basic": [
+      -0.009829311037686602,
+      0.028959721061231687
+    ],
+    "interval95_normal_cr0": [
+      -0.009928114193517685,
+      0.029397694524329825
+    ],
+    "p_normal_cr0": 0.3318736113423778,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "span_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0698258854551776,
+    "interval95_country_wild_basic": [
+      0.041175158022029396,
+      0.09931712826053243
+    ],
+    "interval95_normal_cr0": [
+      0.04048988973507181,
+      0.09916188117528338
+    ],
+    "p_normal_cr0": 3.0842265576292978e-06,
+    "fdr_bh": 0.00035468605412736925,
+    "fdr_by": 0.0021343117365818583,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.004732896397066431,
+    "interval95_country_wild_basic": [
+      -0.022501406999988004,
+      0.031666158560045836
+    ],
+    "interval95_normal_cr0": [
+      -0.022638229844996836,
+      0.032104022639129697
+    ],
+    "p_normal_cr0": 0.7346786845236909,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0019912092704760004,
+    "interval95_country_wild_basic": [
+      -0.025680122027969238,
+      0.029768662067799937
+    ],
+    "interval95_normal_cr0": [
+      -0.026082075463431314,
+      0.030064494004383314
+    ],
+    "p_normal_cr0": 0.8894357406042376,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0003442898899560923,
+    "interval95_country_wild_basic": [
+      -0.00025795372160555726,
+      0.0009201968438220956
+    ],
+    "interval95_normal_cr0": [
+      -0.00028598992990243956,
+      0.0009745697098146242
+    ],
+    "p_normal_cr0": 0.28433632761630034,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00032171191843369755,
+    "interval95_country_wild_basic": [
+      -0.00018156108108288732,
+      0.0008268099692636806
+    ],
+    "interval95_normal_cr0": [
+      -0.0001820301411753368,
+      0.000825453978042732
+    ],
+    "p_normal_cr0": 0.21067208147379501,
+    "fdr_bh": 0.8508986013955505,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00020236957166876722,
+    "interval95_country_wild_basic": [
+      -0.0008824975956808233,
+      0.0012688020961913987
+    ],
+    "interval95_normal_cr0": [
+      -0.0008836888753815308,
+      0.0012884280187190652
+    ],
+    "p_normal_cr0": 0.7149562578532405,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00010382221385742458,
+    "interval95_country_wild_basic": [
+      -0.0003342283838415664,
+      0.0005380636108546984
+    ],
+    "interval95_normal_cr0": [
+      -0.00034344874440945974,
+      0.000551093172124309
+    ],
+    "p_normal_cr0": 0.6491421904981509,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.00033168874231744554,
+    "interval95_country_wild_basic": [
+      -0.004063177555663236,
+      0.003377854680603728
+    ],
+    "interval95_normal_cr0": [
+      -0.004442625169368655,
+      0.003779247684733764
+    ],
+    "p_normal_cr0": 0.8743475354710691,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 41
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.000958990763760192,
+    "interval95_country_wild_basic": [
+      -0.004201291579151394,
+      0.0022607356630154145
+    ],
+    "interval95_normal_cr0": [
+      -0.004439606424262061,
+      0.0025216248967416767
+    ],
+    "p_normal_cr0": 0.589186154441938,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 41
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0034436866409643073,
+    "interval95_country_wild_basic": [
+      -0.010592356637932602,
+      0.0037194362418178518
+    ],
+    "interval95_normal_cr0": [
+      -0.010766372358795639,
+      0.003878999076867025
+    ],
+    "p_normal_cr0": 0.35667208693295327,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 41
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.002401480146030373,
+    "interval95_country_wild_basic": [
+      -0.0008326519094671802,
+      0.005648622193837246
+    ],
+    "interval95_normal_cr0": [
+      -0.000927073655718362,
+      0.005730033947779108
+    ],
+    "p_normal_cr0": 0.15734077532394575,
+    "fdr_bh": 0.711554705941886,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 41
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00884887859348043,
+    "interval95_country_wild_basic": [
+      -0.010035689672346795,
+      0.02724858493090286
+    ],
+    "interval95_normal_cr0": [
+      -0.009993666794644493,
+      0.027691423981605352
+    ],
+    "p_normal_cr0": 0.3573414635920975,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 32
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.03073560056023948,
+    "interval95_country_wild_basic": [
+      0.004819768727920011,
+      0.05627829221003898
+    ],
+    "interval95_normal_cr0": [
+      0.004855964984247042,
+      0.05661523613623192
+    ],
+    "p_normal_cr0": 0.019926720172413842,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 32
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.003146813773754614,
+    "interval95_country_wild_basic": [
+      -0.031016895182999177,
+      0.02513265816362574
+    ],
+    "interval95_normal_cr0": [
+      -0.03184876801071585,
+      0.025555140463206623
+    ],
+    "p_normal_cr0": 0.8298563762158911,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 32
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0025104083805105,
+    "interval95_country_wild_basic": [
+      -0.01383368617508051,
+      0.018359009972957228
+    ],
+    "interval95_normal_cr0": [
+      -0.014043274185553623,
+      0.019064090946574623
+    ],
+    "p_normal_cr0": 0.7662882012810937,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 32
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00016244993836918734,
+    "interval95_country_wild_basic": [
+      -0.0003505975320097763,
+      0.0006548338200751618
+    ],
+    "interval95_normal_cr0": [
+      -0.00034638780551613446,
+      0.0006712876822545091
+    ],
+    "p_normal_cr0": 0.5314907798951707,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0002119559985296881,
+    "interval95_country_wild_basic": [
+      -0.00023372301995033018,
+      0.0006731596447341659
+    ],
+    "interval95_normal_cr0": [
+      -0.00024261918192805236,
+      0.0006665311789874285
+    ],
+    "p_normal_cr0": 0.3607811090221642,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0004815356655973635,
+    "interval95_country_wild_basic": [
+      -0.0005656629749679168,
+      0.0015153590956826705
+    ],
+    "interval95_normal_cr0": [
+      -0.0005706394370375592,
+      0.0015337107682322861
+    ],
+    "p_normal_cr0": 0.36972323043351063,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": -9.882916724736336e-05,
+    "interval95_country_wild_basic": [
+      -0.0005135222355305143,
+      0.00030937548016241615
+    ],
+    "interval95_normal_cr0": [
+      -0.0005145115693259299,
+      0.00031685323483120317
+    ],
+    "p_normal_cr0": 0.6412265055530478,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.017057619256535657,
+    "interval95_country_wild_basic": [
+      -0.014119809032043268,
+      0.047455430123051145
+    ],
+    "interval95_normal_cr0": [
+      -0.014311893364034427,
+      0.04842713187710574
+    ],
+    "p_normal_cr0": 0.28653290184351865,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0754928600178008,
+    "interval95_country_wild_basic": [
+      0.03851714332367254,
+      0.11369254257563682
+    ],
+    "interval95_normal_cr0": [
+      0.037744989307332485,
+      0.11324073072826911
+    ],
+    "p_normal_cr0": 8.863044030270776e-05,
+    "fdr_bh": 0.006795000423207595,
+    "fdr_by": 0.04088869292876878,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.08223716227951673,
+    "interval95_country_wild_basic": [
+      0.012271218353952132,
+      0.15201941334895816
+    ],
+    "interval95_normal_cr0": [
+      0.011948924274336511,
+      0.15252540028469697
+    ],
+    "p_normal_cr0": 0.02183904040800882,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 92,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00556846458762748,
+    "interval95_country_wild_basic": [
+      -0.020605375267044663,
+      0.03149681243483396
+    ],
+    "interval95_normal_cr0": [
+      -0.020491269249912805,
+      0.031628198425167765
+    ],
+    "p_normal_cr0": 0.6753574384547909,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00031264415140076665,
+    "interval95_country_wild_basic": [
+      -0.0003579548679604126,
+      0.0009653060569138544
+    ],
+    "interval95_normal_cr0": [
+      -0.0003997179469461009,
+      0.0010250062497476342
+    ],
+    "p_normal_cr0": 0.3896808164754354,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.000280903870791863,
+    "interval95_country_wild_basic": [
+      -0.00024849321103456983,
+      0.0008027352165698965
+    ],
+    "interval95_normal_cr0": [
+      -0.00023727141455612928,
+      0.0007990791561398552
+    ],
+    "p_normal_cr0": 0.2880085573185792,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00021503078228262405,
+    "interval95_country_wild_basic": [
+      -0.000850177978243265,
+      0.00126938636997529
+    ],
+    "interval95_normal_cr0": [
+      -0.0008534257409891135,
+      0.0012834873055543616
+    ],
+    "p_normal_cr0": 0.6932488950742307,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 7.562904028454338e-05,
+    "interval95_country_wild_basic": [
+      -0.00041981050251676557,
+      0.0005643399129307206
+    ],
+    "interval95_normal_cr0": [
+      -0.00043032749403513907,
+      0.0005815855746042259
+    ],
+    "p_normal_cr0": 0.7695449175070282,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit_core",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 5.789837824730535e-05,
+    "interval95_country_wild_basic": [
+      -0.00031210173568389706,
+      0.0004260715356354937
+    ],
+    "interval95_normal_cr0": [
+      -0.00031956161207720804,
+      0.00043535836857181874
+    ],
+    "p_normal_cr0": 0.7636907139014976,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 9
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00019546594756685858,
+    "interval95_country_wild_basic": [
+      -0.003943730408529004,
+      0.004462061497893306
+    ],
+    "interval95_normal_cr0": [
+      -0.004673617561436143,
+      0.005064549456569861
+    ],
+    "p_normal_cr0": 0.9372860549221528,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0002792103357633636,
+    "interval95_country_wild_basic": [
+      -0.002881820479022094,
+      0.0023316582864384857
+    ],
+    "interval95_normal_cr0": [
+      -0.0029034957692522373,
+      0.0023450750977255103
+    ],
+    "p_normal_cr0": 0.8348151725208285,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.003654597078179688,
+    "interval95_country_wild_basic": [
+      -0.01048768386271971,
+      0.0032271477351995133
+    ],
+    "interval95_normal_cr0": [
+      -0.0107257658786647,
+      0.003416571722305324
+    ],
+    "p_normal_cr0": 0.31107470740744525,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.002871122010943183,
+    "interval95_country_wild_basic": [
+      -0.0006120136900157956,
+      0.0063668414110793535
+    ],
+    "interval95_normal_cr0": [
+      -0.0007072837436140214,
+      0.006449527765500387
+    ],
+    "p_normal_cr0": 0.11581827634487642,
+    "fdr_bh": 0.6194931060307343,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "maintenance_core",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0009644711428176068,
+    "interval95_country_wild_basic": [
+      -0.0036681009430247938,
+      0.0016639622478396877
+    ],
+    "interval95_normal_cr0": [
+      -0.00373405088013812,
+      0.0018051085945029063
+    ],
+    "p_normal_cr0": 0.4949021803479473,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 40
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.011204982614291472,
+    "interval95_country_wild_basic": [
+      -0.008805477534884964,
+      0.0312911921187721
+    ],
+    "interval95_normal_cr0": [
+      -0.009154874631961222,
+      0.03156483986054417
+    ],
+    "p_normal_cr0": 0.28073935065223343,
+    "fdr_bh": 0.9947927099048771,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 29
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.033773861303065214,
+    "interval95_country_wild_basic": [
+      0.0015009458211001775,
+      0.06565795418693902
+    ],
+    "interval95_normal_cr0": [
+      0.0015564245942320254,
+      0.0659912980118984
+    ],
+    "p_normal_cr0": 0.039912836251045004,
+    "fdr_bh": 0.37191236685848167,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 29
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.004089472425360717,
+    "interval95_country_wild_basic": [
+      -0.03204068728924985,
+      0.024444994469942943
+    ],
+    "interval95_normal_cr0": [
+      -0.03287117911346677,
+      0.024692234262745333
+    ],
+    "p_normal_cr0": 0.7806415425897484,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 29
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.004609460342857834,
+    "interval95_country_wild_basic": [
+      -0.011460918838445456,
+      0.0204105287668805
+    ],
+    "interval95_normal_cr0": [
+      -0.011614317860762221,
+      0.02083323854647789
+    ],
+    "p_normal_cr0": 0.5776229540608019,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 29
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "peak_loss_core",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0043106784045637316,
+    "interval95_country_wild_basic": [
+      -0.01979039520281435,
+      0.01134158340922475
+    ],
+    "interval95_normal_cr0": [
+      -0.019903746439951145,
+      0.01128238963082368
+    ],
+    "p_normal_cr0": 0.5879364016445994,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 29
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.00010762708122138131,
+    "interval95_country_wild_basic": [
+      -0.00042564008894585136,
+      0.0006237762403079297
+    ],
+    "interval95_normal_cr0": [
+      -0.0004174219274872392,
+      0.0006326760899300018
+    ],
+    "p_normal_cr0": 0.6878585415029093,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0001412604209106709,
+    "interval95_country_wild_basic": [
+      -0.0003380380805071987,
+      0.0006378308960098996
+    ],
+    "interval95_normal_cr0": [
+      -0.00034734484827603484,
+      0.0006298656900973767
+    ],
+    "p_normal_cr0": 0.5709559449672337,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0005034698587143363,
+    "interval95_country_wild_basic": [
+      -0.0005340255197939039,
+      0.001525317439605415
+    ],
+    "interval95_normal_cr0": [
+      -0.0005379453012067468,
+      0.0015448850186354193
+    ],
+    "p_normal_cr0": 0.34336355171937905,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": -0.0001476708248571917,
+    "interval95_country_wild_basic": [
+      -0.0005801224562629231,
+      0.00027641147649315326
+    ],
+    "interval95_normal_cr0": [
+      -0.0005769705807762963,
+      0.0002816289310619129
+    ],
+    "p_normal_cr0": 0.5001906806641838,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "mean_deficit",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.0001003027473728361,
+    "interval95_country_wild_basic": [
+      -0.00024315558690745634,
+      0.00045627529501414237
+    ],
+    "interval95_normal_cr0": [
+      -0.00025124743849929673,
+      0.00045185293324496897
+    ],
+    "p_normal_cr0": 0.5760195875248697,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": 8
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "peak_excess_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.01240201212524147,
+    "interval95_country_wild_basic": [
+      -0.018956620596968277,
+      0.04331990472483109
+    ],
+    "interval95_normal_cr0": [
+      -0.01921151907640221,
+      0.04401554332688515
+    ],
+    "p_normal_cr0": 0.44195543879138277,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "hot_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.06948932695810074,
+    "interval95_country_wild_basic": [
+      0.02588282982871859,
+      0.11423410443028195
+    ],
+    "interval95_normal_cr0": [
+      0.0251253674745329,
+      0.11385328644166859
+    ],
+    "p_normal_cr0": 0.0021407133158931253,
+    "fdr_bh": 0.0703377232364884,
+    "fdr_by": 0.4232549503459586,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "bridge_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.08409983400454658,
+    "interval95_country_wild_basic": [
+      0.014413363022613826,
+      0.15315667577022424
+    ],
+    "interval95_normal_cr0": [
+      0.014077388675828861,
+      0.1541222793332643
+    ],
+    "p_normal_cr0": 0.018572747051329115,
+    "fdr_bh": 0.2370492334578775,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "dewpoint_mean_c",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.001420786387283107,
+    "interval95_country_wild_basic": [
+      -0.026851176996732277,
+      0.028470237190523433
+    ],
+    "interval95_normal_cr0": [
+      -0.026525300362094224,
+      0.02936687313666044
+    ],
+    "p_normal_cr0": 0.9206261004250131,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "outcome": "log1p_dhrd",
+    "term": "ntrd_c_days",
+    "n": 233,
+    "countries": 109,
+    "residual_df": 91,
+    "estimable": true,
+    "reason": null,
+    "beta": 0.008517800973021189,
+    "interval95_country_wild_basic": [
+      -0.01978486235978784,
+      0.03704211497404469
+    ],
+    "interval95_normal_cr0": [
+      -0.020061577089840153,
+      0.03709717903588253
+    ],
+    "p_normal_cr0": 0.5591208232367229,
+    "fdr_bh": 1.0,
+    "fdr_by": 1.0,
+    "predicted_outside_unit_interval": null
+  }
+]

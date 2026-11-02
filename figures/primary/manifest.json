@@ -1,0 +1,91 @@
+{
+  "inputs": {
+    "outputs/2026-11-01_primary_figure_source_linkage.json": "e6bac3211a4ce306c083d7b6f71c100927ec3c6ee2bd3a678b374ec2bef9a5e1",
+    "analysis/2026-10-13_hour_curve/v1/full_ap_outputs/estimates.json": "736b95f11a44f9b33fc0d638a1b60b22444d3643b4f706d800f345f6f4a38a53",
+    "analysis/2026-10-13_hour_curve/v1/full_ap_outputs/manifest.json": "f05cccc32503188f3127392f40fe3dc0bd38aa10d42837fe5c28a4599b1e7be2",
+    "analysis/2026-10-13_hour_wild/v1/full_ap_outputs/bootstrap.json": "77c3ddb27e1a5137db3d0cd02ea4dffbc0ed514bdd3d636e7610539b9a6ba1d8",
+    "analysis/2026-10-13_hour_wild/v1/full_ap_outputs/manifest.json": "ffc99c6df22123e7f662df30b8f36e1e6ab55e08bb11cf82c346afef373bc72f",
+    "analysis/2026-10-13_hour_curve/v1/full_bgp_outputs/estimates.json": "2944290e7331fae21f1dce7fe4220cd0be7a2e908eaebb1bbd4dd121abff9b5d",
+    "analysis/2026-10-13_hour_curve/v1/full_bgp_outputs/manifest.json": "e9f10e576a97ae8fe356a420e3527b922481168d906de3476641c1831e854109",
+    "analysis/2026-10-13_hour_wild/v1/full_bgp_outputs/bootstrap.json": "ee79c902ee3b338358e5aa11035c2fde346543f78f3fa920931cb7730e14d8cf",
+    "analysis/2026-10-13_hour_wild/v1/full_bgp_outputs/manifest.json": "92e1019dc630a6bf379c09310415f3005dd575a04bb759f45045cebc6c2cdbb9",
+    "analysis/2026-10-13_hour_curve/v1/full_merit-nt_outputs/estimates.json": "2d5891dc5daf75ae36ef9c4edd3513ad58abba30cdf4dec2db53d817d578ea5d",
+    "analysis/2026-10-13_hour_curve/v1/full_merit-nt_outputs/manifest.json": "1aa93bd67b6244be45efa180aa5e032e57ed78b87433e1456f79754e07b33dcf",
+    "analysis/2026-10-13_hour_wild/v1/full_merit-nt_outputs/bootstrap.json": "ede5b38448d6707ccd28ac3062f9b2a1ddcc6f50a870454cc7ec54c8280447a1",
+    "analysis/2026-10-13_hour_wild/v1/full_merit-nt_outputs/manifest.json": "7d7cdaae41869446b584694b23d78382cb8a4cf81f8ee31089387aac12802ab2",
+    "analysis/2026-10-13_event_panel/v1/full_outputs/summary.json": "63e38929d4ebf903c1a656879d2737a6df70e939416328230c143e9f14c6632b",
+    "analysis/2026-10-13_event_panel/v1/full_outputs/manifest.json": "edfdb007b0020a42d169fb81372bf7e02eb74f8f8d5b8abb6af82e886dca14cf",
+    "analysis/2026-10-15_recovery_cox/v1/full_outputs/results.json": "1288120bc9293c7fbae200860770e9dcc6278f7f13100c78f8051f0fdc610738",
+    "analysis/2026-10-15_recovery_cox/v1/full_outputs/manifest.json": "319f9518c7743bac3cc9a0e5f2fcb629c6f8afccf384234621b5483fad91327d",
+    "scripts/render_primary_figures_20261101_v2.py": "8b59ffaadf40f214414ddc257ec9488784fb60e6b789ab9f02f7398525d852c0",
+    "docs/superpowers/specs/2026-11-01-primary-figure-integration.md": "948d05943238053d4165cfc699ed6862bc7c62bfed40fa76a99598a3a4f3f3a1"
+  },
+  "source_data_sha256": "989009434a8c4c2447e1ac56e103441defbf6f4f7f99b505a91f422180287d14",
+  "panel_geometry": {
+    "main_event_curves": {
+      "width_mm": 180.0,
+      "height_mm": 100.0,
+      "font_pt": 9.5
+    },
+    "main_technical_states": {
+      "width_mm": 180.0,
+      "height_mm": 100.0,
+      "font_pt": 9.5
+    },
+    "main_conditional_recovery": {
+      "width_mm": 180.0,
+      "height_mm": 110.0,
+      "font_pt": 9.5
+    }
+  },
+  "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+  "dpi": 300,
+  "native_visual_review": false,
+  "whole_study_accepted": false,
+  "outputs": {
+    "main_conditional_recovery.svg": {
+      "bytes": 16986,
+      "sha256": "56f242013adc253f74d3cd1f53729f910277bd50d9b90767b1da3948222c0f88"
+    },
+    "captions.json": {
+      "bytes": 2094,
+      "sha256": "84e93fc716f6e221b404b21a392f20caef5dc271d791aafd6576693e4c9d8e04"
+    },
+    "main_conditional_recovery.png": {
+      "bytes": 106910,
+      "sha256": "bc8b10a5b0d5ef4fc74d2c077e7ea16e7a78a83c29369eae55d7eb04d56a1edd"
+    },
+    "main_conditional_recovery.pdf": {
+      "bytes": 32183,
+      "sha256": "f15417318999344156c636fb76c1283079620ecb19beee02e5e46ea395fb01e8"
+    },
+    "source_data.json": {
+      "bytes": 19405,
+      "sha256": "989009434a8c4c2447e1ac56e103441defbf6f4f7f99b505a91f422180287d14"
+    },
+    "main_technical_states.png": {
+      "bytes": 71673,
+      "sha256": "1b7382f57e4ddf5bffd70e9e65fd616d3bb65d3a5e31eceb6e5aef9b87761302"
+    },
+    "main_technical_states.pdf": {
+      "bytes": 23346,
+      "sha256": "a50ed2db995c5f26dc424513458de8ef4cf7e1c10e41ff860f2b794fb675632a"
+    },
+    "main_event_curves.pdf": {
+      "bytes": 33635,
+      "sha256": "a1603a608b034cb8343ef32dfdd29655dfa91fd14697341948aac5177b342864"
+    },
+    "main_event_curves.png": {
+      "bytes": 109454,
+      "sha256": "7071778befa09792d7e83c5ad5cf9d3a662cdb08741a7ed7ea934583897d553b"
+    },
+    "main_event_curves.svg": {
+      "bytes": 30539,
+      "sha256": "cb9f88fe067448e1dc52f09348da2c207741f2991c693c6103d154a450962cf7"
+    },
+    "main_technical_states.svg": {
+      "bytes": 12955,
+      "sha256": "67b4bf02e686c74c2378f469440a3790e0c246fde837067388f2433fab448f15"
+    }
+  }
+}

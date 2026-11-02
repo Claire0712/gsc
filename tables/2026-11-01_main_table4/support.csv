@@ -1,0 +1,19 @@
+signal,modifier,available,supported,groups,reason,bh_range
+BGP,pre_connection_dispersion,384,True,"[{""events"": 173, ""countries"": 79}, {""events"": 125, ""countries"": 55}]",,"[0.7908488801198051, 1.0]"
+BGP,electricity_access_share,383,False,,Modifier split has fewer than two groups,
+BGP,gdp_per_capita_ppp_constant,364,True,"[{""events"": 151, ""countries"": 59}, {""events"": 144, ""countries"": 44}]",,"[0.7908488801198051, 1.0]"
+BGP,urban_population_share,384,True,"[{""events"": 185, ""countries"": 69}, {""events"": 140, ""countries"": 45}]",,"[0.6966806349516242, 0.7908488801198051]"
+BGP,internet_share,371,True,"[{""events"": 158, ""countries"": 64}, {""events"": 158, ""countries"": 48}]",,"[0.7908488801198051, 1.0]"
+BGP,first_warm_season_event,381,True,"[{""events"": 154, ""countries"": 83}, {""events"": 216, ""countries"": 124}]",,"[0.7908488801198051, 1.0]"
+Telescope,pre_connection_dispersion,18,False,"[{""events"": 9, ""countries"": 8}, {""events"": 3, ""countries"": 3}]",Below10 events or5 countries in a support group,
+Telescope,electricity_access_share,18,False,,Modifier split has fewer than two groups,
+Telescope,gdp_per_capita_ppp_constant,18,False,"[{""events"": 1, ""countries"": 1}, {""events"": 0, ""countries"": 0}]",Below10 events or5 countries in a support group,
+Telescope,urban_population_share,18,False,"[{""events"": 3, ""countries"": 3}, {""events"": 0, ""countries"": 0}]",Below10 events or5 countries in a support group,
+Telescope,internet_share,18,False,"[{""events"": 3, ""countries"": 3}, {""events"": 0, ""countries"": 0}]",Below10 events or5 countries in a support group,
+Telescope,first_warm_season_event,18,False,"[{""events"": 2, ""countries"": 2}, {""events"": 2, ""countries"": 2}]",Below10 events or5 countries in a support group,
+AP,pre_connection_dispersion,233,True,"[{""events"": 72, ""countries"": 40}, {""events"": 98, ""countries"": 54}]",,"[0.2688304799118086, 1.0]"
+AP,electricity_access_share,233,False,,Modifier split has fewer than two groups,
+AP,gdp_per_capita_ppp_constant,221,True,"[{""events"": 89, ""countries"": 55}, {""events"": 90, ""countries"": 29}]",,"[0.7908488801198051, 1.0]"
+AP,urban_population_share,233,True,"[{""events"": 115, ""countries"": 60}, {""events"": 83, ""countries"": 36}]",,"[0.2688304799118086, 1.0]"
+AP,internet_share,224,True,"[{""events"": 87, ""countries"": 51}, {""events"": 95, ""countries"": 34}]",,"[0.5835105643527765, 0.6041017102513546]"
+AP,first_warm_season_event,233,True,"[{""events"": 87, ""countries"": 62}, {""events"": 128, ""countries"": 85}]",,"[0.6966806349516242, 1.0]"

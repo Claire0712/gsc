@@ -1,0 +1,181 @@
+{
+  "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+  "sha256": "1295e03d51dd74f588713a5d8ac770cbab3cee1f45cccb6c5af12d003ce9c622",
+  "rows": [
+    {
+      "omitted_reference_year": 2018,
+      "signal": "ping-slash24",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -0.0023563791573191404,
+      "country_wild_basic95": [
+        -0.004450038424913262,
+        -0.00023436397849309386
+      ],
+      "groups": 202,
+      "countries": 106,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2018,
+      "signal": "bgp",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -0.00022176941232704162,
+      "country_wild_basic95": [
+        -0.0007803290579989203,
+        0.0003258365075311731
+      ],
+      "groups": 373,
+      "countries": 130,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2018,
+      "signal": "merit-nt",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -0.030384521558440777,
+      "country_wild_basic95": [
+        -0.11090103263676679,
+        0.050072213766719414
+      ],
+      "groups": 25,
+      "countries": 22,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2019,
+      "signal": "ping-slash24",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -0.0005079893204909495,
+      "country_wild_basic95": [
+        -0.0024438860763498845,
+        0.0014085997949170978
+      ],
+      "groups": 198,
+      "countries": 100,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2019,
+      "signal": "bgp",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -3.1108444699778935e-05,
+      "country_wild_basic95": [
+        -0.0004551395472484005,
+        0.0004062997810246654
+      ],
+      "groups": 341,
+      "countries": 130,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2019,
+      "signal": "merit-nt",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -0.012430108613023223,
+      "country_wild_basic95": [
+        -0.09996762776704682,
+        0.07510741054100037
+      ],
+      "groups": 17,
+      "countries": 16,
+      "draws": 65536
+    },
+    {
+      "omitted_reference_year": 2020,
+      "signal": "ping-slash24",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": 0.0006673030096789757,
+      "country_wild_basic95": [
+        -0.001020951869797708,
+        0.002362811499825466
+      ],
+      "groups": 223,
+      "countries": 108,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2020,
+      "signal": "bgp",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": 0.0003433674349434901,
+      "country_wild_basic95": [
+        -0.00015831023039182372,
+        0.0008446722467694146
+      ],
+      "groups": 391,
+      "countries": 135,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2020,
+      "signal": "merit-nt",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -0.01589511130266252,
+      "country_wild_basic95": [
+        -0.07940350698603497,
+        0.04664636230169905
+      ],
+      "groups": 22,
+      "countries": 21,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2021,
+      "signal": "ping-slash24",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": -0.0012336654716817318,
+      "country_wild_basic95": [
+        -0.002697958958232837,
+        0.00022627214824535698
+      ],
+      "groups": 197,
+      "countries": 102,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2021,
+      "signal": "bgp",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": 0.0007684946271636812,
+      "country_wild_basic95": [
+        -0.00018694776824660275,
+        0.0017252572654515889
+      ],
+      "groups": 321,
+      "countries": 127,
+      "draws": 9999
+    },
+    {
+      "omitted_reference_year": 2021,
+      "signal": "merit-nt",
+      "outcome": "signed",
+      "term": "heat_day_0",
+      "beta": 0.04096299958485948,
+      "country_wild_basic95": [
+        -0.04290667637560043,
+        0.12582808743079668
+      ],
+      "groups": 21,
+      "countries": 17,
+      "draws": 9999
+    }
+  ],
+  "independent_panel_x_limits": true,
+  "figure_role": "Supplementary reference sensitivity",
+  "outputs": {
+    "loyo_dayzero.pdf": "231b7543873289fe11adcde4bac0964e9cbf1197cd853bebbc321b956d6acd0b",
+    "loyo_dayzero.png": "0d3ac8b4b3d862b2687b7283655a430f1da0aca7f7cf09d723d8996395676232",
+    "loyo_dayzero.svg": "efea2af8f5d595be2c3d2e692bd9d68b1cddbb44a32c82da5e86a817e081aa18"
+  }
+}

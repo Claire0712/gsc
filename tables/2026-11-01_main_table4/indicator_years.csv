@@ -1,0 +1,13 @@
+signal,modifier,matched_records,available,missing,source_years,lags
+AP,electricity_access_share,233,233,0,"[2021, 2022, 2023, 2024]","{""1"": 233}"
+AP,gdp_per_capita_ppp_constant,233,221,12,"[2021, 2022, 2023, 2024]","{""1"": 220, ""2"": 1}"
+AP,urban_population_share,233,233,0,"[2021, 2022, 2023, 2024]","{""1"": 233}"
+AP,internet_share,233,224,9,"[2019, 2020, 2021, 2022, 2023, 2024]","{""1"": 220, ""3"": 2, ""2"": 2}"
+BGP,electricity_access_share,384,383,1,"[2021, 2022, 2023, 2024]","{""1"": 383}"
+BGP,gdp_per_capita_ppp_constant,384,364,20,"[2021, 2022, 2023, 2024]","{""1"": 362, ""2"": 2}"
+BGP,urban_population_share,384,384,0,"[2021, 2022, 2023, 2024]","{""1"": 384}"
+BGP,internet_share,384,371,13,"[2019, 2020, 2021, 2022, 2023, 2024]","{""1"": 364, ""3"": 5, ""2"": 2}"
+Telescope,electricity_access_share,18,18,0,"[2021, 2022]","{""1"": 18}"
+Telescope,gdp_per_capita_ppp_constant,18,18,0,"[2021, 2022]","{""1"": 18}"
+Telescope,urban_population_share,18,18,0,"[2021, 2022]","{""1"": 18}"
+Telescope,internet_share,18,18,0,"[2021, 2022]","{""1"": 18}"

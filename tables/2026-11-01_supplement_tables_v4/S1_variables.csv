@@ -1,0 +1,23 @@
+variable,unit,source,definition
+Tmax,°C,ERA5 t2m and fixed population,UTC daily pixel maximum before country aggregation; not maximum of country hourly averages.
+Tmin,°C,ERA5 t2m and fixed population,UTC daily pixel minimum; not exact civil-night temperature and never changes the Tmax event end.
+Dewpoint,°C,ERA5 d2m,Hourly-derived daily country mean; not an observed equipment heat index.
+Q90,°C,2018–2021 Tmax/Tmin,"Circular 365-day ±15-day window, linear quantile; at least 112 observations/all four years. Feb 29 averages adjacent thresholds."
+Warm season,start month,2018–2021 Tmax,Hottest consecutive three months by day-weighted mean; earliest start breaks ties; LOYO stability reported.
+Heat load HD,°C-days,Tmax excess over Q90,Sum of positive Tmax excess within the fixed analysis event; bridge days retain zero excess.
+Hot days and span,days,Tmax-only catalogue,Hot days count exceedances; span includes bridges. Analysis processes merge until seven complete cool days separate them.
+NTRD,°C-days,Tmin excess over its Q90,Positive Tmin excess over the same fixed Tmax event; secondary load only.
+Connection reference,signal units,IODA ten-minute grid,"Median of eligible same-weekday/time observations ±7/14/21/28 days; at least 4 eligible references with both temporal sides; valid zeros count, but the final median must be positive. Retrospective."
+Signed deviation,ratio,C / reference − 1,Keeps positive and negative fluctuations; not percentage of residents disconnected.
+Truncated deficit,ratio,"max(0,1 − C/reference)",Nonnegative shortfall; ordinary fluctuations can produce positive deficits.
+Core maintenance,fraction,IODA/reference,Core slots with ratio at least 0.95 divided by all required core slots; not an SLA.
+Core and full peak loss,ratio,IODA/reference,"Maximum truncated deficit within core or core plus 72 hours, separately labelled."
+DHRD,deficit-hours,IODA/reference,Deficit sum times 1/6 hour over the entire fixed core plus 72 hours; incomplete windows remain missing.
+Unit-time deficit,ratio,DHRD / required hours,Mean full-window truncated deficit; separates accumulation length from average deficit.
+Disruption duration,hours,IODA/reference,"Slots below 0.95 times 1/6 hour, separately for core, post-event and full window."
+Stable recovery,hours after Tmax end,Core-conditioned IODA/reference,"Completion of 24 consecutive ten-minute slots at or above 0.95; 72-hour, administrative and missingness censoring distinct."
+Pre-event stability,MAD / median,Raw pre-event IODA,"Dimensionless connection dispersion, not physical backup power or adaptation capacity."
+Capability modifiers,source units / fractions,World Bank,Newest valid prior year within 3 years; publication-time availability unknown. GDP retains constant-PPP archive units.
+DLEP,population-weighted deficit proxy,AP DHRD × fixed 2025 population × Internet fraction,Current calendar year preferred then recent prior 3 years; separate from strictly lagged capability modifiers; not actual disconnected people/person-hours.
+Precipitation adjustment,mm per UTC day,ERA5-Land accumulated precipitation,"Audited daily labels and fixed-population support; only a supported daily subset, not certified adjustment in all primary models."
+Wind,m s⁻¹,Existing 2024 u/v country means,"Magnitude of mean components, not gust or mean scalar speed; four retained months and paired subset only."

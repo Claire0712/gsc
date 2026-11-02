@@ -1,0 +1,102 @@
+{
+  "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json": {
+    "sha256": "87575c2921ca323593b724dc45a03368fb6f26599fc436bf76da3d2f530ea7bb",
+    "bytes": 424100
+  },
+  "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json": {
+    "sha256": "6c4f923ce06f63582d1834f55db7011f136ce9454768c6097f68fe366aed3b4f",
+    "bytes": 275774
+  },
+  "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json": {
+    "sha256": "87e0b477b5635eccd42c8c90988862ff2ae5306bceb23fd33d4539dc7659597c",
+    "bytes": 116182
+  },
+  "deliverables/2026-10-27_SYNC_CURVES.json": {
+    "sha256": "38d18a4d19071c18f33fbf0c056efcd7c060029a078d1f8f4300ba5c529fd173",
+    "bytes": 74219
+  },
+  "deliverables/2026-10-28_LOYO_CURVES.json": {
+    "sha256": "1295e03d51dd74f588713a5d8ac770cbab3cee1f45cccb6c5af12d003ce9c622",
+    "bytes": 228756
+  },
+  "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json": {
+    "sha256": "23734043947cdfe5f249fe4fd952e820b17486bc529a5fa8ba798c0c44c6a7ba",
+    "bytes": 112368
+  },
+  "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json": {
+    "sha256": "e907f3e42300dd60b1e9bed7df8aa12ff18e5945c3ca64086fc5c37560c0f5b4",
+    "bytes": 133162
+  },
+  "deliverables/2026-10-30_NONHEAT_PLACEBO_CURVES.json": {
+    "sha256": "dbc9640adbcbb57a04e82b8de63542fb7be0e0d9a262c10143bcd7e5181bb4b8",
+    "bytes": 35313
+  },
+  "deliverables/2026-10-28_ALTERNATIVE_BASELINE_MODELS.json": {
+    "sha256": "0b2f57c9b4b4f11e472073034f41c40ace8f9cfecfb66b307e262275007eb11b",
+    "bytes": 941981
+  },
+  "deliverables/2026-10-28_LOYO_MODELS.json": {
+    "sha256": "395645c2601b4688bf69e31c17b03f390748ea26e5a4576ae25070cd26f0b9bd",
+    "bytes": 405703
+  },
+  "deliverables/2026-10-26_RECOVERY_DEFINITION_MODELS.json": {
+    "sha256": "a99532b724813a51c3ef34e6f06191778ef63e7cae7532d32885b6c30e0bb406",
+    "bytes": 48202
+  },
+  "deliverables/2026-10-28_COMMON_SAMPLE_MODELS.json": {
+    "sha256": "83f2c29b43ed5cc4b48acc8ae789c3cac6e3b49b364974641ddfec58b5d8f9f1",
+    "bytes": 25743
+  },
+  "deliverables/2026-10-25_REGION_DELETION_ALL_SPECIFICATIONS.json": {
+    "sha256": "5a07da2b072e20f5af7bd84c3d394563c6b7e3d26e6e63fd98db5e6656bc1606",
+    "bytes": 100006
+  },
+  "deliverables/2026-10-24/COUNTRY_DELETION_ALL_SPECIFICATIONS_2026-10-24.json": {
+    "sha256": "776ef7bf4c6a025150b71ccad771fcf71ff18296fe116ca2d922159355efb806",
+    "bytes": 101700
+  },
+  "deliverables/2026-11-01_COUNTRY_SOLAR_DEFINITION_COMPARISON.json": {
+    "sha256": "bc6b99b681182fc3a50ec65ccec71bdab3c303f026d8253bab5cc903a59082cc",
+    "bytes": 654
+  },
+  "deliverables/2026-11-01_PIXEL_SPATIAL_COMPARISON.json": {
+    "sha256": "c8a03bf45c5ab62f4366870351ffb30805db0a78861b1a925d69006272e7f252",
+    "bytes": 2602
+  },
+  "deliverables/2026-11-01_SEVEN_YEAR_WEATHER_COMPARISON.json": {
+    "sha256": "f62741b207c6940a6034970d61c4649163a3aefeb55e6aed767f9f913a9ae9f6",
+    "bytes": 230744
+  },
+  "deliverables/2026-10-31_ADM1_NATIVE_SUPPORT.json": {
+    "sha256": "42a18d362d155153bab2336a00469ef458b469e0a1760c4e8e5980ea04a4940e",
+    "bytes": 1051894
+  },
+  "deliverables/2026-11-01_GEOGRAPHIC_COMPARISON.json": {
+    "sha256": "803412f0ee4f01fe0da9bfb85d7baee03bddfc9dd9663644c8c0984fcd5c668c",
+    "bytes": 98954
+  },
+  "analysis/2026-10-29_temperature_product_agreement/v1/summary.json": {
+    "sha256": "6f1d86215ba0eeb634b9ab3d5c715914a8fae0b8af99323c456b859eebc41c9f",
+    "bytes": 1660
+  },
+  "analysis/2026-10-19_wind_curve/v1/full_outputs/summary.json": {
+    "sha256": "97092a1c053c9003e67cf1cf31faa91a566624bd58f8ac8f4f1861c6ed453a35",
+    "bytes": 994
+  },
+  "deliverables/2026-11-01_main_table2/all_230_slopes.json": {
+    "sha256": "f1b2de81a1f3193c4a0bacd02d2b0144f08d9a09543e68c36c0c1ca3f01ce79c",
+    "bytes": 128644
+  },
+  "deliverables/2026-11-01_main_table4/all_54_interactions.csv": {
+    "sha256": "597d10a8eb354a2f12922afc3ac5413d053dd3a40c444c5ee5665dd8f68f0af0",
+    "bytes": 9332
+  },
+  "analysis/2026-10-12_resilience_metrics/v1/full_outputs/event_metrics.json": {
+    "sha256": "e7ca4ff855fab45daf07b510c40effc4f6cf20082f31aa8c734f96b9ed410585",
+    "bytes": 7712694
+  },
+  "outputs/2026-11-01_seven_year_metadata/analysis_events.csv": {
+    "sha256": "2052c62a916a7c974235c880451a488a8e63bd9883b268f180b5d194f3855715",
+    "bytes": 1357105
+  }
+}

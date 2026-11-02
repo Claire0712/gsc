@@ -1,0 +1,9 @@
+{
+  "status": "verified",
+  "scientific_sources_bound": 19,
+  "results_sha256": "be7a8747dc7e538bc25f590a4bea0729e8dacab727080965e2fc80a214217c37",
+  "science_receipt": "outputs/2026-11-01_M3_isolated_server_reproduction.json",
+  "base_v5_status_patch_explicit": true,
+  "final_v6_has_all_required_status_files": true,
+  "all_consumed_code_data_and_spec_bytes_unchanged": true
+}

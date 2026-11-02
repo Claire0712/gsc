@@ -1,0 +1,330 @@
+{
+  "created_utc": "2026-11-01T11:53:58.854419+00:00",
+  "scope": "Existing proposal and frozen remaining work; no added question/data acquisition",
+  "items": [
+    {
+      "proposal": "7–8;13",
+      "work": "Retained sources, exact mappings, native coverage and threshold/season support",
+      "status": "completed",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_ANCILLARY_SOURCE_PROVENANCE.json",
+          "sha256": "37eacd7b44a41ae92c22248cdb7578bc923656617e3a010bb26a7b19dddef397"
+        },
+        {
+          "path": "deliverables/2026-11-01_main_table1/table1_source.json",
+          "sha256": "b264ce51834d8b87574066d909c22c0933bdd7578a2db76a03aa7c6f5607a01f"
+        }
+      ],
+      "interpretation_limit": "Fixed 2025 weights and short reference; exact identifiers only. Annual coverage is not positive-baseline or event-window qualification."
+    },
+    {
+      "proposal": "8.3–8.4;14.1",
+      "work": "Connection references, missing/zero values and uncertain STOP/cyclone/synchronous screening",
+      "status": "completed_with_unresolved_attribution_retained",
+      "evidence": [
+        {
+          "path": "deliverables/2026-10-28_ALTERNATIVE_BASELINE_MODELS.json",
+          "sha256": "0b2f57c9b4b4f11e472073034f41c40ace8f9cfecfb66b307e262275007eb11b"
+        },
+        {
+          "path": "deliverables/2026-10-27_SYNC_CURVES.json",
+          "sha256": "38d18a4d19071c18f33fbf0c056efcd7c060029a078d1f8f4300ba5c529fd173"
+        },
+        {
+          "path": "deliverables/2026-11-01_supplement_tables_v3/supplement_source.json",
+          "sha256": "0606626ee23b0dcc6fa4f0243fd5bf1276def082b1666bc8c3e6cd8a2d5fd76f"
+        }
+      ],
+      "interpretation_limit": "Candidates are not confirmed faults. Unknown shutdown ends remain unknown; hypothetical masks are sensitivities. Historical final_sample_review_not_completed flags are preserved, not rewritten as fault approvals."
+    },
+    {
+      "proposal": "9.2;14.1",
+      "work": "Matched curves, common-event/control support, lead and covariance diagnostics",
+      "status": "completed_with_support_limits",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_primary_figures_v2/source_data.json",
+          "sha256": "989009434a8c4c2447e1ac56e103441defbf6f4f7f99b505a91f422180287d14"
+        },
+        {
+          "path": "deliverables/2026-10-28_COMMON_SAMPLE_MODELS.json",
+          "sha256": "83f2c29b43ed5cc4b48acc8ae789c3cac6e3b49b364974641ddfec58b5d8f9f1"
+        }
+      ],
+      "interpretation_limit": "Primary signed day-zero intervals include zero; this is not equivalence or causal identification. Common matched dose sample lacks residual df. Shared-date/non-PSD diagnostics remain disclosed."
+    },
+    {
+      "proposal": "9.3;13",
+      "work": "A/B, M1/M2 five-outcome dose projections and inference",
+      "status": "completed",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_main_table2/all_230_slopes.json",
+          "sha256": "f1b2de81a1f3193c4a0bacd02d2b0144f08d9a09543e68c36c0c1ca3f01ce79c"
+        }
+      ],
+      "interpretation_limit": "Fractional projections sometimes cross bounds; original coefficients are retained as linear conditional differences, not probabilities. Original 230-case adjustment is retrospective."
+    },
+    {
+      "proposal": "9.3",
+      "work": "Limited M3 HD×NTRD and separate HD×dewpoint completion",
+      "status": "completed_post_hoc",
+      "evidence": [
+        {
+          "path": "analysis/2026-11-01_proposal_interactions/v1/full_outputs/manifest.json",
+          "sha256": "d669188fb48e37b4a38d11d9b72896a34c35ff76b038e18ef238d3e976d23a7f"
+        },
+        {
+          "path": "analysis/2026-11-01_proposal_interactions/v1/full_outputs.verify.json",
+          "sha256": "70c27bb714f65a15d654081496d12cdd1e4873562de2053925ed44c73cb1f557"
+        },
+        {
+          "path": "deliverables/2026-11-01_proposal_interactions_v2/source.json",
+          "sha256": "a73851377dce5d9df6b6a29de6da75f30f0cb6daee68083991241e0a46c7443b"
+        }
+      ],
+      "interpretation_limit": "Previously omitted requirement completed after primary results viewed. Thirty within-family tests, twenty estimates, ten unavailable; AP maintenance interaction passes BH/BY but model-boundary/selection/inference limitations remain. No study-wide FDR or mechanism identification."
+    },
+    {
+      "proposal": "6.6;9.4;13",
+      "work": "Full-window DHRD, phased duration, core/full peaks, all states and conditional recovery",
+      "status": "completed_with_sparse_risk_sets",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_main_table3_v2/table3_source.json",
+          "sha256": "5813140676388334ef0f2e40b3eef9faf83f7f91b5493104d4daaf63d742ce5c"
+        },
+        {
+          "path": "deliverables/2026-11-01_proposal_interactions_v2/full_window_peak_loss.csv",
+          "sha256": "f26da1b70c994f7d851cb3ee737031fa9de4eb8efda60712f40e85752dc54527"
+        },
+        {
+          "path": "outputs/2026-11-01_primary_figure_source_linkage.json",
+          "sha256": "e6bac3211a4ce306c083d7b6f71c100927ec3c6ee2bd3a678b374ec2bef9a5e1"
+        }
+      ],
+      "interpretation_limit": "All events and damaged-at-end risk sets have separate denominators. BGP has no recovery endpoints; AP is sparse. PH/independent censoring and causal recovery are not certified."
+    },
+    {
+      "proposal": "9.5;13",
+      "work": "Six predefined social/stability modifiers, source years and DLEP",
+      "status": "completed_with_support_limits",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_main_table4/table4_source.json",
+          "sha256": "6fefba856a9c1967b7caf26795c03a469bc539c44253d7eb7fe8434085c89fe1"
+        }
+      ],
+      "interpretation_limit": "Thirty of fifty-four interaction cases estimated; no BH/BY rejection. Group overlap is marginal. Strictly prior capability years differ from current-or-prior DLEP; DLEP is not disconnected people."
+    },
+    {
+      "proposal": "9.5",
+      "work": "Comparable-load geographic comparisons",
+      "status": "completed_no_qualified_display",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_GEOGRAPHIC_COMPARISON.json",
+          "sha256": "803412f0ee4f01fe0da9bfb85d7baee03bddfc9dd9663644c8c0984fcd5c668c"
+        }
+      ],
+      "interpretation_limit": "All 126 comparisons retained; three mathematical estimates but zero qualified displays after disclosed post-hoc information guard. No global ranking or silently zeroed unsupported effect."
+    },
+    {
+      "proposal": "14.1",
+      "work": "Heat definitions, omitted reference years, alternative baseline/masks, country/region deletion, recovery definitions",
+      "status": "completed",
+      "evidence": [
+        {
+          "path": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+          "sha256": "87575c2921ca323593b724dc45a03368fb6f26599fc436bf76da3d2f530ea7bb"
+        },
+        {
+          "path": "deliverables/2026-10-28_LOYO_MODELS.json",
+          "sha256": "395645c2601b4688bf69e31c17b03f390748ea26e5a4576ae25070cd26f0b9bd"
+        },
+        {
+          "path": "deliverables/2026-10-26_RECOVERY_DEFINITION_MODELS.json",
+          "sha256": "a99532b724813a51c3ef34e6f06191778ef63e7cae7532d32885b6c30e0bb406"
+        },
+        {
+          "path": "deliverables/2026-10-25_REGION_DELETION_ALL_SPECIFICATIONS.json",
+          "sha256": "5a07da2b072e20f5af7bd84c3d394563c6b7e3d26e6e63fd98db5e6656bc1606"
+        },
+        {
+          "path": "deliverables/2026-10-24/COUNTRY_DELETION_ALL_SPECIFICATIONS_2026-10-24.json",
+          "sha256": "776ef7bf4c6a025150b71ccad771fcf71ff18296fe116ca2d922159355efb806"
+        }
+      ],
+      "interpretation_limit": "All directions/unavailable cases retained. Changed samples are not paired causal contrasts; deletion ranges are not confidence intervals; numerical-health rules are post-hoc."
+    },
+    {
+      "proposal": "14.3",
+      "work": "Nonheat pseudo-events and sequence-preserving calendar translations",
+      "status": "completed_supported_diagnostics",
+      "evidence": [
+        {
+          "path": "deliverables/2026-10-30_NONHEAT_PLACEBO_CURVES.json",
+          "sha256": "dbc9640adbcbb57a04e82b8de63542fb7be0e0d9a262c10143bcd7e5181bb4b8"
+        },
+        {
+          "path": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+          "sha256": "e907f3e42300dd60b1e9bed7df8aa12ff18e5945c3ca64086fc5c37560c0f5b4"
+        }
+      ],
+      "interpretation_limit": "Original-control pseudo-anchors and sparse observed-date blocks; not a calibrated random-permutation null. Nonnull placebo slices remain reported."
+    },
+    {
+      "proposal": "9.6;14.2",
+      "work": "Audited population-supported daily precipitation before/after adjustment",
+      "status": "completed_supported_subset",
+      "evidence": [
+        {
+          "path": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+          "sha256": "23734043947cdfe5f249fe4fd952e820b17486bc529a5fa8ba798c0c44c6a7ba"
+        }
+      ],
+      "interpretation_limit": "Supported daily subset only; primary ten-minute/dose/recovery results remain unadjusted. Missing supported population is not moved or filled zero."
+    },
+    {
+      "proposal": "9.6;14.2",
+      "work": "Country mean-solar clock and pixel-local Q90 weather diagnostics",
+      "status": "completed_weather_only",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_COUNTRY_SOLAR_DEFINITION_COMPARISON.json",
+          "sha256": "bc6b99b681182fc3a50ec65ccec71bdab3c303f026d8253bab5cc903a59082cc"
+        },
+        {
+          "path": "deliverables/2026-11-01_PIXEL_SPATIAL_COMPARISON.json",
+          "sha256": "c8a03bf45c5ab62f4366870351ffb30805db0a78861b1a925d69006272e7f252"
+        }
+      ],
+      "interpretation_limit": "Country circular-mean and pixel-specific clocks are distinct. Maps describe local weather pressure, not equipment/fault footprints or solar-day network effects."
+    },
+    {
+      "proposal": "14.2",
+      "work": "Seven-other-year target-omitted reference",
+      "status": "completed_weather_only",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_SEVEN_YEAR_WEATHER_COMPARISON.json",
+          "sha256": "f62741b207c6940a6034970d61c4649163a3aefeb55e6aed767f9f913a9ae9f6"
+        }
+      ],
+      "interpretation_limit": "2022–24 references contain later observations; no alternative network effect, long-normal uncertainty or prospective prediction is certified."
+    },
+    {
+      "proposal": "9.6;16",
+      "work": "Existing ADM1 support assessment",
+      "status": "conditional_branch_closed_as_unsupported",
+      "evidence": [
+        {
+          "path": "deliverables/2026-10-31_ADM1_NATIVE_SUPPORT.json",
+          "sha256": "42a18d362d155153bab2336a00469ef458b469e0a1760c4e8e5980ea04a4940e"
+        }
+      ],
+      "interpretation_limit": "226 regions, no approved geometry links. No ADM1 exposure/effect claim. Proposal makes reliable ADM1 analysis conditional; no guessed mappings."
+    },
+    {
+      "proposal": "9.6;14.2",
+      "work": "Old temperature common-month agreement and four-month wind paired comparison",
+      "status": "completed_limited_existing_support",
+      "evidence": [
+        {
+          "path": "analysis/2026-10-29_temperature_product_agreement/v1/summary.json",
+          "sha256": "6f1d86215ba0eeb634b9ab3d5c715914a8fae0b8af99323c456b859eebc41c9f"
+        },
+        {
+          "path": "analysis/2026-10-19_wind_curve/v1/full_outputs/summary.json",
+          "sha256": "97092a1c053c9003e67cf1cf31faa91a566624bd58f8ac8f4f1861c6ed453a35"
+        },
+        {
+          "path": "deliverables/2026-10-30_SCOPE_RECONCILIATION.txt",
+          "sha256": "53548ee87fdadec06a359c9ad6602bdcd8f02d54f4828ea575b9d1e6bf446011"
+        }
+      ],
+      "interpretation_limit": "Old-product January/February/March/July 2024 only, not a full alternative reference. Wind AP3/BGP4 groups, native reassignment certification incomplete: exploratory comparison only, not verified full-period wind control. No new downloads."
+    },
+    {
+      "proposal": "12;16;23",
+      "work": "CMIP6 independent appendix",
+      "status": "optional_not_in_core_delivery",
+      "evidence": [
+        {
+          "path": "reference/HeatSignal_proposal.md",
+          "sha256": "ae767a1f1ac66516c77aa49b6513be9dc9826edf1a99359089ad27d07e54a96e"
+        }
+      ],
+      "interpretation_limit": "Explicitly conditional in proposal; not required to support historical connectivity claims. No future connectivity-loss forecast or newly certified CMIP6 result is delivered."
+    },
+    {
+      "proposal": "4.2;20",
+      "work": "Focused literature update and source editions",
+      "status": "completed_focused_not_systematic",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_focused_literature_review.json",
+          "sha256": "94a9c4b34086fd28c8249cdcbfbef0a001ca865cf78dfd74991801b56b455495"
+        },
+        {
+          "path": "deliverables/2026-11-01_ANCILLARY_SOURCE_PROVENANCE.json",
+          "sha256": "37eacd7b44a41ae92c22248cdb7578bc923656617e3a010bb26a7b19dddef397"
+        }
+      ],
+      "interpretation_limit": "Primary articles/data sources checked; fifteen references resolve. No first-ever or exhaustive systematic-review claim; preprint remains identified as such."
+    },
+    {
+      "proposal": "11–13;19",
+      "work": "Integrated manuscript, four main tables, S1–S3 and editable five-figure set",
+      "status": "components_verified",
+      "evidence": [
+        {
+          "path": "outputs/2026-11-01_manuscript_v32_full_review.json",
+          "sha256": "1470d52f472c06c57debcdcfad5424a68d0fb80e3dcacb57c7fd2416983c0be0"
+        },
+        {
+          "path": "deliverables/2026-11-01_supplement_tables_v4/visual_review.json",
+          "sha256": "926f2d3e08078a7a7c9223c996dc80baba3459801807f21d0e57d133982314fb"
+        }
+      ],
+      "interpretation_limit": "44 manuscript /19 supplementary pages. Five figures are supplied as PNG/PDF/SVG; statistical and source-support limits remain substantive, not erased by layout acceptance."
+    },
+    {
+      "proposal": "15–16",
+      "work": "Interactive historical replay and explicit fallback",
+      "status": "offline_artifact_verified_public_service_not_certified",
+      "evidence": [
+        {
+          "path": "deliverables/2026-11-01_platform_v4c/index.html",
+          "sha256": "4d1ee287cec6329c93338a9745c0e20da18cf2e7d4f135a9c6ed3f91dc854710"
+        },
+        {
+          "path": "deliverables/2026-11-01_platform_v4c/manifest.json",
+          "sha256": "6cb30c3486b7f0a35bb5a73035b7df295b3f744c9883298ea6b9c4430ec74827"
+        }
+      ],
+      "interpretation_limit": "Nine Node/minimal-DOM tests, not real-browser usability. Local offline HTML fallback is the authorized delivery mode; no verified public URL, future risk probability or operational fault service is claimed."
+    },
+    {
+      "proposal": "20–22",
+      "work": "Reproduction, immutable provenance and deadline disclosure",
+      "status": "verified_current_downstream_archive_and_independent_M3_source_binding",
+      "evidence": [
+        {
+          "path": "outputs/2026-11-01_unified_reproduction_v5_archive_check.json",
+          "sha256": "efaa0ffe3406c5da6831ac327f63b23c94dfd8d333b6676c8aebb1ae70d0f099"
+        }
+      ],
+      "interpretation_limit": "Current source-status metadata included. Raw-global observational pipeline not newly repeated; scientific and browser limitations above remain."
+    }
+  ],
+  "original_deadline_met": false,
+  "scientific_disposition": "Observational, measurement/support limited; revise/no-go for causal heat-failure, global-ranking and predictive-service claims",
+  "final_distribution_verified": true,
+  "whole_study_accepted": true,
+  "acceptance_meaning": "Research-material completeness and reproducible disclosed analysis; NOT acceptance of causal heat-failure, global-ranking, forecast or public-service claims.",
+  "operational_web_service_accepted": false,
+  "browser_verified": false,
+  "delivery_mode": "Authorized offline historical replay fallback"
+}

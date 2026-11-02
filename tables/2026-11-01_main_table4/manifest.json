@@ -1,0 +1,16 @@
+{
+  "status": "source_hashes_and_family_counts_verified_render_pending",
+  "source_sha256": {
+    "analysis/2026-10-19_modifier_models/v2/full_outputs/results.json": "1ffacc81606de75afd7f5b842b00fc2541505842c1576eb238f8aa7bd3b54f13",
+    "analysis/2026-10-19_temporal_modifiers/v1/full_outputs/rows.json": "b900e24eddd1c1807d9f6380e4c85ab7638bf0841f0496905f4c470f10133dd1",
+    "analysis/2026-10-20_dlep/v1/full_outputs/summary.json": "7788e7011b8e0515be6714a07616d01a4c5540a99e6d1360d2b736a6e0359cf4"
+  },
+  "outputs": {
+    "table4_source.json": "6fefba856a9c1967b7caf26795c03a469bc539c44253d7eb7fe8434085c89fe1",
+    "indicator_years.csv": "d1cae31e0666b8b28dcaffa704b316e72837cee846e1406a3505af21db7db120",
+    "all_54_interactions.csv": "597d10a8eb354a2f12922afc3ac5413d053dd3a40c444c5ee5665dd8f68f0af0",
+    "table4.docx": "87feb47e086f39de82066f6319ccabc4c429a467bf0831d32969174255afe7b9",
+    "support.csv": "6fe7f69463f19d31d31b1cb2ab117436546ae1fb6c4c828c1db0a6fa346e5313"
+  },
+  "whole_study_accepted": false
+}

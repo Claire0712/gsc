@@ -1,0 +1,34 @@
+{
+  "status": "verified",
+  "figure_manifest_sha256": "e4d5ab8b771dfe5c42847f4aa6948e5b19b432dd1a38bb2c5409834af9197333",
+  "source_data_identical_before_after_margin_fix": true,
+  "native_visual_review": true,
+  "native_review_transitively_identical_PNGs": [
+    "main_event_curves",
+    "main_conditional_recovery"
+  ],
+  "technical_state_v2_native_review": true,
+  "all_visible_text_within_canvas_assertions_passed": true,
+  "figures": [
+    {
+      "figure": "main_event_curves",
+      "pdf_width_mm": 179.9999222222222,
+      "pdf_images": 0,
+      "editable_svg_text": true
+    },
+    {
+      "figure": "main_technical_states",
+      "pdf_width_mm": 179.9999222222222,
+      "pdf_images": 0,
+      "editable_svg_text": true
+    },
+    {
+      "figure": "main_conditional_recovery",
+      "pdf_width_mm": 179.9999222222222,
+      "pdf_images": 0,
+      "editable_svg_text": true
+    }
+  ],
+  "primary_cox_linkage_receipt_sha256": "e6bac3211a4ce306c083d7b6f71c100927ec3c6ee2bd3a678b374ec2bef9a5e1",
+  "scope": "Primary figure source, numerical linkage, native rendering and export checks; no inference or whole-manuscript acceptance."
+}

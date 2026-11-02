@@ -1,0 +1,608 @@
+[
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M1",
+    "terms": [
+      "hd_c_days",
+      "span_days",
+      "dewpoint_mean_c"
+    ],
+    "omitted": [],
+    "matrix": "bgp_A_M1.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "bgp",
+    "setting": "A",
+    "model": "M2",
+    "terms": [
+      "hd_c_days",
+      "span_days",
+      "dewpoint_mean_c",
+      "ntrd_c_days"
+    ],
+    "omitted": [],
+    "matrix": "bgp_A_M2.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M1",
+    "terms": [
+      "peak_excess_c",
+      "hot_days",
+      "dewpoint_mean_c"
+    ],
+    "omitted": [
+      "bridge_days:identically_zero"
+    ],
+    "matrix": "bgp_B_M1.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "bgp",
+    "setting": "B",
+    "model": "M2",
+    "terms": [
+      "peak_excess_c",
+      "hot_days",
+      "dewpoint_mean_c",
+      "ntrd_c_days"
+    ],
+    "omitted": [
+      "bridge_days:identically_zero"
+    ],
+    "matrix": "bgp_B_M2.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M1",
+    "terms": [
+      "hd_c_days",
+      "span_days",
+      "dewpoint_mean_c"
+    ],
+    "omitted": [],
+    "matrix": "merit-nt_A_M1.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "A",
+    "model": "M2",
+    "terms": [
+      "hd_c_days",
+      "span_days",
+      "dewpoint_mean_c",
+      "ntrd_c_days"
+    ],
+    "omitted": [],
+    "matrix": "merit-nt_A_M2.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M1",
+    "terms": [
+      "peak_excess_c",
+      "hot_days",
+      "dewpoint_mean_c"
+    ],
+    "omitted": [
+      "bridge_days:identically_zero"
+    ],
+    "matrix": "merit-nt_B_M1.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "merit-nt",
+    "setting": "B",
+    "model": "M2",
+    "terms": [
+      "peak_excess_c",
+      "hot_days",
+      "dewpoint_mean_c",
+      "ntrd_c_days"
+    ],
+    "omitted": [
+      "bridge_days:identically_zero"
+    ],
+    "matrix": "merit-nt_B_M2.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M1",
+    "terms": [
+      "hd_c_days",
+      "span_days",
+      "dewpoint_mean_c"
+    ],
+    "omitted": [],
+    "matrix": "ping-slash24_A_M1.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "A",
+    "model": "M2",
+    "terms": [
+      "hd_c_days",
+      "span_days",
+      "dewpoint_mean_c",
+      "ntrd_c_days"
+    ],
+    "omitted": [],
+    "matrix": "ping-slash24_A_M2.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M1",
+    "terms": [
+      "peak_excess_c",
+      "hot_days",
+      "dewpoint_mean_c"
+    ],
+    "omitted": [
+      "bridge_days:identically_zero"
+    ],
+    "matrix": "ping-slash24_B_M1.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  },
+  {
+    "signal": "ping-slash24",
+    "setting": "B",
+    "model": "M2",
+    "terms": [
+      "peak_excess_c",
+      "hot_days",
+      "dewpoint_mean_c",
+      "ntrd_c_days"
+    ],
+    "omitted": [
+      "bridge_days:identically_zero"
+    ],
+    "matrix": "ping-slash24_B_M2.npz",
+    "results": {
+      "mean_deficit_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "maintenance_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "peak_loss_core": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "mean_deficit": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      },
+      "log1p_dhrd": {
+        "n": 14,
+        "nuisance_rank": 14,
+        "countries": 13,
+        "estimable": false,
+        "reason": "No residual degrees of freedom"
+      }
+    }
+  }
+]

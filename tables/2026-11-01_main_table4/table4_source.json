@@ -1,0 +1,5115 @@
+{
+  "support": [
+    {
+      "signal": "BGP",
+      "modifier": "pre_connection_dispersion",
+      "available": 384,
+      "supported": true,
+      "groups": [
+        {
+          "events": 173,
+          "countries": 79
+        },
+        {
+          "events": 125,
+          "countries": 55
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.7908488801198051,
+        1.0
+      ]
+    },
+    {
+      "signal": "BGP",
+      "modifier": "electricity_access_share",
+      "available": 383,
+      "supported": false,
+      "groups": null,
+      "reason": "Modifier split has fewer than two groups",
+      "bh_range": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "available": 364,
+      "supported": true,
+      "groups": [
+        {
+          "events": 151,
+          "countries": 59
+        },
+        {
+          "events": 144,
+          "countries": 44
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.7908488801198051,
+        1.0
+      ]
+    },
+    {
+      "signal": "BGP",
+      "modifier": "urban_population_share",
+      "available": 384,
+      "supported": true,
+      "groups": [
+        {
+          "events": 185,
+          "countries": 69
+        },
+        {
+          "events": 140,
+          "countries": 45
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.6966806349516242,
+        0.7908488801198051
+      ]
+    },
+    {
+      "signal": "BGP",
+      "modifier": "internet_share",
+      "available": 371,
+      "supported": true,
+      "groups": [
+        {
+          "events": 158,
+          "countries": 64
+        },
+        {
+          "events": 158,
+          "countries": 48
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.7908488801198051,
+        1.0
+      ]
+    },
+    {
+      "signal": "BGP",
+      "modifier": "first_warm_season_event",
+      "available": 381,
+      "supported": true,
+      "groups": [
+        {
+          "events": 154,
+          "countries": 83
+        },
+        {
+          "events": 216,
+          "countries": 124
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.7908488801198051,
+        1.0
+      ]
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "pre_connection_dispersion",
+      "available": 18,
+      "supported": false,
+      "groups": [
+        {
+          "events": 9,
+          "countries": 8
+        },
+        {
+          "events": 3,
+          "countries": 3
+        }
+      ],
+      "reason": "Below10 events or5 countries in a support group",
+      "bh_range": null
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "electricity_access_share",
+      "available": 18,
+      "supported": false,
+      "groups": null,
+      "reason": "Modifier split has fewer than two groups",
+      "bh_range": null
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "available": 18,
+      "supported": false,
+      "groups": [
+        {
+          "events": 1,
+          "countries": 1
+        },
+        {
+          "events": 0,
+          "countries": 0
+        }
+      ],
+      "reason": "Below10 events or5 countries in a support group",
+      "bh_range": null
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "urban_population_share",
+      "available": 18,
+      "supported": false,
+      "groups": [
+        {
+          "events": 3,
+          "countries": 3
+        },
+        {
+          "events": 0,
+          "countries": 0
+        }
+      ],
+      "reason": "Below10 events or5 countries in a support group",
+      "bh_range": null
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "internet_share",
+      "available": 18,
+      "supported": false,
+      "groups": [
+        {
+          "events": 3,
+          "countries": 3
+        },
+        {
+          "events": 0,
+          "countries": 0
+        }
+      ],
+      "reason": "Below10 events or5 countries in a support group",
+      "bh_range": null
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "first_warm_season_event",
+      "available": 18,
+      "supported": false,
+      "groups": [
+        {
+          "events": 2,
+          "countries": 2
+        },
+        {
+          "events": 2,
+          "countries": 2
+        }
+      ],
+      "reason": "Below10 events or5 countries in a support group",
+      "bh_range": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "pre_connection_dispersion",
+      "available": 233,
+      "supported": true,
+      "groups": [
+        {
+          "events": 72,
+          "countries": 40
+        },
+        {
+          "events": 98,
+          "countries": 54
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.2688304799118086,
+        1.0
+      ]
+    },
+    {
+      "signal": "AP",
+      "modifier": "electricity_access_share",
+      "available": 233,
+      "supported": false,
+      "groups": null,
+      "reason": "Modifier split has fewer than two groups",
+      "bh_range": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "available": 221,
+      "supported": true,
+      "groups": [
+        {
+          "events": 89,
+          "countries": 55
+        },
+        {
+          "events": 90,
+          "countries": 29
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.7908488801198051,
+        1.0
+      ]
+    },
+    {
+      "signal": "AP",
+      "modifier": "urban_population_share",
+      "available": 233,
+      "supported": true,
+      "groups": [
+        {
+          "events": 115,
+          "countries": 60
+        },
+        {
+          "events": 83,
+          "countries": 36
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.2688304799118086,
+        1.0
+      ]
+    },
+    {
+      "signal": "AP",
+      "modifier": "internet_share",
+      "available": 224,
+      "supported": true,
+      "groups": [
+        {
+          "events": 87,
+          "countries": 51
+        },
+        {
+          "events": 95,
+          "countries": 34
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.5835105643527765,
+        0.6041017102513546
+      ]
+    },
+    {
+      "signal": "AP",
+      "modifier": "first_warm_season_event",
+      "available": 233,
+      "supported": true,
+      "groups": [
+        {
+          "events": 87,
+          "countries": 62
+        },
+        {
+          "events": 128,
+          "countries": 85
+        }
+      ],
+      "reason": null,
+      "bh_range": [
+        0.6966806349516242,
+        1.0
+      ]
+    }
+  ],
+  "all_54_interactions": [
+    {
+      "signal": "BGP",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 298,
+      "countries": 100,
+      "beta": 1.3288851583476821e-05,
+      "interval95_normal_cr0": [
+        -7.396915393326057e-05,
+        0.0001005468571002142
+      ],
+      "p_normal_cr0": 0.7653289586460232,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 0.00022316086113205206,
+      "modifier_scale": 0.00089255906123085,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 298,
+      "countries": 100,
+      "beta": -3.6014294960988066e-05,
+      "interval95_normal_cr0": [
+        -0.0003655844027909474,
+        0.00029355581286897133
+      ],
+      "p_normal_cr0": 0.8304081225299458,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 0.00022316086113205206,
+      "modifier_scale": 0.00089255906123085,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 298,
+      "countries": 100,
+      "beta": -0.0002611606708163654,
+      "interval95_normal_cr0": [
+        -0.0007240259059529094,
+        0.00020170456432017862
+      ],
+      "p_normal_cr0": 0.26878584832656816,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 0.00022316086113205206,
+      "modifier_scale": 0.00089255906123085,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "electricity_access_share",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "BGP",
+      "modifier": "electricity_access_share",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "BGP",
+      "modifier": "electricity_access_share",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "BGP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 295,
+      "countries": 102,
+      "beta": 1.114954533100407e-05,
+      "interval95_normal_cr0": [
+        -9.458916979107527e-05,
+        0.0001168882604530834
+      ],
+      "p_normal_cr0": 0.8362698997405408,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 34035.0600960189,
+      "modifier_scale": 30095.20734082929,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 295,
+      "countries": 102,
+      "beta": 0.0006818960343989127,
+      "interval95_normal_cr0": [
+        -0.00033883424840138875,
+        0.0017026263171992142
+      ],
+      "p_normal_cr0": 0.19041632657744778,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 34035.0600960189,
+      "modifier_scale": 30095.20734082929,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 295,
+      "countries": 102,
+      "beta": -0.0012529894984813698,
+      "interval95_normal_cr0": [
+        -0.0035879334409041038,
+        0.0010819544439413641
+      ],
+      "p_normal_cr0": 0.29290699263696485,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 34035.0600960189,
+      "modifier_scale": 30095.20734082929,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "urban_population_share",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 325,
+      "countries": 113,
+      "beta": 3.547080626020656e-05,
+      "interval95_normal_cr0": [
+        -2.9579932723537223e-05,
+        0.00010052154524395034
+      ],
+      "p_normal_cr0": 0.28519255155906653,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 0.6344559171727727,
+      "modifier_scale": 0.23134572944561965,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "urban_population_share",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 325,
+      "countries": 113,
+      "beta": 0.0005194211287800414,
+      "interval95_normal_cr0": [
+        -0.00015870061373328425,
+        0.001197542871293367
+      ],
+      "p_normal_cr0": 0.13328464425841685,
+      "bh": 0.6966806349516242,
+      "by": 1.0,
+      "modifier_center": 0.6344559171727727,
+      "modifier_scale": 0.23134572944561965,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "urban_population_share",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 325,
+      "countries": 113,
+      "beta": 0.0008300150243707502,
+      "interval95_normal_cr0": [
+        -0.00023846996526871473,
+        0.0018985000140102153
+      ],
+      "p_normal_cr0": 0.12787654447836422,
+      "bh": 0.6966806349516242,
+      "by": 1.0,
+      "modifier_center": 0.6344559171727727,
+      "modifier_scale": 0.23134572944561965,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "internet_share",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 316,
+      "countries": 104,
+      "beta": 4.028552818610444e-05,
+      "interval95_normal_cr0": [
+        -7.627189329116076e-05,
+        0.00015684294966336964
+      ],
+      "p_normal_cr0": 0.4981402966029983,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 0.7348997334768195,
+      "modifier_scale": 0.26581639676319757,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "internet_share",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 316,
+      "countries": 104,
+      "beta": 0.0008029507953798547,
+      "interval95_normal_cr0": [
+        -0.0005131134104946505,
+        0.00211901500125436
+      ],
+      "p_normal_cr0": 0.23177311433089298,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 0.7348997334768195,
+      "modifier_scale": 0.26581639676319757,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "internet_share",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 316,
+      "countries": 104,
+      "beta": -0.0012617975556661705,
+      "interval95_normal_cr0": [
+        -0.0035549988880450214,
+        0.0010314037767126805
+      ],
+      "p_normal_cr0": 0.28083788782841057,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 0.7348997334768195,
+      "modifier_scale": 0.26581639676319757,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "first_warm_season_event",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 370,
+      "countries": 129,
+      "beta": -6.800898322698742e-05,
+      "interval95_normal_cr0": [
+        -0.00018255239509322885,
+        4.653442863925403e-05
+      ],
+      "p_normal_cr0": 0.24454210786370179,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 0.5748031496062992,
+      "modifier_scale": 1.0,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "first_warm_season_event",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 370,
+      "countries": 129,
+      "beta": 0.0001272191732200956,
+      "interval95_normal_cr0": [
+        -0.00019097068080985768,
+        0.0004454090272500489
+      ],
+      "p_normal_cr0": 0.4332537751357378,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 0.5748031496062992,
+      "modifier_scale": 1.0,
+      "reason": null
+    },
+    {
+      "signal": "BGP",
+      "modifier": "first_warm_season_event",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 370,
+      "countries": 129,
+      "beta": 0.0008840588885092249,
+      "interval95_normal_cr0": [
+        -0.0006108630878000407,
+        0.0023789808648184904
+      ],
+      "p_normal_cr0": 0.24642646261408996,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 0.5748031496062992,
+      "modifier_scale": 1.0,
+      "reason": null
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "electricity_access_share",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "electricity_access_share",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "electricity_access_share",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "urban_population_share",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "urban_population_share",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "urban_population_share",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "internet_share",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "internet_share",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "internet_share",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "first_warm_season_event",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "first_warm_season_event",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "first_warm_season_event",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Below10 events or5 countries in a support group"
+    },
+    {
+      "signal": "AP",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 170,
+      "countries": 88,
+      "beta": -0.0019420446561220492,
+      "interval95_normal_cr0": [
+        -0.0035717487385510016,
+        -0.00031234057369309686
+      ],
+      "p_normal_cr0": 0.019512075307584233,
+      "bh": 0.35121735553651623,
+      "by": 1.0,
+      "modifier_center": 0.013191437897017285,
+      "modifier_scale": 0.018352269586550507,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 170,
+      "countries": 88,
+      "beta": 0.004438995342006058,
+      "interval95_normal_cr0": [
+        -0.005763016744817984,
+        0.014641007428830101
+      ],
+      "p_normal_cr0": 0.3937704908623091,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 0.013191437897017285,
+      "modifier_scale": 0.018352269586550507,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "pre_connection_dispersion",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 170,
+      "countries": 88,
+      "beta": -0.10967330601860577,
+      "interval95_normal_cr0": [
+        -0.19032352674614478,
+        -0.029023085291066772
+      ],
+      "p_normal_cr0": 0.0076923366925106176,
+      "bh": 0.2688304799118086,
+      "by": 1.0,
+      "modifier_center": 0.013191437897017285,
+      "modifier_scale": 0.018352269586550507,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "electricity_access_share",
+      "outcome": "mean_deficit_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "AP",
+      "modifier": "electricity_access_share",
+      "outcome": "maintenance_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "AP",
+      "modifier": "electricity_access_share",
+      "outcome": "peak_loss_core",
+      "supported": false,
+      "estimable": false,
+      "n": null,
+      "countries": null,
+      "beta": null,
+      "interval95_normal_cr0": null,
+      "p_normal_cr0": null,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": null,
+      "modifier_scale": null,
+      "reason": "Modifier split has fewer than two groups"
+    },
+    {
+      "signal": "AP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 179,
+      "countries": 83,
+      "beta": 5.419327825229106e-05,
+      "interval95_normal_cr0": [
+        -0.00022037544185824512,
+        0.00032876199836282726
+      ],
+      "p_normal_cr0": 0.698867355353775,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 36469.291784044864,
+      "modifier_scale": 31106.67972600536,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 179,
+      "countries": 83,
+      "beta": -2.8073886479966463e-05,
+      "interval95_normal_cr0": [
+        -0.0013955475871082952,
+        0.0013393998141483622
+      ],
+      "p_normal_cr0": 0.9679037325404173,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 36469.291784044864,
+      "modifier_scale": 31106.67972600536,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 179,
+      "countries": 83,
+      "beta": -0.011002540705520793,
+      "interval95_normal_cr0": [
+        -0.02889634836644836,
+        0.006891266955406775
+      ],
+      "p_normal_cr0": 0.22814839408944843,
+      "bh": 0.7908488801198051,
+      "by": 1.0,
+      "modifier_center": 36469.291784044864,
+      "modifier_scale": 31106.67972600536,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "urban_population_share",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 198,
+      "countries": 96,
+      "beta": 0.00032881360952145545,
+      "interval95_normal_cr0": [
+        7.876304072350132e-05,
+        0.0005788641783194096
+      ],
+      "p_normal_cr0": 0.009956684441178094,
+      "bh": 0.2688304799118086,
+      "by": 1.0,
+      "modifier_center": 0.6314012896129945,
+      "modifier_scale": 0.235468237840694,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "urban_population_share",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 198,
+      "countries": 96,
+      "beta": -0.0011740515590636387,
+      "interval95_normal_cr0": [
+        -0.0027348307541513023,
+        0.000386727636024025
+      ],
+      "p_normal_cr0": 0.14039359245262553,
+      "bh": 0.6966806349516242,
+      "by": 1.0,
+      "modifier_center": 0.6314012896129945,
+      "modifier_scale": 0.235468237840694,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "urban_population_share",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 198,
+      "countries": 96,
+      "beta": 0.004358200771356144,
+      "interval95_normal_cr0": [
+        -0.01046486589426198,
+        0.01918126743697427
+      ],
+      "p_normal_cr0": 0.5644405426076134,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 0.6314012896129945,
+      "modifier_scale": 0.235468237840694,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "internet_share",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 182,
+      "countries": 83,
+      "beta": -0.0006916099823259774,
+      "interval95_normal_cr0": [
+        -0.001362150697551467,
+        -2.1069267100487965e-05
+      ],
+      "p_normal_cr0": 0.04322300476687233,
+      "bh": 0.5835105643527765,
+      "by": 1.0,
+      "modifier_center": 0.7410486316591072,
+      "modifier_scale": 0.26674273116010977,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "internet_share",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 182,
+      "countries": 83,
+      "beta": 0.0028891238798621197,
+      "interval95_normal_cr0": [
+        -0.00016051200675986982,
+        0.005938759766484109
+      ],
+      "p_normal_cr0": 0.06333892129394483,
+      "bh": 0.6041017102513546,
+      "by": 1.0,
+      "modifier_center": 0.7410486316591072,
+      "modifier_scale": 0.26674273116010977,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "internet_share",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 182,
+      "countries": 83,
+      "beta": -0.0448580544567113,
+      "interval95_normal_cr0": [
+        -0.09287946691996567,
+        0.0031633580065430628
+      ],
+      "p_normal_cr0": 0.0671224122501505,
+      "bh": 0.6041017102513546,
+      "by": 1.0,
+      "modifier_center": 0.7410486316591072,
+      "modifier_scale": 0.26674273116010977,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "first_warm_season_event",
+      "outcome": "mean_deficit_core",
+      "supported": true,
+      "estimable": true,
+      "n": 215,
+      "countries": 101,
+      "beta": 1.544149979247009e-05,
+      "interval95_normal_cr0": [
+        -0.00031794423736863464,
+        0.00034882723695357483
+      ],
+      "p_normal_cr0": 0.9276673395670818,
+      "bh": 1.0,
+      "by": 1.0,
+      "modifier_center": 0.6223175965665236,
+      "modifier_scale": 1.0,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "first_warm_season_event",
+      "outcome": "maintenance_core",
+      "supported": true,
+      "estimable": true,
+      "n": 215,
+      "countries": 101,
+      "beta": 0.0012812928906416213,
+      "interval95_normal_cr0": [
+        -0.00023775440590278443,
+        0.002800340187186027
+      ],
+      "p_normal_cr0": 0.09829030998281965,
+      "bh": 0.6966806349516242,
+      "by": 1.0,
+      "modifier_center": 0.6223175965665236,
+      "modifier_scale": 1.0,
+      "reason": null
+    },
+    {
+      "signal": "AP",
+      "modifier": "first_warm_season_event",
+      "outcome": "peak_loss_core",
+      "supported": true,
+      "estimable": true,
+      "n": 215,
+      "countries": 101,
+      "beta": 0.013889524463342077,
+      "interval95_normal_cr0": [
+        -0.004645997614641708,
+        0.03242504654132586
+      ],
+      "p_normal_cr0": 0.14191642563829382,
+      "bh": 0.6966806349516242,
+      "by": 1.0,
+      "modifier_center": 0.6223175965665236,
+      "modifier_scale": 1.0,
+      "reason": null
+    }
+  ],
+  "indicator_years": [
+    {
+      "signal": "AP",
+      "modifier": "electricity_access_share",
+      "matched_records": 233,
+      "available": 233,
+      "missing": 0,
+      "source_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 233
+      }
+    },
+    {
+      "signal": "AP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "matched_records": 233,
+      "available": 221,
+      "missing": 12,
+      "source_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 220,
+        "2": 1
+      }
+    },
+    {
+      "signal": "AP",
+      "modifier": "urban_population_share",
+      "matched_records": 233,
+      "available": 233,
+      "missing": 0,
+      "source_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 233
+      }
+    },
+    {
+      "signal": "AP",
+      "modifier": "internet_share",
+      "matched_records": 233,
+      "available": 224,
+      "missing": 9,
+      "source_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 220,
+        "3": 2,
+        "2": 2
+      }
+    },
+    {
+      "signal": "BGP",
+      "modifier": "electricity_access_share",
+      "matched_records": 384,
+      "available": 383,
+      "missing": 1,
+      "source_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 383
+      }
+    },
+    {
+      "signal": "BGP",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "matched_records": 384,
+      "available": 364,
+      "missing": 20,
+      "source_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 362,
+        "2": 2
+      }
+    },
+    {
+      "signal": "BGP",
+      "modifier": "urban_population_share",
+      "matched_records": 384,
+      "available": 384,
+      "missing": 0,
+      "source_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 384
+      }
+    },
+    {
+      "signal": "BGP",
+      "modifier": "internet_share",
+      "matched_records": 384,
+      "available": 371,
+      "missing": 13,
+      "source_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "lags": {
+        "1": 364,
+        "3": 5,
+        "2": 2
+      }
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "electricity_access_share",
+      "matched_records": 18,
+      "available": 18,
+      "missing": 0,
+      "source_years": [
+        2021,
+        2022
+      ],
+      "lags": {
+        "1": 18
+      }
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "matched_records": 18,
+      "available": 18,
+      "missing": 0,
+      "source_years": [
+        2021,
+        2022
+      ],
+      "lags": {
+        "1": 18
+      }
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "urban_population_share",
+      "matched_records": 18,
+      "available": 18,
+      "missing": 0,
+      "source_years": [
+        2021,
+        2022
+      ],
+      "lags": {
+        "1": 18
+      }
+    },
+    {
+      "signal": "Telescope",
+      "modifier": "internet_share",
+      "matched_records": 18,
+      "available": 18,
+      "missing": 0,
+      "source_years": [
+        2021,
+        2022
+      ],
+      "lags": {
+        "1": 18
+      }
+    }
+  ],
+  "dlep": {
+    "groups": {
+      "all_forward_ap": {
+        "records": 910,
+        "available": 454,
+        "countries": 125,
+        "source_lags": {
+          "0": 376,
+          "1": 72,
+          "2": 3,
+          "3": 3
+        },
+        "exclusion_reasons": {
+          "not_full_observed_clean": 444,
+          "missing_invalid_dhrd": 426,
+          "missing_internet_share": 39
+        },
+        "proxy_quantiles": {
+          "0": 0.0,
+          "0.25": 1003894.0327045695,
+          "0.5": 3284468.569568403,
+          "0.75": 9205486.7689842,
+          "1": 1437464870.4102228
+        }
+      },
+      "full_clean_ap": {
+        "records": 466,
+        "available": 454,
+        "countries": 125,
+        "source_lags": {
+          "0": 376,
+          "1": 72,
+          "2": 3,
+          "3": 3
+        },
+        "exclusion_reasons": {
+          "missing_internet_share": 12
+        },
+        "proxy_quantiles": {
+          "0": 0.0,
+          "0.25": 1003894.0327045695,
+          "0.5": 3284468.569568403,
+          "0.75": 9205486.7689842,
+          "1": 1437464870.4102228
+        }
+      },
+      "matched_integral_ap": {
+        "records": 233,
+        "available": 225,
+        "countries": 104,
+        "source_lags": {
+          "0": 199,
+          "1": 23,
+          "3": 2,
+          "2": 1
+        },
+        "exclusion_reasons": {
+          "missing_internet_share": 8
+        },
+        "proxy_quantiles": {
+          "0": 0.0,
+          "0.25": 936839.5484678089,
+          "0.5": 2741930.746253128,
+          "0.75": 8051834.98847443,
+          "1": 150539693.42652303
+        }
+      }
+    },
+    "elapsed_seconds": 0.1923341155052185,
+    "scope": "AP only. Fixed2025 assigned population mass; current reference year preferred then most recent past within3years, percent/100. Full observed clean technical window required; other rows retained with null proxy. Publication dates unknown. Proxy only: not actual disconnected people/person-hours or welfare loss; no ranking, national/global sum or causal claim."
+  },
+  "original_modifier_objects": [
+    {
+      "signal": "bgp",
+      "modifier": "pre_connection_dispersion",
+      "available": 384,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 298,
+          "nuisance_rank": 142,
+          "countries": 100,
+          "estimable": true,
+          "beta": [
+            1.0956029588151243e-05,
+            4.906052703895327e-05,
+            -0.00014536697897020147,
+            2.0270673161891098e-05,
+            1.3288851583476821e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              2.6914005240930707e-09,
+              -1.3780890356779499e-09,
+              1.47130955932191e-09,
+              -1.7424360495865685e-09,
+              -1.5226525032779701e-10
+            ],
+            [
+              -1.3780890356779499e-09,
+              2.2342549051617718e-09,
+              -1.1182585105511964e-09,
+              4.5168802208196665e-10,
+              -1.2142940907822903e-10
+            ],
+            [
+              1.47130955932191e-09,
+              -1.1182585105511964e-09,
+              4.638663867877658e-09,
+              -1.2829536807072645e-09,
+              2.2541648706043002e-10
+            ],
+            [
+              -1.7424360495865685e-09,
+              4.5168802208196665e-10,
+              -1.2829536807072645e-09,
+              1.8133747222152321e-09,
+              1.2547010350036452e-10
+            ],
+            [
+              -1.5226525032779701e-10,
+              -1.2142940907822903e-10,
+              2.2541648706043002e-10,
+              1.2547010350036452e-10,
+              1.982048977264107e-09
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -9.072437306298954e-05,
+              0.00011263643223929203
+            ],
+            [
+              -4.3582865672630886e-05,
+              0.00014170391975053742
+            ],
+            [
+              -0.00027885569097048173,
+              -1.1878266969921237e-05
+            ],
+            [
+              -6.319191918867912e-05,
+              0.0001037332655124613
+            ],
+            [
+              -7.396915393326057e-05,
+              0.0001005468571002142
+            ]
+          ],
+          "condition": 3.5217577235390207,
+          "rss": 0.0005408585254175173,
+          "residual_df": 151,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.003538936007508472,
+          "predicted_max": 0.01800707225280323,
+          "predicted_outside_unit_interval": 69,
+          "interaction_p_normal": 0.7653289586460232
+        },
+        "maintenance_core": {
+          "n": 298,
+          "nuisance_rank": 142,
+          "countries": 100,
+          "estimable": true,
+          "beta": [
+            -0.00011449363161959704,
+            -0.0006527957457469448,
+            0.00039746124907646664,
+            0.0001606782532339654,
+            -3.6014294960988066e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              1.0426733350003871e-07,
+              -4.8439898542364554e-09,
+              3.5635425554558705e-08,
+              -7.159545700259188e-08,
+              -1.5091290135390305e-08
+            ],
+            [
+              -4.8439898542364554e-09,
+              1.716959240168914e-07,
+              -3.233390949216487e-08,
+              -6.989879866817966e-08,
+              7.206696300570844e-09
+            ],
+            [
+              3.5635425554558705e-08,
+              -3.233390949216487e-08,
+              1.1162582734322726e-07,
+              -3.531495617342703e-08,
+              -1.5252194782403677e-08
+            ],
+            [
+              -7.159545700259188e-08,
+              -6.989879866817966e-08,
+              -3.531495617342703e-08,
+              9.431403242101792e-08,
+              9.147973196352883e-09
+            ],
+            [
+              -1.5091290135390305e-08,
+              7.206696300570844e-09,
+              -1.5252194782403677e-08,
+              9.147973196352883e-09,
+              2.8274793781448063e-08
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0007473748748113824,
+              0.0005183876115721883
+            ],
+            [
+              -0.0014649304770519888,
+              0.00015933898555809897
+            ],
+            [
+              -0.0002573715685685563,
+              0.0010522940667214895
+            ],
+            [
+              -0.00044123824575817135,
+              0.0007625947522261022
+            ],
+            [
+              -0.0003655844027909474,
+              0.00029355581286897133
+            ]
+          ],
+          "condition": 3.5217577235390207,
+          "rss": 0.04741797240920803,
+          "residual_df": 151,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.7120440381452396,
+          "predicted_max": 1.0645164672762462,
+          "predicted_outside_unit_interval": 125,
+          "interaction_p_normal": 0.8304081225299458
+        },
+        "peak_loss_core": {
+          "n": 298,
+          "nuisance_rank": 142,
+          "countries": 100,
+          "estimable": true,
+          "beta": [
+            -0.0010769325452940801,
+            0.001992182895980673,
+            -0.0008029978509961003,
+            0.0020986219088784635,
+            -0.0002611606708163654
+          ],
+          "covariance_country_cr0": [
+            [
+              1.2336652115170792e-06,
+              -9.187536563291469e-07,
+              8.488438911819481e-07,
+              -1.0723938623976837e-06,
+              1.3538677519216305e-07
+            ],
+            [
+              -9.187536563291469e-07,
+              1.4852404284961615e-06,
+              2.4678096928928696e-07,
+              7.948678333274737e-07,
+              -6.861403870730625e-08
+            ],
+            [
+              8.488438911819481e-07,
+              2.4678096928928696e-07,
+              2.1418490487367954e-06,
+              -6.626166502770069e-07,
+              1.8509406041837632e-07
+            ],
+            [
+              -1.0723938623976837e-06,
+              7.948678333274737e-07,
+              -6.626166502770069e-07,
+              1.3822494875199803e-06,
+              -8.482612334947861e-08
+            ],
+            [
+              1.3538677519216305e-07,
+              -6.861403870730625e-08,
+              1.8509406041837632e-07,
+              -8.482612334947861e-08,
+              5.577157946972231e-08
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.003253874002606556,
+              0.001100008912018396
+            ],
+            [
+              -0.0003964338470105718,
+              0.004380799638971917
+            ],
+            [
+              -0.0036714163910396003,
+              0.0020654206890474
+            ],
+            [
+              -0.00020569024146783067,
+              0.004402934059224758
+            ],
+            [
+              -0.0007240259059529094,
+              0.00020170456432017862
+            ]
+          ],
+          "condition": 3.5217577235390207,
+          "rss": 0.1852450712176354,
+          "residual_df": 151,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.07530358182362701,
+          "predicted_max": 0.43679589758235937,
+          "predicted_outside_unit_interval": 82,
+          "interaction_p_normal": 0.26878584832656816
+        }
+      },
+      "support_bounds": [
+        [
+          0.08871651799999825,
+          23.000055008999993
+        ],
+        [
+          23.58533574,
+          46.69083626
+        ],
+        [
+          2.0,
+          14.0
+        ],
+        [
+          165.0,
+          104313.0
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "post_support": [
+        {
+          "events": 173,
+          "countries": 79
+        },
+        {
+          "events": 125,
+          "countries": 55
+        }
+      ],
+      "n": 298,
+      "supported": true,
+      "matrix": "bgp_pre_connection_dispersion.npz",
+      "modifier_center": 0.00022316086113205206,
+      "modifier_scale": 0.00089255906123085,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "bgp",
+      "modifier": "electricity_access_share",
+      "available": 383,
+      "family_size": 54,
+      "results": {},
+      "supported": false,
+      "reason": "Modifier split has fewer than two groups",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "bgp",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "available": 364,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 295,
+          "nuisance_rank": 143,
+          "countries": 102,
+          "estimable": true,
+          "beta": [
+            -4.421217373869737e-05,
+            6.306092219436385e-05,
+            -9.972099704907977e-05,
+            6.0885130178764135e-05,
+            1.114954533100407e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              1.8527367321036928e-09,
+              -7.848646593477236e-10,
+              1.1725971434896872e-09,
+              -5.117065609311589e-10,
+              -1.6235019840954628e-09
+            ],
+            [
+              -7.848646593477236e-10,
+              2.305948750790502e-09,
+              -1.8989447269173514e-10,
+              -8.913293290927141e-10,
+              5.740156699533531e-10
+            ],
+            [
+              1.1725971434896872e-09,
+              -1.8989447269173514e-10,
+              3.998469527993223e-09,
+              -2.227470507438511e-09,
+              -8.765563300216598e-10
+            ],
+            [
+              -5.117065609311589e-10,
+              -8.913293290927141e-10,
+              -2.227470507438511e-09,
+              5.3116706326685875e-09,
+              -6.69021518415665e-10
+            ],
+            [
+              -1.6235019840954628e-09,
+              5.740156699533531e-10,
+              -8.765563300216598e-10,
+              -6.69021518415665e-10,
+              2.9105286292377793e-09
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.00012857574325755866,
+              4.015139578016391e-05
+            ],
+            [
+              -3.105712691840077e-05,
+              0.00015717897130712848
+            ],
+            [
+              -0.00022365628676748986,
+              2.4214292669330308e-05
+            ],
+            [
+              -8.195941471002987e-05,
+              0.00020372967506755816
+            ],
+            [
+              -9.458916979107527e-05,
+              0.0001168882604530834
+            ]
+          ],
+          "condition": 2.723813307170211,
+          "rss": 0.0004462692305705071,
+          "residual_df": 147,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.00431626187186226,
+          "predicted_max": 0.016641627243697905,
+          "predicted_outside_unit_interval": 56,
+          "interaction_p_normal": 0.8362698997405408
+        },
+        "maintenance_core": {
+          "n": 295,
+          "nuisance_rank": 143,
+          "countries": 102,
+          "estimable": true,
+          "beta": [
+            -0.0003416623152839749,
+            -0.0007939054308658152,
+            0.00025972512972968753,
+            -1.5107990642644564e-05,
+            0.0006818960343989127
+          ],
+          "covariance_country_cr0": [
+            [
+              1.916722092243451e-07,
+              -4.606300660869572e-08,
+              1.191043688718257e-08,
+              1.520900181537589e-08,
+              -2.0086394068536484e-07
+            ],
+            [
+              -4.606300660869572e-08,
+              3.7870894772882836e-07,
+              6.202469116578933e-08,
+              -1.676884083753424e-07,
+              -9.791527322415297e-09
+            ],
+            [
+              1.191043688718257e-08,
+              6.202469116578933e-08,
+              1.2354777342439343e-07,
+              -7.823969739827063e-08,
+              4.200352061589393e-09
+            ],
+            [
+              1.520900181537589e-08,
+              -1.676884083753424e-07,
+              -7.823969739827063e-08,
+              1.5323327818331035e-07,
+              -2.5172241399315617e-08
+            ],
+            [
+              -2.0086394068536484e-07,
+              -9.791527322415297e-09,
+              4.200352061589393e-09,
+              -2.5172241399315617e-08,
+              2.7122256383769366e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0011997420894348347,
+              0.0005164174588668848
+            ],
+            [
+              -0.0020000541894062774,
+              0.00041224332767464704
+            ],
+            [
+              -0.0004291897300303959,
+              0.000948639989489771
+            ],
+            [
+              -0.0007823363322080185,
+              0.0007521203509227295
+            ],
+            [
+              -0.00033883424840138875,
+              0.0017026263171992142
+            ]
+          ],
+          "condition": 2.723813307170211,
+          "rss": 0.05476178225442985,
+          "residual_df": 147,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.7304070100971138,
+          "predicted_max": 1.0745513717625927,
+          "predicted_outside_unit_interval": 128,
+          "interaction_p_normal": 0.19041632657744778
+        },
+        "peak_loss_core": {
+          "n": 295,
+          "nuisance_rank": 143,
+          "countries": 102,
+          "estimable": true,
+          "beta": [
+            -0.00046264129410312653,
+            0.0007819355853367491,
+            -0.0012875805720813764,
+            0.00412809410161999,
+            -0.0012529894984813698
+          ],
+          "covariance_country_cr0": [
+            [
+              1.3861195175113431e-06,
+              -1.0058054808917785e-06,
+              9.507669558186344e-07,
+              -5.381082217464182e-07,
+              -9.349284998409403e-07
+            ],
+            [
+              -1.0058054808917785e-06,
+              1.261525803158474e-06,
+              -1.229256129180767e-07,
+              1.1249013299133695e-07,
+              5.752523671300548e-07
+            ],
+            [
+              9.507669558186344e-07,
+              -1.229256129180767e-07,
+              1.9359809121453724e-06,
+              -6.136285854780318e-07,
+              -7.473649491675654e-07
+            ],
+            [
+              -5.381082217464182e-07,
+              1.1249013299133695e-07,
+              -6.136285854780318e-07,
+              4.357382397481222e-06,
+              -1.0762235090082742e-06
+            ],
+            [
+              -9.349284998409403e-07,
+              5.752523671300548e-07,
+              -7.473649491675654e-07,
+              -1.0762235090082742e-06,
+              1.4192429149276907e-06
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0027701770028366306,
+              0.0018448944146303775
+            ],
+            [
+              -0.0014194502109462102,
+              0.0029833213816197086
+            ],
+            [
+              -0.004014665270372997,
+              0.0014395041262102442
+            ],
+            [
+              3.679784664876746e-05,
+              0.008219390356591211
+            ],
+            [
+              -0.0035879334409041038,
+              0.0010819544439413641
+            ]
+          ],
+          "condition": 2.723813307170211,
+          "rss": 0.180670969718133,
+          "residual_df": 147,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.07425936559752558,
+          "predicted_max": 0.43784011380888577,
+          "predicted_outside_unit_interval": 92,
+          "interaction_p_normal": 0.29290699263696485
+        }
+      },
+      "support_bounds": [
+        [
+          0.08871651799999825,
+          16.746933533000004
+        ],
+        [
+          23.58533574,
+          44.04350152
+        ],
+        [
+          2.0,
+          14.0
+        ],
+        [
+          161.0,
+          343471.0
+        ],
+        [
+          0.0,
+          0.004651162790697674
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 151,
+          "countries": 59
+        },
+        {
+          "events": 144,
+          "countries": 44
+        }
+      ],
+      "n": 295,
+      "supported": true,
+      "matrix": "bgp_gdp_per_capita_ppp_constant.npz",
+      "modifier_center": 34035.0600960189,
+      "modifier_scale": 30095.20734082929,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "bgp",
+      "modifier": "urban_population_share",
+      "available": 384,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 325,
+          "nuisance_rank": 154,
+          "countries": 113,
+          "estimable": true,
+          "beta": [
+            -8.131977652890546e-06,
+            4.051938512092842e-05,
+            -0.0001536281076612128,
+            1.3044727070975436e-05,
+            3.547080626020656e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              1.5782009285694445e-09,
+              -1.1955974527084856e-09,
+              9.723395970961017e-10,
+              -7.596121597614919e-10,
+              -3.852945040714461e-10
+            ],
+            [
+              -1.1955974527084856e-09,
+              2.2887221123194384e-09,
+              -2.7853540299849956e-10,
+              2.159494498616221e-11,
+              3.2007839293643933e-10
+            ],
+            [
+              9.723395970961017e-10,
+              -2.7853540299849956e-10,
+              5.171839600227949e-09,
+              -9.251848484640271e-10,
+              -5.553992904596764e-10
+            ],
+            [
+              -7.596121597614919e-10,
+              2.159494498616221e-11,
+              -9.251848484640271e-10,
+              9.112339509297211e-10,
+              -3.627415806014605e-11
+            ],
+            [
+              -3.852945040714461e-10,
+              3.2007839293643933e-10,
+              -5.553992904596764e-10,
+              -3.627415806014605e-11,
+              1.1015603289915108e-09
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -8.599463800996255e-05,
+              6.973068270418145e-05
+            ],
+            [
+              -5.324644952307822e-05,
+              0.00013428521976493506
+            ],
+            [
+              -0.00029457990385945505,
+              -1.2676311462970499e-05
+            ],
+            [
+              -4.612002340187736e-05,
+              7.220947754382822e-05
+            ],
+            [
+              -2.9579932723537223e-05,
+              0.00010052154524395034
+            ]
+          ],
+          "condition": 3.8552234105974796,
+          "rss": 0.000576943679048377,
+          "residual_df": 166,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.0041997446685005475,
+          "predicted_max": 0.017034940941770042,
+          "predicted_outside_unit_interval": 72,
+          "interaction_p_normal": 0.28519255155906653
+        },
+        "maintenance_core": {
+          "n": 325,
+          "nuisance_rank": 154,
+          "countries": 113,
+          "estimable": true,
+          "beta": [
+            2.246418936544664e-05,
+            -0.0006386624415082192,
+            0.0006959491377374123,
+            -4.8771745083431325e-05,
+            0.0005194211287800414
+          ],
+          "covariance_country_cr0": [
+            [
+              7.792216315438873e-08,
+              -5.868883127710712e-08,
+              6.078682269717273e-08,
+              -1.5631100602148458e-08,
+              -4.742949502942279e-08
+            ],
+            [
+              -5.868883127710712e-08,
+              1.5498399419179196e-07,
+              -9.566469565614609e-08,
+              -1.3387911994538456e-08,
+              -1.881142165494195e-08
+            ],
+            [
+              6.078682269717273e-08,
+              -9.566469565614609e-08,
+              3.019551522824423e-07,
+              -4.9065402264649196e-08,
+              5.639336907894934e-08
+            ],
+            [
+              -1.5631100602148458e-08,
+              -1.3387911994538456e-08,
+              -4.9065402264649196e-08,
+              3.741902774196289e-08,
+              -1.01539653614635e-08
+            ],
+            [
+              -4.742949502942279e-08,
+              -1.881142165494195e-08,
+              5.639336907894934e-08,
+              -1.01539653614635e-08,
+              1.1970689238996386e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0005246507720247472,
+              0.0005695791507556405
+            ],
+            [
+              -0.001410261191866504,
+              0.00013293630885006537
+            ],
+            [
+              -0.00038105981449530985,
+              0.0017729580899701345
+            ],
+            [
+              -0.00042790714857558943,
+              0.00033036365840872676
+            ],
+            [
+              -0.00015870061373328425,
+              0.001197542871293367
+            ]
+          ],
+          "condition": 3.8552234105974796,
+          "rss": 0.05241713657174574,
+          "residual_df": 166,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.7245215325352005,
+          "predicted_max": 1.071996810900214,
+          "predicted_outside_unit_interval": 143,
+          "interaction_p_normal": 0.13328464425841685
+        },
+        "peak_loss_core": {
+          "n": 325,
+          "nuisance_rank": 154,
+          "countries": 113,
+          "estimable": true,
+          "beta": [
+            -0.0013425855476251612,
+            0.0024496031815963437,
+            -0.0005255586153863228,
+            0.0010234441324566167,
+            0.0008300150243707502
+          ],
+          "covariance_country_cr0": [
+            [
+              1.045202349980712e-06,
+              -9.636586142236931e-07,
+              5.006922971117237e-07,
+              -5.616228560671498e-07,
+              -3.866214683984447e-07
+            ],
+            [
+              -9.636586142236931e-07,
+              1.5476405178784605e-06,
+              3.157209575171726e-07,
+              3.522776957501521e-07,
+              3.977365927908713e-07
+            ],
+            [
+              5.006922971117237e-07,
+              3.157209575171726e-07,
+              1.7765513826983955e-06,
+              -3.106701844717592e-07,
+              -2.424847259356927e-07
+            ],
+            [
+              -5.616228560671498e-07,
+              3.522776957501521e-07,
+              -3.106701844717592e-07,
+              7.290991947407793e-07,
+              8.853963539582133e-08
+            ],
+            [
+              -3.866214683984447e-07,
+              3.977365927908713e-07,
+              -2.424847259356927e-07,
+              8.853963539582133e-08,
+              2.9719443221274917e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0033463574375227198,
+              0.0006611863422723973
+            ],
+            [
+              1.1325650496195501e-05,
+              0.004887880712696492
+            ],
+            [
+              -0.003137942388778566,
+              0.0020868251580059205
+            ],
+            [
+              -0.0006501163034995966,
+              0.00269700456841283
+            ],
+            [
+              -0.00023846996526871473,
+              0.0018985000140102153
+            ]
+          ],
+          "condition": 3.8552234105974796,
+          "rss": 0.1938152525024465,
+          "residual_df": 166,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.07594265747011172,
+          "predicted_max": 0.4361568219405052,
+          "predicted_outside_unit_interval": 88,
+          "interaction_p_normal": 0.12787654447836422
+        }
+      },
+      "support_bounds": [
+        [
+          0.08871651799999825,
+          29.087964191999998
+        ],
+        [
+          22.95793985,
+          44.04350152
+        ],
+        [
+          2.0,
+          16.0
+        ],
+        [
+          47.0,
+          83801.5
+        ],
+        [
+          0.0,
+          0.008928571428571428
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 185,
+          "countries": 69
+        },
+        {
+          "events": 140,
+          "countries": 45
+        }
+      ],
+      "n": 325,
+      "supported": true,
+      "matrix": "bgp_urban_population_share.npz",
+      "modifier_center": 0.6344559171727727,
+      "modifier_scale": 0.23134572944561965,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 0.6966806349516242,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.6966806349516242,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "bgp",
+      "modifier": "internet_share",
+      "available": 371,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 316,
+          "nuisance_rank": 145,
+          "countries": 104,
+          "estimable": true,
+          "beta": [
+            -5.4888333271998784e-05,
+            9.80604966991015e-05,
+            -0.0001501588754227608,
+            3.54509999021768e-05,
+            4.028552818610444e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              3.1110761845523884e-09,
+              -1.2398339994288341e-09,
+              1.846410482578342e-09,
+              -7.629560203871386e-10,
+              -2.589882085795906e-09
+            ],
+            [
+              -1.2398339994288341e-09,
+              2.6043426832596285e-09,
+              -7.675155127692722e-10,
+              1.4774041533969173e-10,
+              2.6872737617397314e-10
+            ],
+            [
+              1.846410482578342e-09,
+              -7.675155127692722e-10,
+              5.130173007621353e-09,
+              -8.262711604837068e-10,
+              -1.372726183746813e-09
+            ],
+            [
+              -7.629560203871386e-10,
+              1.4774041533969173e-10,
+              -8.262711604837068e-10,
+              1.079604712286436e-09,
+              1.348715137665799e-10
+            ],
+            [
+              -2.589882085795906e-09,
+              2.6872737617397314e-10,
+              -1.372726183746813e-09,
+              1.348715137665799e-10,
+              3.53658157891538e-09
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.00016420928758086034,
+              5.443262103686277e-05
+            ],
+            [
+              -1.9618766616516688e-06,
+              0.00019808287005985468
+            ],
+            [
+              -0.00029054173887772084,
+              -9.776011967800743e-06
+            ],
+            [
+              -2.894820075183499e-05,
+              9.985020055618859e-05
+            ],
+            [
+              -7.627189329116076e-05,
+              0.00015684294966336964
+            ]
+          ],
+          "condition": 4.685156420589609,
+          "rss": 0.0005871680091612325,
+          "residual_df": 166,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.004393348148272604,
+          "predicted_max": 0.016679961634290356,
+          "predicted_outside_unit_interval": 74,
+          "interaction_p_normal": 0.4981402966029983
+        },
+        "maintenance_core": {
+          "n": 316,
+          "nuisance_rank": 145,
+          "countries": 104,
+          "estimable": true,
+          "beta": [
+            -0.00045005872356811193,
+            -0.0007615215706162532,
+            9.164778949812566e-06,
+            5.630964164188698e-05,
+            0.0008029507953798547
+          ],
+          "covariance_country_cr0": [
+            [
+              2.689060308870257e-07,
+              4.145431588221163e-08,
+              4.921556979672449e-08,
+              -2.790221683407385e-08,
+              -3.3240972868991343e-07
+            ],
+            [
+              4.145431588221163e-08,
+              2.3857869610639543e-07,
+              7.948293095117402e-08,
+              -7.228999759124965e-08,
+              -1.0329219244044831e-07
+            ],
+            [
+              4.921556979672449e-08,
+              7.948293095117402e-08,
+              9.24598405087054e-08,
+              -4.6365404537919524e-08,
+              -5.53963011771829e-08
+            ],
+            [
+              -2.790221683407385e-08,
+              -7.228999759124965e-08,
+              -4.6365404537919524e-08,
+              5.027522970072178e-08,
+              2.8440819614727155e-08
+            ],
+            [
+              -3.3240972868991343e-07,
+              -1.0329219244044831e-07,
+              -5.53963011771829e-08,
+              2.8440819614727155e-08,
+              4.5087688683621687e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.001466420590369898,
+              0.0005663031432336742
+            ],
+            [
+              -0.0017188565363349486,
+              0.00019581339510244238
+            ],
+            [
+              -0.0005868055809525388,
+              0.0006051351388521641
+            ],
+            [
+              -0.0003831561984370217,
+              0.0004957754817207957
+            ],
+            [
+              -0.0005131134104946505,
+              0.00211901500125436
+            ]
+          ],
+          "condition": 4.685156420589609,
+          "rss": 0.05499944193257388,
+          "residual_df": 166,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.7311871639294923,
+          "predicted_max": 1.0749903199281603,
+          "predicted_outside_unit_interval": 146,
+          "interaction_p_normal": 0.23177311433089298
+        },
+        "peak_loss_core": {
+          "n": 316,
+          "nuisance_rank": 145,
+          "countries": 104,
+          "estimable": true,
+          "beta": [
+            -7.608093333971246e-05,
+            0.0016166534730211513,
+            -0.0003325637030723193,
+            0.0019597139430446906,
+            -0.0012617975556661705
+          ],
+          "covariance_country_cr0": [
+            [
+              1.614046355906108e-06,
+              -8.810002996250898e-07,
+              1.0714604961860289e-06,
+              -3.665515075748273e-07,
+              -1.203156015367548e-06
+            ],
+            [
+              -8.810002996250898e-07,
+              1.3323873507387264e-06,
+              1.7636847653135982e-07,
+              4.857152894702193e-07,
+              3.1069308494900486e-07
+            ],
+            [
+              1.0714604961860289e-06,
+              1.7636847653135982e-07,
+              2.162753702127234e-06,
+              -2.540150729809212e-07,
+              -8.460393039708975e-07
+            ],
+            [
+              -3.665515075748273e-07,
+              4.857152894702193e-07,
+              -2.540150729809212e-07,
+              9.744504621319646e-07,
+              -2.7411452965919527e-07
+            ],
+            [
+              -1.203156015367548e-06,
+              3.1069308494900486e-07,
+              -8.460393039708975e-07,
+              -2.7411452965919527e-07,
+              1.3689518998602497e-06
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0025661196099278348,
+              0.00241395774324841
+            ],
+            [
+              -0.0006457150073720312,
+              0.003879021953414334
+            ],
+            [
+              -0.0032149462741453434,
+              0.002549818868000705
+            ],
+            [
+              2.495004967519184e-05,
+              0.003894477836414189
+            ],
+            [
+              -0.0035549988880450214,
+              0.0010314037767126805
+            ]
+          ],
+          "condition": 4.685156420589609,
+          "rss": 0.18527769211746142,
+          "residual_df": 166,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.07611723768660147,
+          "predicted_max": 0.4359822417199434,
+          "predicted_outside_unit_interval": 88,
+          "interaction_p_normal": 0.28083788782841057
+        }
+      },
+      "support_bounds": [
+        [
+          0.226768694000004,
+          29.087964191999998
+        ],
+        [
+          23.58533574,
+          44.04350152
+        ],
+        [
+          2.0,
+          14.0
+        ],
+        [
+          164.0,
+          343471.0
+        ],
+        [
+          0.0,
+          0.008928571428571428
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 158,
+          "countries": 64
+        },
+        {
+          "events": 158,
+          "countries": 48
+        }
+      ],
+      "n": 316,
+      "supported": true,
+      "matrix": "bgp_internet_share.npz",
+      "modifier_center": 0.7348997334768195,
+      "modifier_scale": 0.26581639676319757,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "bgp",
+      "modifier": "first_warm_season_event",
+      "available": 381,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 370,
+          "nuisance_rank": 170,
+          "countries": 129,
+          "estimable": true,
+          "beta": [
+            -4.919006363222852e-05,
+            5.498477372190378e-05,
+            -0.000163834376793605,
+            6.142552579139766e-05,
+            -6.800898322698742e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              1.413169999958162e-09,
+              -7.089677342619882e-10,
+              1.119429536629871e-09,
+              -1.0765053075122088e-09,
+              -9.66727023472503e-11
+            ],
+            [
+              -7.089677342619882e-10,
+              1.4615536027394182e-09,
+              -5.763612636944809e-10,
+              1.0032328729347887e-10,
+              1.0061739553941718e-09
+            ],
+            [
+              1.119429536629871e-09,
+              -5.763612636944809e-10,
+              3.8451550233405475e-09,
+              -9.885743768009664e-10,
+              2.368648567436361e-11
+            ],
+            [
+              -1.0765053075122088e-09,
+              1.0032328729347887e-10,
+              -9.885743768009664e-10,
+              1.4857935613056633e-09,
+              -3.593446801133234e-10
+            ],
+            [
+              -9.66727023472503e-11,
+              1.0061739553941718e-09,
+              2.368648567436361e-11,
+              -3.593446801133234e-10,
+              3.4154194576498656e-09
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0001228693304681546,
+              2.4489203203697564e-05
+            ],
+            [
+              -1.9945180096049523e-05,
+              0.0001299147275398571
+            ],
+            [
+              -0.00028537039894896383,
+              -4.2298354638246145e-05
+            ],
+            [
+              -1.4123231854298781e-05,
+              0.0001369742834370941
+            ],
+            [
+              -0.00018255239509322885,
+              4.653442863925403e-05
+            ]
+          ],
+          "condition": 3.2192393329163127,
+          "rss": 0.0008598435136719896,
+          "residual_df": 195,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.0037622750022301052,
+          "predicted_max": 0.017568359524934206,
+          "predicted_outside_unit_interval": 82,
+          "interaction_p_normal": 0.24454210786370179
+        },
+        "maintenance_core": {
+          "n": 370,
+          "nuisance_rank": 170,
+          "countries": 129,
+          "estimable": true,
+          "beta": [
+            0.00018953980865531943,
+            -0.0006584917698420743,
+            0.0006421316831721808,
+            1.4114978620297265e-05,
+            0.0001272191732200956
+          ],
+          "covariance_country_cr0": [
+            [
+              3.6826821452274224e-08,
+              -3.7585142085860766e-08,
+              4.0690128059457044e-08,
+              -1.2839152255951898e-08,
+              4.142273914600234e-09
+            ],
+            [
+              -3.7585142085860766e-08,
+              1.270718811002333e-07,
+              -7.453647464596254e-08,
+              -2.0574247024390137e-08,
+              -1.7946433518641496e-08
+            ],
+            [
+              4.0690128059457044e-08,
+              -7.453647464596254e-08,
+              1.7789859208179726e-07,
+              -6.6761785217732966e-09,
+              2.4567597901559098e-08
+            ],
+            [
+              -1.2839152255951898e-08,
+              -2.0574247024390137e-08,
+              -6.6761785217732966e-09,
+              2.4714398668462024e-08,
+              3.665519466111356e-09
+            ],
+            [
+              4.142273914600234e-09,
+              -1.7946433518641496e-08,
+              2.4567597901559098e-08,
+              3.665519466111356e-09,
+              2.6355816353462493e-08
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.00018658346648990002,
+              0.0005656630838005389
+            ],
+            [
+              -0.0013571629360674211,
+              4.0179396383272555e-05
+            ],
+            [
+              -0.0001845424459389739,
+              0.0014688058122833355
+            ],
+            [
+              -0.00029400731003002833,
+              0.0003222372672706229
+            ],
+            [
+              -0.00019097068080985768,
+              0.0004454090272500489
+            ]
+          ],
+          "condition": 3.2192393329163127,
+          "rss": 0.0500321659466409,
+          "residual_df": 195,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.7182052240968745,
+          "predicted_max": 1.0676551749894363,
+          "predicted_outside_unit_interval": 166,
+          "interaction_p_normal": 0.4332537751357378
+        },
+        "peak_loss_core": {
+          "n": 370,
+          "nuisance_rank": 170,
+          "countries": 129,
+          "estimable": true,
+          "beta": [
+            -0.0007808748905199705,
+            0.0016958422731722736,
+            -0.0006239262503159658,
+            0.0015247506124767593,
+            0.0008840588885092249
+          ],
+          "covariance_country_cr0": [
+            [
+              6.353333517713602e-07,
+              -4.870022887614509e-07,
+              4.0643666196461503e-07,
+              -5.489052738389943e-07,
+              8.884002919148603e-08
+            ],
+            [
+              -4.870022887614509e-07,
+              8.433075308362444e-07,
+              2.185424011827819e-07,
+              3.9565189237268603e-07,
+              2.9004205187615494e-07
+            ],
+            [
+              4.0643666196461503e-07,
+              2.185424011827819e-07,
+              1.2591235553781195e-06,
+              -2.896352890663707e-07,
+              5.3068404024164e-07
+            ],
+            [
+              -5.489052738389943e-07,
+              3.9565189237268603e-07,
+              -2.896352890663707e-07,
+              8.566453115080362e-07,
+              1.5318609011830812e-07
+            ],
+            [
+              8.884002919148603e-08,
+              2.9004205187615494e-07,
+              5.3068404024164e-07,
+              1.5318609011830812e-07,
+              5.817559993649987e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.002343119080217361,
+              0.0007813692991774197
+            ],
+            [
+              -0.00010402748680722954,
+              0.0034957120331517767
+            ],
+            [
+              -0.002823215064489999,
+              0.0015753625638580673
+            ],
+            [
+              -0.0002892967099762168,
+              0.0033387979349297353
+            ],
+            [
+              -0.0006108630878000407,
+              0.0023789808648184904
+            ]
+          ],
+          "condition": 3.2192393329163127,
+          "rss": 0.19241791348361223,
+          "residual_df": 195,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.07611613756948923,
+          "predicted_max": 0.4359833418353806,
+          "predicted_outside_unit_interval": 99,
+          "interaction_p_normal": 0.24642646261408996
+        }
+      },
+      "support_bounds": [
+        [
+          0.08871651799999825,
+          23.000055008999993
+        ],
+        [
+          14.09649923,
+          46.69083626
+        ],
+        [
+          2.0,
+          16.0
+        ],
+        [
+          43.0,
+          489129.0
+        ],
+        [
+          0.0,
+          0.004651162790697674
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 154,
+          "countries": 83
+        },
+        {
+          "events": 216,
+          "countries": 124
+        }
+      ],
+      "n": 370,
+      "supported": true,
+      "matrix": "bgp_first_warm_season_event.npz",
+      "modifier_center": 0.5748031496062992,
+      "modifier_scale": 1.0,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "modifier": "pre_connection_dispersion",
+      "available": 18,
+      "family_size": 54,
+      "results": {},
+      "support_bounds": [
+        [
+          0.9256259510000007,
+          13.147127553000004
+        ],
+        [
+          23.83549965,
+          36.07938678
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          10.3,
+          193.7
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "post_support": [
+        {
+          "events": 9,
+          "countries": 8
+        },
+        {
+          "events": 3,
+          "countries": 3
+        }
+      ],
+      "n": 12,
+      "supported": false,
+      "reason": "Below10 events or5 countries in a support group",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "modifier": "electricity_access_share",
+      "available": 18,
+      "family_size": 54,
+      "results": {},
+      "supported": false,
+      "reason": "Modifier split has fewer than two groups",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "available": 18,
+      "family_size": 54,
+      "results": {},
+      "support_bounds": [
+        [
+          0.45086737599999793,
+          6.846753605000011
+        ],
+        [
+          32.39549837,
+          33.93569222
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          12.9,
+          86.69999999999999
+        ],
+        [
+          0.07706766917293222,
+          0.2816383686329424
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 1,
+          "countries": 1
+        },
+        {
+          "events": 0,
+          "countries": 0
+        }
+      ],
+      "n": 1,
+      "supported": false,
+      "reason": "Below10 events or5 countries in a support group",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "modifier": "urban_population_share",
+      "available": 18,
+      "family_size": 54,
+      "results": {},
+      "support_bounds": [
+        [
+          0.45086737599999793,
+          7.255917066999995
+        ],
+        [
+          27.22902895,
+          34.59020326
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          12.9,
+          46.8
+        ],
+        [
+          0.10638297872340426,
+          0.2816383686329424
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 3,
+          "countries": 3
+        },
+        {
+          "events": 0,
+          "countries": 0
+        }
+      ],
+      "n": 3,
+      "supported": false,
+      "reason": "Below10 events or5 countries in a support group",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "modifier": "internet_share",
+      "available": 18,
+      "family_size": 54,
+      "results": {},
+      "support_bounds": [
+        [
+          0.45086737599999793,
+          13.147127553000004
+        ],
+        [
+          32.39549837,
+          34.59020326
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          12.9,
+          193.7
+        ],
+        [
+          0.08982963345379456,
+          0.2816383686329424
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 3,
+          "countries": 3
+        },
+        {
+          "events": 0,
+          "countries": 0
+        }
+      ],
+      "n": 3,
+      "supported": false,
+      "reason": "Below10 events or5 countries in a support group",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "merit-nt",
+      "modifier": "first_warm_season_event",
+      "available": 18,
+      "family_size": 54,
+      "results": {},
+      "support_bounds": [
+        [
+          0.45086737599999793,
+          6.846753605000011
+        ],
+        [
+          29.49676002,
+          34.59020326
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          3.0,
+          152.4
+        ],
+        [
+          0.10039370078740155,
+          0.2816383686329424
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 2,
+          "countries": 2
+        },
+        {
+          "events": 2,
+          "countries": 2
+        }
+      ],
+      "n": 4,
+      "supported": false,
+      "reason": "Below10 events or5 countries in a support group",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "modifier": "pre_connection_dispersion",
+      "available": 233,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 170,
+          "nuisance_rank": 114,
+          "countries": 88,
+          "estimable": true,
+          "beta": [
+            -0.0004037730912107715,
+            0.0007138717359506925,
+            0.00021985027546333438,
+            -0.0006976718232149354,
+            -0.0019420446561220492
+          ],
+          "covariance_country_cr0": [
+            [
+              8.478421146909668e-08,
+              -3.0397973807241536e-08,
+              5.57154404755155e-09,
+              1.557465658982556e-11,
+              1.94056905545411e-07
+            ],
+            [
+              -3.0397973807241536e-08,
+              9.182789960102682e-08,
+              -1.5418285898609506e-08,
+              -4.423517097316393e-08,
+              -2.7385831908664167e-08
+            ],
+            [
+              5.57154404755155e-09,
+              -1.5418285898609506e-08,
+              7.955702909474024e-08,
+              -2.5993578036164607e-08,
+              -3.31569780087717e-08
+            ],
+            [
+              1.557465658982556e-11,
+              -4.423517097316393e-08,
+              -2.5993578036164607e-08,
+              9.647042774169172e-08,
+              6.519685173691225e-08
+            ],
+            [
+              1.94056905545411e-07,
+              -2.7385831908664167e-08,
+              -3.31569780087717e-08,
+              6.519685173691225e-08,
+              6.913871839463542e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0009744700834961324,
+              0.00016692390107458948
+            ],
+            [
+              0.00011994152548133188,
+              0.001307801946420053
+            ],
+            [
+              -0.00033297433611271425,
+              0.000772674887039383
+            ],
+            [
+              -0.0013064305402650134,
+              -8.891310616485743e-05
+            ],
+            [
+              -0.0035717487385510016,
+              -0.00031234057369309686
+            ]
+          ],
+          "condition": 4.7976252532383,
+          "rss": 0.0011292055478741181,
+          "residual_df": 51,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.00042115064465784644,
+          "predicted_max": 0.06500517622835755,
+          "predicted_outside_unit_interval": 2,
+          "interaction_p_normal": 0.019512075307584233
+        },
+        "maintenance_core": {
+          "n": 170,
+          "nuisance_rank": 114,
+          "countries": 88,
+          "estimable": true,
+          "beta": [
+            0.003527785159142004,
+            -0.004873196973126256,
+            0.003453826411730784,
+            0.0014300309963665835,
+            0.004438995342006058
+          ],
+          "covariance_country_cr0": [
+            [
+              3.576317241346593e-06,
+              -1.0757823149235418e-06,
+              6.796229895269977e-07,
+              1.1093038295570136e-07,
+              7.882907967460449e-06
+            ],
+            [
+              -1.0757823149235418e-06,
+              4.507833759822674e-06,
+              -2.2497466723588935e-06,
+              -7.063915149097759e-07,
+              2.7684894175700183e-06
+            ],
+            [
+              6.796229895269977e-07,
+              -2.2497466723588935e-06,
+              3.1917349926706923e-06,
+              -2.5238231951805544e-07,
+              -2.6901866327520635e-06
+            ],
+            [
+              1.1093038295570136e-07,
+              -7.063915149097759e-07,
+              -2.5238231951805544e-07,
+              1.1222242191269454e-06,
+              6.093283036085926e-07
+            ],
+            [
+              7.882907967460449e-06,
+              2.7684894175700183e-06,
+              -2.6901866327520635e-06,
+              6.093283036085926e-07,
+              2.709414716591889e-05
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.00017873280417226396,
+              0.007234303122456272
+            ],
+            [
+              -0.009034525818446411,
+              -0.0007118681278061
+            ],
+            [
+              -4.773303241876938e-05,
+              0.006955385855880338
+            ],
+            [
+              -0.0006462585126763582,
+              0.0035063205054095253
+            ],
+            [
+              -0.005763016744817984,
+              0.014641007428830101
+            ]
+          ],
+          "condition": 4.7976252532383,
+          "rss": 0.048442249588673124,
+          "residual_df": 51,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.3790674667376252,
+          "predicted_max": 1.0655009017223145,
+          "predicted_outside_unit_interval": 25,
+          "interaction_p_normal": 0.3937704908623091
+        },
+        "peak_loss_core": {
+          "n": 170,
+          "nuisance_rank": 114,
+          "countries": 88,
+          "estimable": true,
+          "beta": [
+            -0.006452841996831196,
+            0.01681344473420161,
+            0.018494272039908603,
+            -0.01872058674506011,
+            -0.10967330601860577
+          ],
+          "covariance_country_cr0": [
+            [
+              0.0004286709566974205,
+              -0.00010768492599201091,
+              -4.995086576553097e-06,
+              -5.5901999981583194e-05,
+              0.0007027006072550042
+            ],
+            [
+              -0.00010768492599201091,
+              0.00010858565499831626,
+              2.856821597865132e-05,
+              -1.5310006661989293e-05,
+              -0.0001602799951691881
+            ],
+            [
+              -4.995086576553097e-06,
+              2.856821597865132e-05,
+              0.00013840250044207177,
+              -2.7415916478359492e-05,
+              -5.1209517053164245e-05
+            ],
+            [
+              -5.5901999981583194e-05,
+              -1.5310006661989293e-05,
+              -2.7415916478359492e-05,
+              8.726034292152683e-05,
+              3.0002311526724778e-05
+            ],
+            [
+              0.0007027006072550042,
+              -0.0001602799951691881,
+              -5.1209517053164245e-05,
+              3.0002311526724778e-05,
+              0.001693226039118506
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.04703266244715718,
+              0.03412697845349479
+            ],
+            [
+              -0.0036102503818671583,
+              0.03723713985027038
+            ],
+            [
+              -0.004563644304143806,
+              0.04155218838396101
+            ],
+            [
+              -0.03702924628126574,
+              -0.00041192720885448175
+            ],
+            [
+              -0.19032352674614478,
+              -0.029023085291066772
+            ]
+          ],
+          "condition": 4.7976252532383,
+          "rss": 1.1670242815799765,
+          "residual_df": 51,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.10317401318913261,
+          "predicted_max": 0.8976377952749927,
+          "predicted_outside_unit_interval": 17,
+          "interaction_p_normal": 0.0076923366925106176
+        }
+      },
+      "support_bounds": [
+        [
+          0.1146948299999977,
+          16.744713848000004
+        ],
+        [
+          22.95793985,
+          40.34819915
+        ],
+        [
+          2.0,
+          14.0
+        ],
+        [
+          7.0,
+          14826.5
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "post_support": [
+        {
+          "events": 72,
+          "countries": 40
+        },
+        {
+          "events": 98,
+          "countries": 54
+        }
+      ],
+      "n": 170,
+      "supported": true,
+      "matrix": "ping-slash24_pre_connection_dispersion.npz",
+      "modifier_center": 0.013191437897017285,
+      "modifier_scale": 0.018352269586550507,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 0.35121735553651623,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.2688304799118086,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "modifier": "electricity_access_share",
+      "available": 233,
+      "family_size": 54,
+      "results": {},
+      "supported": false,
+      "reason": "Modifier split has fewer than two groups",
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "modifier": "gdp_per_capita_ppp_constant",
+      "available": 221,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 179,
+          "nuisance_rank": 108,
+          "countries": 83,
+          "estimable": true,
+          "beta": [
+            0.00011356375734674591,
+            0.00046113428187199816,
+            0.00012293036095297066,
+            -0.0002597763334962338,
+            5.419327825229106e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              2.062925889281363e-08,
+              -8.793763722079355e-09,
+              3.551899190603563e-09,
+              -1.025127481977927e-08,
+              -5.46551756816084e-09
+            ],
+            [
+              -8.793763722079355e-09,
+              7.00728101589529e-08,
+              1.4850520433107147e-08,
+              -4.657461600758843e-08,
+              1.0463343369329396e-08
+            ],
+            [
+              3.551899190603563e-09,
+              1.4850520433107147e-08,
+              5.038449609703823e-08,
+              -2.593701962598397e-08,
+              1.209191188323926e-08
+            ],
+            [
+              -1.025127481977927e-08,
+              -4.657461600758843e-08,
+              -2.593701962598397e-08,
+              6.93469278905094e-08,
+              -1.1918779519367994e-08
+            ],
+            [
+              -5.46551756816084e-09,
+              1.0463343369329396e-08,
+              1.209191188323926e-08,
+              -1.1918779519367994e-08,
+              1.9624831498132755e-08
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.00016794369999352,
+              0.00039507121468701186
+            ],
+            [
+              -5.769306385674665e-05,
+              0.000979961627600743
+            ],
+            [
+              -0.0003170127796438526,
+              0.000562873501549794
+            ],
+            [
+              -0.0007759094246975603,
+              0.00025635675770509264
+            ],
+            [
+              -0.00022037544185824512,
+              0.00032876199836282726
+            ]
+          ],
+          "condition": 2.84154204298789,
+          "rss": 0.0011895845871642166,
+          "residual_df": 66,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.0020934950635721396,
+          "predicted_max": 0.05273782497589883,
+          "predicted_outside_unit_interval": 8,
+          "interaction_p_normal": 0.698867355353775
+        },
+        "maintenance_core": {
+          "n": 179,
+          "nuisance_rank": 108,
+          "countries": 83,
+          "estimable": true,
+          "beta": [
+            0.0007590617899243595,
+            -0.0029038452444539744,
+            0.0023042192386651217,
+            0.0008422148098831162,
+            -2.8073886479966463e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              2.4964695564101975e-07,
+              -3.0371028242931847e-07,
+              -1.8374187394953007e-07,
+              -1.603169169552984e-07,
+              -1.884998131394323e-07
+            ],
+            [
+              -3.0371028242931847e-07,
+              2.0035436109019516e-06,
+              3.1534545394011043e-07,
+              -1.105017409813329e-06,
+              1.5958135359063283e-07
+            ],
+            [
+              -1.8374187394953007e-07,
+              3.1534545394011043e-07,
+              1.9599320396796808e-06,
+              -1.8776315054026477e-07,
+              5.331004988672175e-07
+            ],
+            [
+              -1.603169169552984e-07,
+              -1.105017409813329e-06,
+              -1.8776315054026477e-07,
+              1.6803393799429167e-06,
+              -8.910237353539748e-08
+            ],
+            [
+              -1.884998131394323e-07,
+              1.5958135359063283e-07,
+              5.331004988672175e-07,
+              -8.910237353539748e-08,
+              4.86790151657084e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0002202280036539409,
+              0.00173835158350266
+            ],
+            [
+              -0.00567810735837628,
+              -0.00012958313053166876
+            ],
+            [
+              -0.0004396827679285062,
+              0.00504812124525875
+            ],
+            [
+              -0.0016984454454130175,
+              0.00338287506517925
+            ],
+            [
+              -0.0013955475871082952,
+              0.0013393998141483622
+            ]
+          ],
+          "condition": 2.84154204298789,
+          "rss": 0.04405489297848846,
+          "residual_df": 66,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.6944444444439325,
+          "predicted_max": 1.0480074591534938,
+          "predicted_outside_unit_interval": 34,
+          "interaction_p_normal": 0.9679037325404173
+        },
+        "peak_loss_core": {
+          "n": 179,
+          "nuisance_rank": 108,
+          "countries": 83,
+          "estimable": true,
+          "beta": [
+            0.016431612753006107,
+            0.015481898045186147,
+            0.000418833399519314,
+            -0.004631141172144357,
+            -0.011002540705520793
+          ],
+          "covariance_country_cr0": [
+            [
+              8.116384141557667e-05,
+              -2.6363978372967065e-05,
+              1.1921430807851988e-05,
+              -2.6660510063650478e-05,
+              -4.361443258863591e-05
+            ],
+            [
+              -2.6363978372967065e-05,
+              0.00014965220903756887,
+              1.468438686472114e-05,
+              -7.255247621903207e-05,
+              4.584975289925357e-06
+            ],
+            [
+              1.1921430807851988e-05,
+              1.468438686472114e-05,
+              9.169420284826666e-05,
+              -9.068834241662339e-06,
+              -3.084643831681574e-05
+            ],
+            [
+              -2.6660510063650478e-05,
+              -7.255247621903207e-05,
+              -9.068834241662339e-06,
+              0.00011998353141716097,
+              -1.3555504159908498e-06
+            ],
+            [
+              -4.361443258863591e-05,
+              4.584975289925357e-06,
+              -3.084643831681574e-05,
+              -1.3555504159908498e-06,
+              8.33507184513862e-05
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0012258942773559663,
+              0.03408911978336818
+            ],
+            [
+              -0.008494815625451246,
+              0.039458611715823544
+            ],
+            [
+              -0.018349211366464977,
+              0.019186878165503605
+            ],
+            [
+              -0.026099997571600843,
+              0.01683771522731213
+            ],
+            [
+              -0.02889634836644836,
+              0.006891266955406775
+            ]
+          ],
+          "condition": 2.84154204298789,
+          "rss": 1.5480139693690278,
+          "residual_df": 66,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.1272183166535724,
+          "predicted_max": 0.8976377952803024,
+          "predicted_outside_unit_interval": 27,
+          "interaction_p_normal": 0.22814839408944843
+        }
+      },
+      "support_bounds": [
+        [
+          0.30155561900000194,
+          16.746933533000004
+        ],
+        [
+          23.58533574,
+          44.04350152
+        ],
+        [
+          2.0,
+          14.0
+        ],
+        [
+          24.0,
+          92211.5
+        ],
+        [
+          0.001006335662551557,
+          0.08333333333333333
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 89,
+          "countries": 55
+        },
+        {
+          "events": 90,
+          "countries": 29
+        }
+      ],
+      "n": 179,
+      "supported": true,
+      "matrix": "ping-slash24_gdp_per_capita_ppp_constant.npz",
+      "modifier_center": 36469.291784044864,
+      "modifier_scale": 31106.67972600536,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.7908488801198051,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "modifier": "urban_population_share",
+      "available": 233,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 198,
+          "nuisance_rank": 123,
+          "countries": 96,
+          "estimable": true,
+          "beta": [
+            0.0003314792600049669,
+            0.000531275376983287,
+            0.00017039522684166342,
+            -0.0007353450473541073,
+            0.00032881360952145545
+          ],
+          "covariance_country_cr0": [
+            [
+              3.072386786826988e-08,
+              -1.0247600017134476e-08,
+              1.9930347099600356e-08,
+              -2.00309642723681e-08,
+              -1.0456748409604076e-10
+            ],
+            [
+              -1.0247600017134476e-08,
+              7.733020804956762e-08,
+              3.3759358633853607e-09,
+              -4.774378662337722e-08,
+              4.688389539095221e-09
+            ],
+            [
+              1.9930347099600356e-08,
+              3.3759358633853607e-09,
+              6.598553387557762e-08,
+              -3.461332195685326e-08,
+              1.013754945084041e-08
+            ],
+            [
+              -2.00309642723681e-08,
+              -4.774378662337722e-08,
+              -3.461332195685326e-08,
+              8.538841712916464e-08,
+              -1.5517012918794697e-08
+            ],
+            [
+              -1.0456748409604076e-10,
+              4.688389539095221e-09,
+              1.013754945084041e-08,
+              -1.5517012918794697e-08,
+              1.6276443370771965e-08
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -1.2067641055726885e-05,
+              0.0006750261610656607
+            ],
+            [
+              -1.3757475070718317e-05,
+              0.0010763082290372924
+            ],
+            [
+              -0.0003330734525660516,
+              0.0006738639062493785
+            ],
+            [
+              -0.001308071935291053,
+              -0.00016261815941716145
+            ],
+            [
+              7.876304072350132e-05,
+              0.0005788641783194096
+            ]
+          ],
+          "condition": 2.718706328240902,
+          "rss": 0.0014352246054994825,
+          "residual_df": 70,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.0020714814999290166,
+          "predicted_max": 0.06613111702991777,
+          "predicted_outside_unit_interval": 5,
+          "interaction_p_normal": 0.009956684441178094
+        },
+        "maintenance_core": {
+          "n": 198,
+          "nuisance_rank": 123,
+          "countries": 96,
+          "estimable": true,
+          "beta": [
+            0.0007626914787404369,
+            -0.0037723735336409655,
+            0.00395734528776826,
+            0.0026143203851858314,
+            -0.0011740515590636387
+          ],
+          "covariance_country_cr0": [
+            [
+              7.649530812893455e-07,
+              -1.001679154527718e-06,
+              4.752348279611009e-07,
+              -2.7219454010740363e-07,
+              4.214324035799417e-08
+            ],
+            [
+              -1.001679154527718e-06,
+              3.948600129593382e-06,
+              -8.005382742610061e-07,
+              -1.62676995952395e-06,
+              1.990503994958192e-07
+            ],
+            [
+              4.752348279611009e-07,
+              -8.005382742610061e-07,
+              2.6740690389734044e-06,
+              5.325780471813564e-08,
+              1.1479433385576965e-08
+            ],
+            [
+              -2.7219454010740363e-07,
+              -1.62676995952395e-06,
+              5.325780471813564e-08,
+              2.3766363951818713e-06,
+              -5.20172272452577e-07
+            ],
+            [
+              4.214324035799417e-08,
+              1.990503994958192e-07,
+              1.1479433385576965e-08,
+              -5.20172272452577e-07,
+              6.341423426682267e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0009515243074242183,
+              0.002476907264905092
+            ],
+            [
+              -0.007667034596842802,
+              0.00012228752956087172
+            ],
+            [
+              0.0007522983151156829,
+              0.007162392260420837
+            ],
+            [
+              -0.0004072273711559558,
+              0.005635868141527618
+            ],
+            [
+              -0.0027348307541513023,
+              0.000386727636024025
+            ]
+          ],
+          "condition": 2.718706328240902,
+          "rss": 0.060392945647585,
+          "residual_df": 70,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.3761890326169369,
+          "predicted_max": 1.0645298554230587,
+          "predicted_outside_unit_interval": 34,
+          "interaction_p_normal": 0.14039359245262553
+        },
+        "peak_loss_core": {
+          "n": 198,
+          "nuisance_rank": 123,
+          "countries": 96,
+          "estimable": true,
+          "beta": [
+            0.021078618067157717,
+            0.021718676821304198,
+            0.011240029343106746,
+            -0.01811727783432119,
+            0.004358200771356144
+          ],
+          "covariance_country_cr0": [
+            [
+              8.542622468953378e-05,
+              -1.1672876406111707e-05,
+              2.723121166448461e-05,
+              -4.31428251408306e-05,
+              1.563077953010763e-05
+            ],
+            [
+              -1.1672876406111707e-05,
+              0.00011343594536929748,
+              2.0629923177003567e-05,
+              -4.1346241216014794e-05,
+              -1.1536019147819209e-05
+            ],
+            [
+              2.723121166448461e-05,
+              2.0629923177003567e-05,
+              9.716479601422012e-05,
+              -1.7054756717929125e-05,
+              2.897032997407844e-05
+            ],
+            [
+              -4.31428251408306e-05,
+              -4.1346241216014794e-05,
+              -1.7054756717929125e-05,
+              9.809642948706454e-05,
+              -1.4521355204558304e-05
+            ],
+            [
+              1.563077953010763e-05,
+              -1.1536019147819209e-05,
+              2.897032997407844e-05,
+              -1.4521355204558304e-05,
+              5.719788122931297e-05
+            ]
+          ],
+          "interval95_normal": [
+            [
+              0.0029633945147913877,
+              0.03919384161952405
+            ],
+            [
+              0.0008438232188794706,
+              0.042593530423728924
+            ],
+            [
+              -0.008079767827406492,
+              0.030559826513619985
+            ],
+            [
+              -0.03752947488493046,
+              0.0012949192162880832
+            ],
+            [
+              -0.01046486589426198,
+              0.01918126743697427
+            ]
+          ],
+          "condition": 2.718706328240902,
+          "rss": 1.6218701368004766,
+          "residual_df": 70,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.12974452643183393,
+          "predicted_max": 0.8976377952785831,
+          "predicted_outside_unit_interval": 28,
+          "interaction_p_normal": 0.5644405426076134
+        }
+      },
+      "support_bounds": [
+        [
+          0.1146948299999977,
+          16.746933533000004
+        ],
+        [
+          22.95793985,
+          44.04350152
+        ],
+        [
+          2.0,
+          14.0
+        ],
+        [
+          7.0,
+          31009.0
+        ],
+        [
+          0.0,
+          0.08333333333333333
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 115,
+          "countries": 60
+        },
+        {
+          "events": 83,
+          "countries": 36
+        }
+      ],
+      "n": 198,
+      "supported": true,
+      "matrix": "ping-slash24_urban_population_share.npz",
+      "modifier_center": 0.6314012896129945,
+      "modifier_scale": 0.235468237840694,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 0.2688304799118086,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 0.6966806349516242,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 1.0,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "modifier": "internet_share",
+      "available": 224,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 182,
+          "nuisance_rank": 109,
+          "countries": 83,
+          "estimable": true,
+          "beta": [
+            0.000657697776704054,
+            -1.4304747244706527e-05,
+            0.00021967149821722573,
+            -0.00016613736029451047,
+            -0.0006916099823259774
+          ],
+          "covariance_country_cr0": [
+            [
+              7.857621389534798e-08,
+              -2.1201480090594488e-08,
+              1.3755887907394282e-08,
+              -1.2353333147623677e-08,
+              -8.670552893310096e-08
+            ],
+            [
+              -2.1201480090594488e-08,
+              3.940008080901093e-08,
+              -4.366499194924414e-09,
+              -1.834261682468155e-08,
+              2.263599284100393e-08
+            ],
+            [
+              1.3755887907394282e-08,
+              -4.366499194924414e-09,
+              3.095628670764729e-08,
+              -9.934105361916315e-09,
+              -1.1341894838408885e-08
+            ],
+            [
+              -1.2353333147623677e-08,
+              -1.834261682468155e-08,
+              -9.934105361916315e-09,
+              3.7110305538141036e-08,
+              4.320584119332834e-09
+            ],
+            [
+              -8.670552893310096e-08,
+              2.263599284100393e-08,
+              -1.1341894838408885e-08,
+              4.320584119332834e-09,
+              1.1704533922190189e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              0.00010829146989184348,
+              0.0012071040835162645
+            ],
+            [
+              -0.00040334688886928217,
+              0.00037473739437986913
+            ],
+            [
+              -0.00012517238041342065,
+              0.0005645153768478722
+            ],
+            [
+              -0.0005437055138087414,
+              0.00021143079321972054
+            ],
+            [
+              -0.001362150697551467,
+              -2.1069267100487965e-05
+            ]
+          ],
+          "condition": 6.012426643487724,
+          "rss": 0.0006300318278728002,
+          "residual_df": 68,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.0018647337440972486,
+          "predicted_max": 0.028295208790646915,
+          "predicted_outside_unit_interval": 6,
+          "interaction_p_normal": 0.04322300476687233
+        },
+        "maintenance_core": {
+          "n": 182,
+          "nuisance_rank": 109,
+          "countries": 83,
+          "estimable": true,
+          "beta": [
+            -0.0015075276383668707,
+            -0.0008493623464800268,
+            0.0023255044273492297,
+            0.00036267488781557833,
+            0.0028891238798621197
+          ],
+          "covariance_country_cr0": [
+            [
+              1.156216334912664e-06,
+              -6.065574269256867e-07,
+              -1.237752371057257e-07,
+              -1.036671365436485e-07,
+              -1.5955820511370455e-06
+            ],
+            [
+              -6.065574269256867e-07,
+              1.0287684942158018e-06,
+              -4.801490038892992e-07,
+              -4.083193340403333e-07,
+              8.069895933467832e-07
+            ],
+            [
+              -1.237752371057257e-07,
+              -4.801490038892992e-07,
+              1.1863208894876816e-06,
+              3.9140724068034155e-07,
+              1.4868763332659566e-07
+            ],
+            [
+              -1.036671365436485e-07,
+              -4.083193340403333e-07,
+              3.9140724068034155e-07,
+              8.663700907560298e-07,
+              -4.2406515800557465e-08
+            ],
+            [
+              -1.5955820511370455e-06,
+              8.069895933467832e-07,
+              1.4868763332659566e-07,
+              -4.2406515800557465e-08,
+              2.421027915455356e-06
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.00361502792030775,
+              0.0005999726435740084
+            ],
+            [
+              -0.002837319037798403,
+              0.0011385943448383494
+            ],
+            [
+              0.00019074382131019276,
+              0.004460265033388267
+            ],
+            [
+              -0.0014616400595332396,
+              0.0021869898351643963
+            ],
+            [
+              -0.00016051200675986982,
+              0.005938759766484109
+            ]
+          ],
+          "condition": 6.012426643487724,
+          "rss": 0.01928621547248842,
+          "residual_df": 68,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.7585470085470152,
+          "predicted_max": 1.0306157713673574,
+          "predicted_outside_unit_interval": 30,
+          "interaction_p_normal": 0.06333892129394483
+        },
+        "peak_loss_core": {
+          "n": 182,
+          "nuisance_rank": 109,
+          "countries": 83,
+          "estimable": true,
+          "beta": [
+            0.03697517516323429,
+            0.018449534735966302,
+            0.0026443645207094688,
+            -0.004501445491267944,
+            -0.0448580544567113
+          ],
+          "covariance_country_cr0": [
+            [
+              0.0003336647328516312,
+              -6.247585711357625e-05,
+              5.447146381633793e-05,
+              -1.3244881565915376e-05,
+              -0.0004185987823530946
+            ],
+            [
+              -6.247585711357625e-05,
+              0.0001742031913247334,
+              1.6081523972726755e-06,
+              -7.865520597606572e-05,
+              6.357444206846015e-05
+            ],
+            [
+              5.447146381633793e-05,
+              1.6081523972726755e-06,
+              8.821798859648108e-05,
+              -9.653985390901106e-06,
+              -8.006504944761697e-05
+            ],
+            [
+              -1.3244881565915376e-05,
+              -7.865520597606572e-05,
+              -9.653985390901106e-06,
+              0.00010879993740800455,
+              -1.0777686802885734e-05
+            ],
+            [
+              -0.0004185987823530946,
+              6.357444206846015e-05,
+              -8.006504944761697e-05,
+              -1.0777686802885734e-05,
+              0.0006003073734757134
+            ]
+          ],
+          "interval95_normal": [
+            [
+              0.0011735085656099861,
+              0.07277684176085861
+            ],
+            [
+              -0.007419257000554045,
+              0.04431832647248665
+            ],
+            [
+              -0.015764485808353615,
+              0.02105321484977255
+            ],
+            [
+              -0.024945282686054733,
+              0.015942391703518848
+            ],
+            [
+              -0.09287946691996567,
+              0.0031633580065430628
+            ]
+          ],
+          "condition": 6.012426643487724,
+          "rss": 1.4471067396018853,
+          "residual_df": 68,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.1636209926220187,
+          "predicted_max": 0.8976377952776156,
+          "predicted_outside_unit_interval": 26,
+          "interaction_p_normal": 0.0671224122501505
+        }
+      },
+      "support_bounds": [
+        [
+          0.226768694000004,
+          16.746933533000004
+        ],
+        [
+          23.58533574,
+          44.04350152
+        ],
+        [
+          2.0,
+          14.0
+        ],
+        [
+          39.0,
+          92211.5
+        ],
+        [
+          0.001006335662551557,
+          0.05128205128205128
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 87,
+          "countries": 51
+        },
+        {
+          "events": 95,
+          "countries": 34
+        }
+      ],
+      "n": 182,
+      "supported": true,
+      "matrix": "ping-slash24_internet_share.npz",
+      "modifier_center": 0.7410486316591072,
+      "modifier_scale": 0.26674273116010977,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 0.5835105643527765,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 0.6041017102513546,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.6041017102513546,
+          "by": 1.0
+        }
+      }
+    },
+    {
+      "signal": "ping-slash24",
+      "modifier": "first_warm_season_event",
+      "available": 233,
+      "family_size": 54,
+      "results": {
+        "mean_deficit_core": {
+          "n": 215,
+          "nuisance_rank": 129,
+          "countries": 101,
+          "estimable": true,
+          "beta": [
+            0.00023421506788156462,
+            5.117294785714799e-05,
+            9.784533814428741e-05,
+            -0.00020458722761881328,
+            1.544149979247009e-05
+          ],
+          "covariance_country_cr0": [
+            [
+              1.895317437001947e-08,
+              -7.34051615491449e-09,
+              9.803816595388611e-09,
+              -1.2664546733618394e-08,
+              7.811884605654516e-09
+            ],
+            [
+              -7.34051615491449e-09,
+              4.20269065103077e-08,
+              -4.9338505215932406e-09,
+              -1.641391104457784e-08,
+              2.822775528963628e-10
+            ],
+            [
+              9.803816595388611e-09,
+              -4.9338505215932406e-09,
+              4.8041628961556416e-08,
+              -1.806242507264328e-08,
+              8.477812532456022e-09
+            ],
+            [
+              -1.2664546733618394e-08,
+              -1.641391104457784e-08,
+              -1.806242507264328e-08,
+              3.9868225050371745e-08,
+              -6.822045689900525e-09
+            ],
+            [
+              7.811884605654516e-09,
+              2.822775528963628e-10,
+              8.477812532456022e-09,
+              -6.822045689900525e-09,
+              2.8933291994099753e-08
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -3.561420937326761e-05,
+              0.0005040443451363968
+            ],
+            [
+              -0.0003506287827520031,
+              0.0004529746784662991
+            ],
+            [
+              -0.00033174742172822864,
+              0.0005274380980168035
+            ],
+            [
+              -0.0005959338064784848,
+              0.00018675935124085817
+            ],
+            [
+              -0.00031794423736863464,
+              0.00034882723695357483
+            ]
+          ],
+          "condition": 2.298793484224467,
+          "rss": 0.0013963075725407586,
+          "residual_df": 81,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.002306458902023507,
+          "predicted_max": 0.06601964788015297,
+          "predicted_outside_unit_interval": 8,
+          "interaction_p_normal": 0.9276673395670818
+        },
+        "maintenance_core": {
+          "n": 215,
+          "nuisance_rank": 129,
+          "countries": 101,
+          "estimable": true,
+          "beta": [
+            -0.0001131899307317312,
+            -0.0006058575855603899,
+            0.002483090900021675,
+            0.000880612138741198,
+            0.0012812928906416213
+          ],
+          "covariance_country_cr0": [
+            [
+              4.223852451719365e-07,
+              -2.557001921535043e-07,
+              3.253961159478826e-07,
+              -5.21727908063925e-07,
+              -1.4492808537137922e-07
+            ],
+            [
+              -2.557001921535043e-07,
+              9.611497278723961e-07,
+              -2.3111506381074146e-07,
+              -1.7272520810796104e-07,
+              -1.434944359351236e-07
+            ],
+            [
+              3.253961159478826e-07,
+              -2.3111506381074146e-07,
+              1.7928976932820052e-06,
+              -3.636962592425414e-07,
+              1.4744911830622527e-07
+            ],
+            [
+              -5.21727908063925e-07,
+              -1.7272520810796104e-07,
+              -3.636962592425414e-07,
+              1.5017604994108677e-06,
+              4.2243992684645115e-07
+            ],
+            [
+              -1.4492808537137922e-07,
+              -1.434944359351236e-07,
+              1.4744911830622527e-07,
+              4.2243992684645115e-07,
+              6.006844786954965e-07
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.0013869934971409267,
+              0.0011606136356774645
+            ],
+            [
+              -0.002527371858248255,
+              0.001315656687127475
+            ],
+            [
+              -0.0001412838175939915,
+              0.005107465617637342
+            ],
+            [
+              -0.0015212519533822286,
+              0.0032824762308646246
+            ],
+            [
+              -0.00023775440590278443,
+              0.002800340187186027
+            ]
+          ],
+          "condition": 2.298793484224467,
+          "rss": 0.045072200622158914,
+          "residual_df": 81,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": 0.3736362751818963,
+          "predicted_max": 1.0297426631817883,
+          "predicted_outside_unit_interval": 34,
+          "interaction_p_normal": 0.09829030998281965
+        },
+        "peak_loss_core": {
+          "n": 215,
+          "nuisance_rank": 129,
+          "countries": 101,
+          "estimable": true,
+          "beta": [
+            0.011845801728971204,
+            0.0156884878282594,
+            -0.00028746108774688016,
+            -0.0014118669924707108,
+            0.013889524463342077
+          ],
+          "covariance_country_cr0": [
+            [
+              4.972300250144674e-05,
+              -5.874870932605379e-06,
+              2.0652968409082767e-06,
+              -2.6416919492749504e-05,
+              4.558948555457814e-05
+            ],
+            [
+              -5.874870932605379e-06,
+              8.84810829145191e-05,
+              1.6778067759154672e-05,
+              -4.0596395866868415e-05,
+              7.609714882828005e-06
+            ],
+            [
+              2.0652968409082767e-06,
+              1.6778067759154672e-05,
+              7.447502879658554e-05,
+              -7.1838551809503e-08,
+              -3.9014277533924225e-06
+            ],
+            [
+              -2.6416919492749504e-05,
+              -4.0596395866868415e-05,
+              -7.1838551809503e-08,
+              8.297843166052482e-05,
+              -3.048914716113904e-05
+            ],
+            [
+              4.558948555457814e-05,
+              7.609714882828005e-06,
+              -3.9014277533924225e-06,
+              -3.048914716113904e-05,
+              8.943622585581806e-05
+            ]
+          ],
+          "interval95_normal": [
+            [
+              -0.001974794008933101,
+              0.02566639746687551
+            ],
+            [
+              -0.002747792610770263,
+              0.034124768267289066
+            ],
+            [
+              -0.017201737787981286,
+              0.01662681561248753
+            ],
+            [
+              -0.0192656684988639,
+              0.01644193451392248
+            ],
+            [
+              -0.004645997614641708,
+              0.03242504654132586
+            ]
+          ],
+          "condition": 2.298793484224467,
+          "rss": 1.7237162128742771,
+          "residual_df": 81,
+          "boundary_tolerance": 1e-10,
+          "predicted_min": -0.16586399999685958,
+          "predicted_max": 0.8976377952757096,
+          "predicted_outside_unit_interval": 28,
+          "interaction_p_normal": 0.14191642563829382
+        }
+      },
+      "support_bounds": [
+        [
+          0.1146948299999977,
+          16.746933533000004
+        ],
+        [
+          14.09649923,
+          44.04350152
+        ],
+        [
+          2.0,
+          13.0
+        ],
+        [
+          11.0,
+          128565.0
+        ],
+        [
+          0.0,
+          0.08333333333333333
+        ]
+      ],
+      "support_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "post_support": [
+        {
+          "events": 87,
+          "countries": 62
+        },
+        {
+          "events": 128,
+          "countries": 85
+        }
+      ],
+      "n": 215,
+      "supported": true,
+      "matrix": "ping-slash24_first_warm_season_event.npz",
+      "modifier_center": 0.6223175965665236,
+      "modifier_scale": 1.0,
+      "terms": [
+        "hd_c_days",
+        "span_days",
+        "dewpoint_mean_c",
+        "ntrd_c_days",
+        "hd_x_modifier"
+      ],
+      "adjustment": {
+        "mean_deficit_core": {
+          "bh": 1.0,
+          "by": 1.0
+        },
+        "maintenance_core": {
+          "bh": 0.6966806349516242,
+          "by": 1.0
+        },
+        "peak_loss_core": {
+          "bh": 0.6966806349516242,
+          "by": 1.0
+        }
+      }
+    }
+  ],
+  "scope": "Six prespecified modifiers; 54-case BH/BY, marginal support only. DLEP separate retrospective weighting. No ranking, policy effect or full-study acceptance.",
+  "source_sha256": {
+    "analysis/2026-10-19_modifier_models/v2/full_outputs/results.json": "1ffacc81606de75afd7f5b842b00fc2541505842c1576eb238f8aa7bd3b54f13",
+    "analysis/2026-10-19_temporal_modifiers/v1/full_outputs/rows.json": "b900e24eddd1c1807d9f6380e4c85ab7638bf0841f0496905f4c470f10133dd1",
+    "analysis/2026-10-20_dlep/v1/full_outputs/summary.json": "7788e7011b8e0515be6714a07616d01a4c5540a99e6d1360d2b736a6e0359cf4"
+  }
+}

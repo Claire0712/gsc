@@ -1,0 +1,19 @@
+signal,state,label,n,denominator,percent
+AP,no_significant_deficit,No full-window threshold shortfall,168,910,18.461538461538463
+AP,delayed_onset,Delayed onset,41,910,4.5054945054945055
+AP,damaged_at_end,Damaged at event end,23,910,2.5274725274725274
+AP,stable_recovered_before_end,Stable recovery before event end,156,910,17.142857142857142
+AP,awaiting_confirmation,Awaiting confirmation,96,910,10.54945054945055
+AP,insufficient_observation,Insufficient full-window observation,426,910,46.81318681318681
+BGP,no_significant_deficit,No full-window threshold shortfall,579,910,63.62637362637362
+BGP,delayed_onset,Delayed onset,12,910,1.3186813186813187
+BGP,damaged_at_end,Damaged at event end,2,910,0.21978021978021978
+BGP,stable_recovered_before_end,Stable recovery before event end,27,910,2.9670329670329667
+BGP,awaiting_confirmation,Awaiting confirmation,2,910,0.21978021978021978
+BGP,insufficient_observation,Insufficient full-window observation,288,910,31.648351648351646
+Telescope,no_significant_deficit,No full-window threshold shortfall,3,910,0.32967032967032966
+Telescope,delayed_onset,Delayed onset,5,910,0.5494505494505495
+Telescope,damaged_at_end,Damaged at event end,133,910,14.615384615384617
+Telescope,stable_recovered_before_end,Stable recovery before event end,67,910,7.362637362637363
+Telescope,awaiting_confirmation,Awaiting confirmation,104,910,11.428571428571429
+Telescope,insufficient_observation,Insufficient full-window observation,598,910,65.71428571428571

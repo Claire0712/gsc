@@ -1,0 +1,4 @@
+signal,qualified_core_risk,zero_followup,positive_followup,countries,confirmed,right_censored_72h,missingness_censored,administrative_censored,causes
+AP,27,0,27,20,14,10,3,0,"{""observation_or_reference_missing"": 3}"
+BGP,2,0,2,2,0,1,1,0,"{""observation_or_reference_missing"": 1}"
+Telescope,155,1,154,76,70,68,16,0,"{""observation_or_reference_missing"": 15, ""cyclone_candidate"": 1}"

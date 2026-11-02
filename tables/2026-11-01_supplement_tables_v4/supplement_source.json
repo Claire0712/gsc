@@ -1,0 +1,1517 @@
+{
+  "variables": [
+    {
+      "variable": "Tmax",
+      "unit": "\u00b0C",
+      "source": "ERA5 t2m and fixed population",
+      "definition": "UTC daily pixel maximum before country aggregation; not maximum of country hourly averages."
+    },
+    {
+      "variable": "Tmin",
+      "unit": "\u00b0C",
+      "source": "ERA5 t2m and fixed population",
+      "definition": "UTC daily pixel minimum; not exact civil-night temperature and never changes the Tmax event end."
+    },
+    {
+      "variable": "Dewpoint",
+      "unit": "\u00b0C",
+      "source": "ERA5 d2m",
+      "definition": "Hourly-derived daily country mean; not an observed equipment heat index."
+    },
+    {
+      "variable": "Q90",
+      "unit": "\u00b0C",
+      "source": "2018\u20132021 Tmax/Tmin",
+      "definition": "Circular 365-day \u00b115-day window, linear quantile; at least 112 observations/all four years. Feb 29 averages adjacent thresholds."
+    },
+    {
+      "variable": "Warm season",
+      "unit": "start month",
+      "source": "2018\u20132021 Tmax",
+      "definition": "Hottest consecutive three months by day-weighted mean; earliest start breaks ties; LOYO stability reported."
+    },
+    {
+      "variable": "Heat load HD",
+      "unit": "\u00b0C-days",
+      "source": "Tmax excess over Q90",
+      "definition": "Sum of positive Tmax excess within the fixed analysis event; bridge days retain zero excess."
+    },
+    {
+      "variable": "Hot days and span",
+      "unit": "days",
+      "source": "Tmax-only catalogue",
+      "definition": "Hot days count exceedances; span includes bridges. Analysis processes merge until seven complete cool days separate them."
+    },
+    {
+      "variable": "NTRD",
+      "unit": "\u00b0C-days",
+      "source": "Tmin excess over its Q90",
+      "definition": "Positive Tmin excess over the same fixed Tmax event; secondary load only."
+    },
+    {
+      "variable": "Connection reference",
+      "unit": "signal units",
+      "source": "IODA ten-minute grid",
+      "definition": "Median of eligible same-weekday/time observations \u00b17/14/21/28 days; at least 4 eligible references with both temporal sides; valid zeros count, but the final median must be positive. Retrospective."
+    },
+    {
+      "variable": "Signed deviation",
+      "unit": "ratio",
+      "source": "C / reference \u2212 1",
+      "definition": "Keeps positive and negative fluctuations; not percentage of residents disconnected."
+    },
+    {
+      "variable": "Truncated deficit",
+      "unit": "ratio",
+      "source": "max(0,1 \u2212 C/reference)",
+      "definition": "Nonnegative shortfall; ordinary fluctuations can produce positive deficits."
+    },
+    {
+      "variable": "Core maintenance",
+      "unit": "fraction",
+      "source": "IODA/reference",
+      "definition": "Core slots with ratio at least 0.95 divided by all required core slots; not an SLA."
+    },
+    {
+      "variable": "Core and full peak loss",
+      "unit": "ratio",
+      "source": "IODA/reference",
+      "definition": "Maximum truncated deficit within core or core plus 72 hours, separately labelled."
+    },
+    {
+      "variable": "DHRD",
+      "unit": "deficit-hours",
+      "source": "IODA/reference",
+      "definition": "Deficit sum times 1/6 hour over the entire fixed core plus 72 hours; incomplete windows remain missing."
+    },
+    {
+      "variable": "Unit-time deficit",
+      "unit": "ratio",
+      "source": "DHRD / required hours",
+      "definition": "Mean full-window truncated deficit; separates accumulation length from average deficit."
+    },
+    {
+      "variable": "Disruption duration",
+      "unit": "hours",
+      "source": "IODA/reference",
+      "definition": "Slots below 0.95 times 1/6 hour, separately for core, post-event and full window."
+    },
+    {
+      "variable": "Stable recovery",
+      "unit": "hours after Tmax end",
+      "source": "Core-conditioned IODA/reference",
+      "definition": "Completion of 24 consecutive ten-minute slots at or above 0.95; 72-hour, administrative and missingness censoring distinct."
+    },
+    {
+      "variable": "Pre-event stability",
+      "unit": "MAD / median",
+      "source": "Raw pre-event IODA",
+      "definition": "Dimensionless connection dispersion, not physical backup power or adaptation capacity."
+    },
+    {
+      "variable": "Capability modifiers",
+      "unit": "source units / fractions",
+      "source": "World Bank",
+      "definition": "Newest valid prior year within 3 years; publication-time availability unknown. GDP retains constant-PPP archive units."
+    },
+    {
+      "variable": "DLEP",
+      "unit": "population-weighted deficit proxy",
+      "source": "AP DHRD \u00d7 fixed 2025 population \u00d7 Internet fraction",
+      "definition": "Current calendar year preferred then recent prior 3 years; separate from strictly lagged capability modifiers; not actual disconnected people/person-hours."
+    },
+    {
+      "variable": "Precipitation adjustment",
+      "unit": "mm per UTC day",
+      "source": "ERA5-Land accumulated precipitation",
+      "definition": "Audited daily labels and fixed-population support; only a supported daily subset, not certified adjustment in all primary models."
+    },
+    {
+      "variable": "Wind",
+      "unit": "m s\u207b\u00b9",
+      "source": "Existing 2024 u/v country means",
+      "definition": "Magnitude of mean components, not gust or mean scalar speed; four retained months and paired subset only."
+    }
+  ],
+  "signed_day_zero": [
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "variant": "absolute35"
+      },
+      "groups": 28,
+      "countries": 20,
+      "beta": 0.001577252082202494,
+      "interval95_country_wild_basic": [
+        -0.001147056143448217,
+        0.00430282282936227
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "bgp",
+      "specification": {
+        "variant": "absolute35"
+      },
+      "groups": 62,
+      "countries": 30,
+      "beta": 0.0025577875297422684,
+      "interval95_country_wild_basic": [
+        -0.0006511821138634045,
+        0.005800009132946648
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "merit-nt",
+      "specification": {
+        "variant": "absolute35"
+      },
+      "groups": 2,
+      "countries": 2,
+      "beta": 0.015992073369284574,
+      "interval95_country_wild_basic": [
+        0.007047760614226564,
+        0.024936386124342586
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "variant": "q95"
+      },
+      "groups": 181,
+      "countries": 96,
+      "beta": 0.002658668810816749,
+      "interval95_country_wild_basic": [
+        -0.003304658250479108,
+        0.008550247222950608
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "bgp",
+      "specification": {
+        "variant": "q95"
+      },
+      "groups": 343,
+      "countries": 123,
+      "beta": 0.0011128358503797637,
+      "interval95_country_wild_basic": [
+        -0.0004817833314040181,
+        0.0027068399493014855
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "merit-nt",
+      "specification": {
+        "variant": "q95"
+      },
+      "groups": 22,
+      "countries": 20,
+      "beta": -0.017948724374948665,
+      "interval95_country_wild_basic": [
+        -0.08053140373783661,
+        0.043375639030589816
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "variant": "min3"
+      },
+      "groups": 155,
+      "countries": 86,
+      "beta": -0.0014474745056694484,
+      "interval95_country_wild_basic": [
+        -0.006704899976819653,
+        0.0037552340814434944
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "bgp",
+      "specification": {
+        "variant": "min3"
+      },
+      "groups": 285,
+      "countries": 110,
+      "beta": 9.94303880559886e-05,
+      "interval95_country_wild_basic": [
+        -0.0007140574088485748,
+        0.000916908568402632
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "merit-nt",
+      "specification": {
+        "variant": "min3"
+      },
+      "groups": 16,
+      "countries": 15,
+      "beta": 0.008374783524713117,
+      "interval95_country_wild_basic": [
+        -0.03091427274266112,
+        0.04766383979208735
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "variant": "min6"
+      },
+      "groups": 53,
+      "countries": 40,
+      "beta": 0.0011069437375869572,
+      "interval95_country_wild_basic": [
+        -0.0015572099787100465,
+        0.003789756697409477
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "bgp",
+      "specification": {
+        "variant": "min6"
+      },
+      "groups": 109,
+      "countries": 67,
+      "beta": -5.811795774203002e-05,
+      "interval95_country_wild_basic": [
+        -0.0014971049932069734,
+        0.001371870972705592
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "merit-nt",
+      "specification": {
+        "variant": "min6"
+      },
+      "groups": 5,
+      "countries": 5,
+      "beta": 0.007934548894412547,
+      "interval95_country_wild_basic": [
+        -0.0732775165186869,
+        0.08914661430751203
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "variant": "season6"
+      },
+      "groups": 354,
+      "countries": 125,
+      "beta": -0.0005946746903689064,
+      "interval95_country_wild_basic": [
+        -0.002499101726834086,
+        0.0013329275733338438
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "bgp",
+      "specification": {
+        "variant": "season6"
+      },
+      "groups": 648,
+      "countries": 140,
+      "beta": -0.0005615608748462133,
+      "interval95_country_wild_basic": [
+        -0.0012940821692634377,
+        0.00016818480545446402
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "merit-nt",
+      "specification": {
+        "variant": "season6"
+      },
+      "groups": 33,
+      "countries": 25,
+      "beta": 0.028206101714845253,
+      "interval95_country_wild_basic": [
+        -0.033737295870973724,
+        0.08818398818997224
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "variant": "all_year"
+      },
+      "groups": 680,
+      "countries": 148,
+      "beta": -0.0005707972010034083,
+      "interval95_country_wild_basic": [
+        -0.002224670508730198,
+        0.0010681816469972957
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "bgp",
+      "specification": {
+        "variant": "all_year"
+      },
+      "groups": 1297,
+      "countries": 154,
+      "beta": -0.00013303639167950882,
+      "interval95_country_wild_basic": [
+        -0.0007444473247901284,
+        0.00047837293234166396
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "merit-nt",
+      "specification": {
+        "variant": "all_year"
+      },
+      "groups": 80,
+      "countries": 53,
+      "beta": 0.012849092396809786,
+      "interval95_country_wild_basic": [
+        -0.019012171468794227,
+        0.0443421496972245
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "variant": "absolute30"
+      },
+      "groups": 67,
+      "countries": 37,
+      "beta": 0.0023896742782219403,
+      "interval95_country_wild_basic": [
+        -0.002111177295317132,
+        0.0068754421653185235
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "bgp",
+      "specification": {
+        "variant": "absolute30"
+      },
+      "groups": 113,
+      "countries": 47,
+      "beta": 0.00041922733454254475,
+      "interval95_country_wild_basic": [
+        -0.00038565478234619486,
+        0.0012090888107956436
+      ]
+    },
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "signal": "merit-nt",
+      "specification": {
+        "variant": "absolute30"
+      },
+      "groups": 7,
+      "countries": 6,
+      "beta": 0.043409248011038,
+      "interval95_country_wild_basic": [
+        -0.010177680593863814,
+        0.09699617661593982
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "scenario": "100_24"
+      },
+      "groups": 210,
+      "countries": 101,
+      "beta": -0.0026969280912536157,
+      "interval95_country_wild_basic": [
+        -0.005438745004905926,
+        8.491413243152165e-05
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "scenario": "100_24"
+      },
+      "groups": 365,
+      "countries": 127,
+      "beta": -2.596865116221014e-05,
+      "interval95_country_wild_basic": [
+        -0.00042299938529238623,
+        0.00036628917686634856
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "scenario": "100_24"
+      },
+      "groups": 17,
+      "countries": 15,
+      "beta": 0.014864053746746361,
+      "interval95_country_wild_basic": [
+        -0.07910942091375081,
+        0.10883752840724352
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "scenario": "500_24"
+      },
+      "groups": 190,
+      "countries": 93,
+      "beta": -0.0032205152557267798,
+      "interval95_country_wild_basic": [
+        -0.006274592073267284,
+        -0.00018793582283128246
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "scenario": "500_24"
+      },
+      "groups": 334,
+      "countries": 123,
+      "beta": 3.024884557750126e-06,
+      "interval95_country_wild_basic": [
+        -0.000418361493167595,
+        0.0004327356847900688
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "scenario": "500_24"
+      },
+      "groups": 14,
+      "countries": 13,
+      "beta": 0.004522966733345528,
+      "interval95_country_wild_basic": [
+        -0.09719733269745469,
+        0.10624326616414576
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "scenario": "100_72"
+      },
+      "groups": 203,
+      "countries": 100,
+      "beta": -0.0027928848207549183,
+      "interval95_country_wild_basic": [
+        -0.005635170790365236,
+        5.590450051806651e-05
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "scenario": "100_72"
+      },
+      "groups": 354,
+      "countries": 127,
+      "beta": -2.9152931384190443e-05,
+      "interval95_country_wild_basic": [
+        -0.000442787791333182,
+        0.0003819741431805022
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "scenario": "100_72"
+      },
+      "groups": 16,
+      "countries": 15,
+      "beta": 0.01496545429685508,
+      "interval95_country_wild_basic": [
+        -0.0820714385347534,
+        0.11200234712846355
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "scenario": "300_72"
+      },
+      "groups": 192,
+      "countries": 96,
+      "beta": -0.002986249718525924,
+      "interval95_country_wild_basic": [
+        -0.005976130922035102,
+        3.5105921468538744e-05
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "scenario": "300_72"
+      },
+      "groups": 338,
+      "countries": 125,
+      "beta": -2.0774934644955358e-05,
+      "interval95_country_wild_basic": [
+        -0.00045031882656401613,
+        0.0004129105566897229
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "scenario": "300_72"
+      },
+      "groups": 14,
+      "countries": 13,
+      "beta": 0.020146400421030865,
+      "interval95_country_wild_basic": [
+        -0.0872121030004549,
+        0.12750490384251667
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "scenario": "500_72"
+      },
+      "groups": 182,
+      "countries": 91,
+      "beta": -0.003139317868407462,
+      "interval95_country_wild_basic": [
+        -0.006311941104832715,
+        5.3106665213368143e-05
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "scenario": "500_72"
+      },
+      "groups": 318,
+      "countries": 121,
+      "beta": 2.300654878471665e-05,
+      "interval95_country_wild_basic": [
+        -0.000434083842966757,
+        0.0004744930097553678
+      ]
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "scenario": "500_72"
+      },
+      "groups": 13,
+      "countries": 12,
+      "beta": 0.005487111758743956,
+      "interval95_country_wild_basic": [
+        -0.10340788819909925,
+        0.11438211171658717
+      ]
+    },
+    {
+      "family": "Hypothetical STOP dates",
+      "source": "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "scenario": "unknown_end_plusminus7"
+      },
+      "groups": 202,
+      "countries": 99,
+      "beta": -0.0027760670560101532,
+      "interval95_country_wild_basic": [
+        -0.005634482052456773,
+        0.00010119102715002706
+      ]
+    },
+    {
+      "family": "Hypothetical STOP dates",
+      "source": "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json",
+      "signal": "bgp",
+      "specification": {
+        "scenario": "unknown_end_plusminus7"
+      },
+      "groups": 352,
+      "countries": 126,
+      "beta": -1.1180713656540372e-05,
+      "interval95_country_wild_basic": [
+        -0.0004225828231416754,
+        0.00039993209431666264
+      ]
+    },
+    {
+      "family": "Hypothetical STOP dates",
+      "source": "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json",
+      "signal": "merit-nt",
+      "specification": {
+        "scenario": "unknown_end_plusminus7"
+      },
+      "groups": 16,
+      "countries": 15,
+      "beta": 0.014333564781823167,
+      "interval95_country_wild_basic": [
+        -0.08407806155609526,
+        0.11274519111974159
+      ]
+    },
+    {
+      "family": "Hypothetical STOP dates",
+      "source": "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "scenario": "unknown_end_plusminus30"
+      },
+      "groups": 202,
+      "countries": 99,
+      "beta": -0.0027760670560101532,
+      "interval95_country_wild_basic": [
+        -0.005634482052456773,
+        0.00010119102715002706
+      ]
+    },
+    {
+      "family": "Hypothetical STOP dates",
+      "source": "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json",
+      "signal": "bgp",
+      "specification": {
+        "scenario": "unknown_end_plusminus30"
+      },
+      "groups": 351,
+      "countries": 126,
+      "beta": -1.0814757080544005e-05,
+      "interval95_country_wild_basic": [
+        -0.0004220389403293356,
+        0.0004007991391083619
+      ]
+    },
+    {
+      "family": "Hypothetical STOP dates",
+      "source": "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json",
+      "signal": "merit-nt",
+      "specification": {
+        "scenario": "unknown_end_plusminus30"
+      },
+      "groups": 16,
+      "countries": 15,
+      "beta": 0.014333564781823167,
+      "interval95_country_wild_basic": [
+        -0.08407806155609526,
+        0.11274519111974159
+      ]
+    },
+    {
+      "family": "Synchronous candidates",
+      "source": "deliverables/2026-10-27_SYNC_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "universe": "joint"
+      },
+      "groups": 64,
+      "countries": 54,
+      "beta": -0.004343227758709319,
+      "interval95_country_wild_basic": [
+        -0.011824742389347115,
+        0.0030104551926775983
+      ]
+    },
+    {
+      "family": "Synchronous candidates",
+      "source": "deliverables/2026-10-27_SYNC_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "universe": "joint"
+      },
+      "groups": 348,
+      "countries": 125,
+      "beta": 7.178783969299069e-05,
+      "interval95_country_wild_basic": [
+        -0.0003053457981487721,
+        0.0004578084993531257
+      ]
+    },
+    {
+      "family": "Synchronous candidates",
+      "source": "deliverables/2026-10-27_SYNC_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "universe": "all"
+      },
+      "groups": 52,
+      "countries": 44,
+      "beta": 0.00025601556069417507,
+      "interval95_country_wild_basic": [
+        -0.0032806995721055715,
+        0.003727438532167318
+      ]
+    },
+    {
+      "family": "Synchronous candidates",
+      "source": "deliverables/2026-10-27_SYNC_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "universe": "all"
+      },
+      "groups": 329,
+      "countries": 125,
+      "beta": 8.356371967992987e-05,
+      "interval95_country_wild_basic": [
+        -0.00030284416460331267,
+        0.000472622042119561
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "omitted_reference_year": 2018
+      },
+      "groups": 202,
+      "countries": 106,
+      "beta": -0.0023563791573191404,
+      "interval95_country_wild_basic": [
+        -0.004450038424913262,
+        -0.00023436397849309386
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "omitted_reference_year": 2018
+      },
+      "groups": 373,
+      "countries": 130,
+      "beta": -0.00022176941232704162,
+      "interval95_country_wild_basic": [
+        -0.0007803290579989203,
+        0.0003258365075311731
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "omitted_reference_year": 2018
+      },
+      "groups": 25,
+      "countries": 22,
+      "beta": -0.030384521558440777,
+      "interval95_country_wild_basic": [
+        -0.11090103263676679,
+        0.050072213766719414
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "omitted_reference_year": 2019
+      },
+      "groups": 198,
+      "countries": 100,
+      "beta": -0.0005079893204909495,
+      "interval95_country_wild_basic": [
+        -0.0024438860763498845,
+        0.0014085997949170978
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "omitted_reference_year": 2019
+      },
+      "groups": 341,
+      "countries": 130,
+      "beta": -3.1108444699778935e-05,
+      "interval95_country_wild_basic": [
+        -0.0004551395472484005,
+        0.0004062997810246654
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "omitted_reference_year": 2019
+      },
+      "groups": 17,
+      "countries": 16,
+      "beta": -0.012430108613023223,
+      "interval95_country_wild_basic": [
+        -0.09996762776704682,
+        0.07510741054100037
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "omitted_reference_year": 2020
+      },
+      "groups": 223,
+      "countries": 108,
+      "beta": 0.0006673030096789757,
+      "interval95_country_wild_basic": [
+        -0.001020951869797708,
+        0.002362811499825466
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "omitted_reference_year": 2020
+      },
+      "groups": 391,
+      "countries": 135,
+      "beta": 0.0003433674349434901,
+      "interval95_country_wild_basic": [
+        -0.00015831023039182372,
+        0.0008446722467694146
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "omitted_reference_year": 2020
+      },
+      "groups": 22,
+      "countries": 21,
+      "beta": -0.01589511130266252,
+      "interval95_country_wild_basic": [
+        -0.07940350698603497,
+        0.04664636230169905
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "omitted_reference_year": 2021
+      },
+      "groups": 197,
+      "countries": 102,
+      "beta": -0.0012336654716817318,
+      "interval95_country_wild_basic": [
+        -0.002697958958232837,
+        0.00022627214824535698
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "omitted_reference_year": 2021
+      },
+      "groups": 321,
+      "countries": 127,
+      "beta": 0.0007684946271636812,
+      "interval95_country_wild_basic": [
+        -0.00018694776824660275,
+        0.0017252572654515889
+      ]
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "omitted_reference_year": 2021
+      },
+      "groups": 21,
+      "countries": 17,
+      "beta": 0.04096299958485948,
+      "interval95_country_wild_basic": [
+        -0.04290667637560043,
+        0.12582808743079668
+      ]
+    },
+    {
+      "family": "Daily precipitation subset",
+      "source": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "model": "base"
+      },
+      "groups": 126,
+      "countries": 54,
+      "beta": -0.0010765517292346996,
+      "interval95_country_wild_basic": [
+        -0.0028166823901869887,
+        0.0006771947284337594
+      ]
+    },
+    {
+      "family": "Daily precipitation subset",
+      "source": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "model": "precip"
+      },
+      "groups": 126,
+      "countries": 54,
+      "beta": -0.0011272143261721469,
+      "interval95_country_wild_basic": [
+        -0.0028811638983465065,
+        0.0006202077103296176
+      ]
+    },
+    {
+      "family": "Daily precipitation subset",
+      "source": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "model": "base"
+      },
+      "groups": 206,
+      "countries": 64,
+      "beta": 7.190162875847496e-05,
+      "interval95_country_wild_basic": [
+        -0.0005058850117342556,
+        0.0006394754848677949
+      ]
+    },
+    {
+      "family": "Daily precipitation subset",
+      "source": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "model": "precip"
+      },
+      "groups": 206,
+      "countries": 64,
+      "beta": 2.3836253358738537e-05,
+      "interval95_country_wild_basic": [
+        -0.0005615351874307683,
+        0.0006009515964423505
+      ]
+    },
+    {
+      "family": "Daily precipitation subset",
+      "source": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "model": "base"
+      },
+      "groups": 6,
+      "countries": 6,
+      "beta": -0.06541653796726063,
+      "interval95_country_wild_basic": [
+        -0.1815456856994428,
+        0.05071260976492159
+      ]
+    },
+    {
+      "family": "Daily precipitation subset",
+      "source": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+      "signal": "merit-nt",
+      "specification": {
+        "model": "precip"
+      },
+      "groups": 6,
+      "countries": 6,
+      "beta": -0.07516024988753123,
+      "interval95_country_wild_basic": [
+        -0.21398499932337253,
+        0.06366449954831008
+      ]
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "shift_days": -56
+      },
+      "groups": 14,
+      "countries": 13,
+      "beta": -0.00204820484891211,
+      "interval95_country_wild_basic": [
+        -0.004919476865160789,
+        0.0008230671673365698
+      ]
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "shift_days": -28
+      },
+      "groups": 14,
+      "countries": 11,
+      "beta": -0.007575308907558755,
+      "interval95_country_wild_basic": [
+        -0.017347801683757123,
+        0.0021971838686396118
+      ]
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "shift_days": -28
+      },
+      "groups": 37,
+      "countries": 26,
+      "beta": 0.0012335411954580505,
+      "interval95_country_wild_basic": [
+        8.602504305915432e-05,
+        0.002382713072380336
+      ]
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "shift_days": 28
+      },
+      "groups": 12,
+      "countries": 11,
+      "beta": -0.00486374704242834,
+      "interval95_country_wild_basic": [
+        -0.011527675248815539,
+        0.0018001811639588583
+      ]
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "shift_days": 28
+      },
+      "groups": 46,
+      "countries": 32,
+      "beta": 0.0004931384962050526,
+      "interval95_country_wild_basic": [
+        -0.0002033201480617729,
+        0.0011934038713512394
+      ]
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {
+        "shift_days": 56
+      },
+      "groups": 3,
+      "countries": 3,
+      "beta": -0.0028827929312469458,
+      "interval95_country_wild_basic": [
+        -0.005410104436084839,
+        -0.0003554814264090521
+      ]
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "signal": "bgp",
+      "specification": {
+        "shift_days": 56
+      },
+      "groups": 16,
+      "countries": 16,
+      "beta": 0.00046045165887945784,
+      "interval95_country_wild_basic": [
+        -0.0006191960829432801,
+        0.0015400994007021959
+      ]
+    },
+    {
+      "family": "Nonheat pseudo-events",
+      "source": "deliverables/2026-10-30_NONHEAT_PLACEBO_CURVES.json",
+      "signal": "ping-slash24",
+      "specification": {},
+      "groups": 77,
+      "countries": 61,
+      "beta": 0.0021546225942287,
+      "interval95_country_wild_basic": [
+        -0.0020932325940240227,
+        0.0063902473750521264
+      ]
+    },
+    {
+      "family": "Nonheat pseudo-events",
+      "source": "deliverables/2026-10-30_NONHEAT_PLACEBO_CURVES.json",
+      "signal": "bgp",
+      "specification": {},
+      "groups": 138,
+      "countries": 91,
+      "beta": 0.0004336853527921769,
+      "interval95_country_wild_basic": [
+        -0.00045263731924947054,
+        0.0013261137100032852
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "family": "Synchronous candidates",
+      "source": "deliverables/2026-10-27_SYNC_CURVES.json",
+      "record": {
+        "universe": "joint",
+        "signal": "merit-nt",
+        "reason": "Zero matched curve groups at frozen main caliper 1; no estimate, not zero effect"
+      }
+    },
+    {
+      "family": "Synchronous candidates",
+      "source": "deliverables/2026-10-27_SYNC_CURVES.json",
+      "record": {
+        "universe": "all",
+        "signal": "merit-nt",
+        "reason": "Zero matched curve groups at frozen main caliper 1; no estimate, not zero effect"
+      }
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "record": {
+        "offset": "minus56",
+        "signal": "ping-slash24",
+        "shift_days": -56,
+        "conflicting_source_dates": 0,
+        "source_groups": 202,
+        "groups": 0,
+        "countries": 0,
+        "rows": 0,
+        "estimable": false,
+        "reason": "No original group with complete translated anchor/control source dates"
+      }
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "record": {
+        "offset": "minus56",
+        "signal": "merit-nt",
+        "shift_days": -56,
+        "conflicting_source_dates": 0,
+        "source_groups": 16,
+        "groups": 0,
+        "countries": 0,
+        "rows": 0,
+        "estimable": false,
+        "reason": "No original group with complete translated anchor/control source dates"
+      }
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "record": {
+        "offset": "minus28",
+        "signal": "merit-nt",
+        "shift_days": -28,
+        "conflicting_source_dates": 0,
+        "source_groups": 16,
+        "groups": 0,
+        "countries": 0,
+        "rows": 0,
+        "estimable": false,
+        "reason": "No original group with complete translated anchor/control source dates"
+      }
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "record": {
+        "offset": "plus28",
+        "signal": "merit-nt",
+        "shift_days": 28,
+        "conflicting_source_dates": 0,
+        "source_groups": 16,
+        "groups": 1,
+        "countries": 1,
+        "rows": 30,
+        "estimable": false,
+        "reason": "Absorbed focal column"
+      }
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "record": {
+        "offset": "plus56",
+        "signal": "merit-nt",
+        "shift_days": 56,
+        "conflicting_source_dates": 0,
+        "source_groups": 16,
+        "groups": 0,
+        "countries": 0,
+        "rows": 0,
+        "estimable": false,
+        "reason": "No original group with complete translated anchor/control source dates"
+      }
+    },
+    {
+      "family": "Nonheat pseudo-events",
+      "source": "deliverables/2026-10-30_NONHEAT_PLACEBO_CURVES.json",
+      "record": {
+        "signal": "merit-nt",
+        "source_groups": 16,
+        "groups": 2,
+        "countries": 2,
+        "rows": 75,
+        "estimable": false,
+        "reason": "Focal design rank deficient"
+      }
+    }
+  ],
+  "curve_family_overview": [
+    {
+      "family": "Heat definitions",
+      "source": "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json",
+      "coefficient_rows": 945,
+      "diagnostic_rows": 252,
+      "non_psd_diagnostics": 141,
+      "unavailable_records": 0,
+      "scope": "All seven definitions and three signals, without significance selection. Separate samples, not common-support comparisons. Country wild intervals are nonstudentized basic intervals, not equivalence tests. Lead tests are asymptotic CR0 diagnostics, not proof of identification. Non-PSD multiway estimates are retained and flagged, not repaired. No multiplicity correction is applied in this export."
+    },
+    {
+      "family": "Cyclone masks",
+      "source": "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json",
+      "coefficient_rows": 675,
+      "diagnostic_rows": 180,
+      "non_psd_diagnostics": 110,
+      "unavailable_records": 0,
+      "scope": "All five preselected alternative cyclone masks. Both source and target remasked, primary STOP and main heat/forward routing unchanged. All terms and outcomes exported, not selected by significance. Basic country-wild intervals are nonstudentized and unadjusted across specifications; not equivalence or paired same-sample tests. Country-CR0 leads are asymptotic diagnostics; non-PSD flags retained without repair. This completes this curve branch only, not dose/recovery-model sensitivity, outage/causal or final study certification."
+    },
+    {
+      "family": "Hypothetical STOP dates",
+      "source": "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json",
+      "coefficient_rows": 270,
+      "diagnostic_rows": 72,
+      "non_psd_diagnostics": 44,
+      "unavailable_records": 0,
+      "scope": "Both source and target hypothetical STOP masks; original main heat definition and forward routing. All terms/outcomes exported. Basic country wild intervals are nonstudentized, not equivalence tests or adjusted paired tests. CR0 lead diagnostics are asymptotic; non-PSD covariance flags retained without repair. Not causal outage confirmation or final study certification."
+    },
+    {
+      "family": "Synchronous candidates",
+      "source": "deliverables/2026-10-27_SYNC_CURVES.json",
+      "coefficient_rows": 180,
+      "diagnostic_rows": 48,
+      "non_psd_diagnostics": 25,
+      "unavailable_records": 2,
+      "scope": "Signal-specific exact candidate timestamps excluded from source references and target computational views. Raw observations retained; unconfirmed candidates are not established faults. Joint and all source universes remain separate. All outcomes/terms exported. Nonstudentized country-wild intervals are not multiplicity adjusted, equivalence tests, paired same-sample contrasts or causal effects. Non-PSD diagnostics retained."
+    },
+    {
+      "family": "Reference-year omissions",
+      "source": "deliverables/2026-10-28_LOYO_CURVES.json",
+      "coefficient_rows": 540,
+      "diagnostic_rows": 144,
+      "non_psd_diagnostics": 72,
+      "unavailable_records": 0,
+      "scope": "All four omitted reference years, jointly recomputed Q90 Tmax/Tmin thresholds and warm-season selection; source/target baselines and matching rebuilt. Every curve term/outcome retained. Country-wild basic intervals are nonstudentized, unadjusted across specifications, not equivalence or paired common-sample contrasts. Non-PSD covariance diagnostics retained. This completes the curve table only, not LOYO dose/recovery models or final study acceptance."
+    },
+    {
+      "family": "Daily precipitation subset",
+      "source": "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json",
+      "coefficient_rows": 279,
+      "diagnostic_rows": 72,
+      "non_psd_diagnostics": 53,
+      "unavailable_records": 0,
+      "scope": "Identical95percent finite-population-supported original paired daily samples, before/after daily precipitation accumulation covariate. Daily sensitivity design, not primary ten-minute design. All terms/outcomes/diagnostics retained, non-PSD not repaired. Country wild basic intervals are nonstudentized, unadjusted; six Telescope countries cannot support strong inference. Not causal, equivalence, whole-study acceptance or precipitation-adjusted dose/Cox models."
+    },
+    {
+      "family": "Calendar-block translations",
+      "source": "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json",
+      "coefficient_rows": 315,
+      "diagnostic_rows": 84,
+      "non_psd_diagnostics": 63,
+      "unavailable_records": 5,
+      "scope": "Posthoc supported intact15day calendar-block translations, offsets fixed -56/-28/+28/+56 days identically for all countries; source outcomes and dewpoint move together. Conditional on sparse original accepted-window calendar coverage; no wrap/imputation or rematching. Shifted pseudo-labels do not assert actual heat/nonheat status. Seven supported fits and five unavailable retained. No calibrated permutation p-value, complete country-year support, equivalence, causal or whole-study acceptance. Non-PSD records retained without repair."
+    },
+    {
+      "family": "Nonheat pseudo-events",
+      "source": "deliverables/2026-10-30_NONHEAT_PLACEBO_CURVES.json",
+      "coefficient_rows": 90,
+      "diagnostic_rows": 24,
+      "non_psd_diagnostics": 15,
+      "unavailable_records": 1,
+      "scope": "Posthoc earliest original nonheat control as pseudo-anchor vs later nonoverlapping original controls. Controls were matched to actual heat rather than freshly to pseudo-anchor. Original actual heat rows excluded. Country wild intervals nonstudentized/unadjusted; null results do not prove identification. Not separate calendar-block-shift placebo, primary heat effect or whole-study acceptance. Non-PSD diagnostics retained."
+    }
+  ],
+  "exclusion_counts": [
+    {
+      "level": "technical signal-event records",
+      "reason": "final_sample_review_not_completed",
+      "count": 2730,
+      "denominator": 2730,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "technical signal-event records",
+      "reason": "incomplete_observation_or_reference",
+      "count": 1312,
+      "denominator": 2730,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "technical signal-event records",
+      "reason": "target_stop_or_conservative_cyclone_flag",
+      "count": 207,
+      "denominator": 2730,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "technical signal-event records",
+      "reason": "unknown_end_stop_country_records",
+      "count": 102,
+      "denominator": 2730,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "all intersecting weather events",
+      "reason": "fails_in_warm_season",
+      "count": 3820,
+      "denominator": 5303,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "all intersecting weather events",
+      "reason": "fails_complete_analysis_window",
+      "count": 105,
+      "denominator": 5303,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "all intersecting weather events",
+      "reason": "fails_complete_weather_window",
+      "count": 39,
+      "denominator": 5303,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "all intersecting weather events",
+      "reason": "fails_isolated_weather_event",
+      "count": 496,
+      "denominator": 5303,
+      "mutually_exclusive": false
+    },
+    {
+      "level": "joint source entity mapping",
+      "reason": "boundary_not_found",
+      "count": 21,
+      "denominator": 253,
+      "mutually_exclusive": true
+    },
+    {
+      "level": "joint source entity mapping",
+      "reason": "source_not_exact",
+      "count": 37,
+      "denominator": 253,
+      "mutually_exclusive": true
+    }
+  ],
+  "source_sha256": {
+    "deliverables/2026-10-16/ALL_VARIANT_CURVE_TABLES_2026-10-23.json": "87575c2921ca323593b724dc45a03368fb6f26599fc436bf76da3d2f530ea7bb",
+    "deliverables/2026-10-25_CYCLONE_ALL_CURVES.json": "6c4f923ce06f63582d1834f55db7011f136ce9454768c6097f68fe366aed3b4f",
+    "deliverables/2026-10-16/STOP_FULL_REFERENCE_CURVES_2026-10-24.json": "87e0b477b5635eccd42c8c90988862ff2ae5306bceb23fd33d4539dc7659597c",
+    "deliverables/2026-10-27_SYNC_CURVES.json": "38d18a4d19071c18f33fbf0c056efcd7c060029a078d1f8f4300ba5c529fd173",
+    "deliverables/2026-10-28_LOYO_CURVES.json": "1295e03d51dd74f588713a5d8ac770cbab3cee1f45cccb6c5af12d003ce9c622",
+    "deliverables/2026-10-29_PRECIPITATION_DAILY_CURVES.json": "23734043947cdfe5f249fe4fd952e820b17486bc529a5fa8ba798c0c44c6a7ba",
+    "deliverables/2026-10-30_CALENDAR_BLOCK_CURVES.json": "e907f3e42300dd60b1e9bed7df8aa12ff18e5945c3ca64086fc5c37560c0f5b4",
+    "deliverables/2026-10-30_NONHEAT_PLACEBO_CURVES.json": "dbc9640adbcbb57a04e82b8de63542fb7be0e0d9a262c10143bcd7e5181bb4b8",
+    "deliverables/2026-10-28_ALTERNATIVE_BASELINE_MODELS.json": "0b2f57c9b4b4f11e472073034f41c40ace8f9cfecfb66b307e262275007eb11b",
+    "deliverables/2026-10-28_LOYO_MODELS.json": "395645c2601b4688bf69e31c17b03f390748ea26e5a4576ae25070cd26f0b9bd",
+    "deliverables/2026-10-26_RECOVERY_DEFINITION_MODELS.json": "a99532b724813a51c3ef34e6f06191778ef63e7cae7532d32885b6c30e0bb406",
+    "deliverables/2026-10-28_COMMON_SAMPLE_MODELS.json": "83f2c29b43ed5cc4b48acc8ae789c3cac6e3b49b364974641ddfec58b5d8f9f1",
+    "deliverables/2026-10-25_REGION_DELETION_ALL_SPECIFICATIONS.json": "5a07da2b072e20f5af7bd84c3d394563c6b7e3d26e6e63fd98db5e6656bc1606",
+    "deliverables/2026-10-24/COUNTRY_DELETION_ALL_SPECIFICATIONS_2026-10-24.json": "776ef7bf4c6a025150b71ccad771fcf71ff18296fe116ca2d922159355efb806",
+    "deliverables/2026-11-01_COUNTRY_SOLAR_DEFINITION_COMPARISON.json": "bc6b99b681182fc3a50ec65ccec71bdab3c303f026d8253bab5cc903a59082cc",
+    "deliverables/2026-11-01_PIXEL_SPATIAL_COMPARISON.json": "c8a03bf45c5ab62f4366870351ffb30805db0a78861b1a925d69006272e7f252",
+    "deliverables/2026-11-01_SEVEN_YEAR_WEATHER_COMPARISON.json": "f62741b207c6940a6034970d61c4649163a3aefeb55e6aed767f9f913a9ae9f6",
+    "deliverables/2026-10-31_ADM1_NATIVE_SUPPORT.json": "42a18d362d155153bab2336a00469ef458b469e0a1760c4e8e5980ea04a4940e",
+    "deliverables/2026-11-01_GEOGRAPHIC_COMPARISON.json": "803412f0ee4f01fe0da9bfb85d7baee03bddfc9dd9663644c8c0984fcd5c668c",
+    "analysis/2026-10-29_temperature_product_agreement/v1/summary.json": "6f1d86215ba0eeb634b9ab3d5c715914a8fae0b8af99323c456b859eebc41c9f",
+    "analysis/2026-10-19_wind_curve/v1/full_outputs/summary.json": "97092a1c053c9003e67cf1cf31faa91a566624bd58f8ac8f4f1861c6ed453a35",
+    "deliverables/2026-11-01_main_table2/all_230_slopes.json": "f1b2de81a1f3193c4a0bacd02d2b0144f08d9a09543e68c36c0c1ca3f01ce79c",
+    "deliverables/2026-11-01_main_table4/all_54_interactions.csv": "597d10a8eb354a2f12922afc3ac5413d053dd3a40c444c5ee5665dd8f68f0af0",
+    "analysis/2026-10-12_resilience_metrics/v1/full_outputs/event_metrics.json": "e7ca4ff855fab45daf07b510c40effc4f6cf20082f31aa8c734f96b9ed410585",
+    "outputs/2026-11-01_seven_year_metadata/analysis_events.csv": "2052c62a916a7c974235c880451a488a8e63bd9883b268f180b5d194f3855715"
+  },
+  "scope": "All declared existing evidence retained. Day zero signed presentation is a fixed primary outcome/time slice; all original outcomes/specifications remain in source artefacts. No new fit, cross-family multiplicity/equivalence or causal certification.",
+  "whole_study_accepted": false
+}

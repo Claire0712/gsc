@@ -1,0 +1,55 @@
+signal,modifier,outcome,supported,estimable,n,countries,beta,interval95_normal_cr0,p_normal_cr0,bh,by,modifier_center,modifier_scale,reason
+BGP,pre_connection_dispersion,mean_deficit_core,True,True,298,100,1.3288851583476821e-05,"[-7.396915393326057e-05, 0.0001005468571002142]",0.7653289586460232,1.0,1.0,0.00022316086113205206,0.00089255906123085,
+BGP,pre_connection_dispersion,maintenance_core,True,True,298,100,-3.6014294960988066e-05,"[-0.0003655844027909474, 0.00029355581286897133]",0.8304081225299458,1.0,1.0,0.00022316086113205206,0.00089255906123085,
+BGP,pre_connection_dispersion,peak_loss_core,True,True,298,100,-0.0002611606708163654,"[-0.0007240259059529094, 0.00020170456432017862]",0.26878584832656816,0.7908488801198051,1.0,0.00022316086113205206,0.00089255906123085,
+BGP,electricity_access_share,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+BGP,electricity_access_share,maintenance_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+BGP,electricity_access_share,peak_loss_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+BGP,gdp_per_capita_ppp_constant,mean_deficit_core,True,True,295,102,1.114954533100407e-05,"[-9.458916979107527e-05, 0.0001168882604530834]",0.8362698997405408,1.0,1.0,34035.0600960189,30095.20734082929,
+BGP,gdp_per_capita_ppp_constant,maintenance_core,True,True,295,102,0.0006818960343989127,"[-0.00033883424840138875, 0.0017026263171992142]",0.19041632657744778,0.7908488801198051,1.0,34035.0600960189,30095.20734082929,
+BGP,gdp_per_capita_ppp_constant,peak_loss_core,True,True,295,102,-0.0012529894984813698,"[-0.0035879334409041038, 0.0010819544439413641]",0.29290699263696485,0.7908488801198051,1.0,34035.0600960189,30095.20734082929,
+BGP,urban_population_share,mean_deficit_core,True,True,325,113,3.547080626020656e-05,"[-2.9579932723537223e-05, 0.00010052154524395034]",0.28519255155906653,0.7908488801198051,1.0,0.6344559171727727,0.23134572944561965,
+BGP,urban_population_share,maintenance_core,True,True,325,113,0.0005194211287800414,"[-0.00015870061373328425, 0.001197542871293367]",0.13328464425841685,0.6966806349516242,1.0,0.6344559171727727,0.23134572944561965,
+BGP,urban_population_share,peak_loss_core,True,True,325,113,0.0008300150243707502,"[-0.00023846996526871473, 0.0018985000140102153]",0.12787654447836422,0.6966806349516242,1.0,0.6344559171727727,0.23134572944561965,
+BGP,internet_share,mean_deficit_core,True,True,316,104,4.028552818610444e-05,"[-7.627189329116076e-05, 0.00015684294966336964]",0.4981402966029983,1.0,1.0,0.7348997334768195,0.26581639676319757,
+BGP,internet_share,maintenance_core,True,True,316,104,0.0008029507953798547,"[-0.0005131134104946505, 0.00211901500125436]",0.23177311433089298,0.7908488801198051,1.0,0.7348997334768195,0.26581639676319757,
+BGP,internet_share,peak_loss_core,True,True,316,104,-0.0012617975556661705,"[-0.0035549988880450214, 0.0010314037767126805]",0.28083788782841057,0.7908488801198051,1.0,0.7348997334768195,0.26581639676319757,
+BGP,first_warm_season_event,mean_deficit_core,True,True,370,129,-6.800898322698742e-05,"[-0.00018255239509322885, 4.653442863925403e-05]",0.24454210786370179,0.7908488801198051,1.0,0.5748031496062992,1.0,
+BGP,first_warm_season_event,maintenance_core,True,True,370,129,0.0001272191732200956,"[-0.00019097068080985768, 0.0004454090272500489]",0.4332537751357378,1.0,1.0,0.5748031496062992,1.0,
+BGP,first_warm_season_event,peak_loss_core,True,True,370,129,0.0008840588885092249,"[-0.0006108630878000407, 0.0023789808648184904]",0.24642646261408996,0.7908488801198051,1.0,0.5748031496062992,1.0,
+Telescope,pre_connection_dispersion,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,pre_connection_dispersion,maintenance_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,pre_connection_dispersion,peak_loss_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,electricity_access_share,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+Telescope,electricity_access_share,maintenance_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+Telescope,electricity_access_share,peak_loss_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+Telescope,gdp_per_capita_ppp_constant,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,gdp_per_capita_ppp_constant,maintenance_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,gdp_per_capita_ppp_constant,peak_loss_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,urban_population_share,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,urban_population_share,maintenance_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,urban_population_share,peak_loss_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,internet_share,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,internet_share,maintenance_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,internet_share,peak_loss_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,first_warm_season_event,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,first_warm_season_event,maintenance_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+Telescope,first_warm_season_event,peak_loss_core,False,False,,,,,,1.0,1.0,,,Below10 events or5 countries in a support group
+AP,pre_connection_dispersion,mean_deficit_core,True,True,170,88,-0.0019420446561220492,"[-0.0035717487385510016, -0.00031234057369309686]",0.019512075307584233,0.35121735553651623,1.0,0.013191437897017285,0.018352269586550507,
+AP,pre_connection_dispersion,maintenance_core,True,True,170,88,0.004438995342006058,"[-0.005763016744817984, 0.014641007428830101]",0.3937704908623091,1.0,1.0,0.013191437897017285,0.018352269586550507,
+AP,pre_connection_dispersion,peak_loss_core,True,True,170,88,-0.10967330601860577,"[-0.19032352674614478, -0.029023085291066772]",0.0076923366925106176,0.2688304799118086,1.0,0.013191437897017285,0.018352269586550507,
+AP,electricity_access_share,mean_deficit_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+AP,electricity_access_share,maintenance_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+AP,electricity_access_share,peak_loss_core,False,False,,,,,,1.0,1.0,,,Modifier split has fewer than two groups
+AP,gdp_per_capita_ppp_constant,mean_deficit_core,True,True,179,83,5.419327825229106e-05,"[-0.00022037544185824512, 0.00032876199836282726]",0.698867355353775,1.0,1.0,36469.291784044864,31106.67972600536,
+AP,gdp_per_capita_ppp_constant,maintenance_core,True,True,179,83,-2.8073886479966463e-05,"[-0.0013955475871082952, 0.0013393998141483622]",0.9679037325404173,1.0,1.0,36469.291784044864,31106.67972600536,
+AP,gdp_per_capita_ppp_constant,peak_loss_core,True,True,179,83,-0.011002540705520793,"[-0.02889634836644836, 0.006891266955406775]",0.22814839408944843,0.7908488801198051,1.0,36469.291784044864,31106.67972600536,
+AP,urban_population_share,mean_deficit_core,True,True,198,96,0.00032881360952145545,"[7.876304072350132e-05, 0.0005788641783194096]",0.009956684441178094,0.2688304799118086,1.0,0.6314012896129945,0.235468237840694,
+AP,urban_population_share,maintenance_core,True,True,198,96,-0.0011740515590636387,"[-0.0027348307541513023, 0.000386727636024025]",0.14039359245262553,0.6966806349516242,1.0,0.6314012896129945,0.235468237840694,
+AP,urban_population_share,peak_loss_core,True,True,198,96,0.004358200771356144,"[-0.01046486589426198, 0.01918126743697427]",0.5644405426076134,1.0,1.0,0.6314012896129945,0.235468237840694,
+AP,internet_share,mean_deficit_core,True,True,182,83,-0.0006916099823259774,"[-0.001362150697551467, -2.1069267100487965e-05]",0.04322300476687233,0.5835105643527765,1.0,0.7410486316591072,0.26674273116010977,
+AP,internet_share,maintenance_core,True,True,182,83,0.0028891238798621197,"[-0.00016051200675986982, 0.005938759766484109]",0.06333892129394483,0.6041017102513546,1.0,0.7410486316591072,0.26674273116010977,
+AP,internet_share,peak_loss_core,True,True,182,83,-0.0448580544567113,"[-0.09287946691996567, 0.0031633580065430628]",0.0671224122501505,0.6041017102513546,1.0,0.7410486316591072,0.26674273116010977,
+AP,first_warm_season_event,mean_deficit_core,True,True,215,101,1.544149979247009e-05,"[-0.00031794423736863464, 0.00034882723695357483]",0.9276673395670818,1.0,1.0,0.6223175965665236,1.0,
+AP,first_warm_season_event,maintenance_core,True,True,215,101,0.0012812928906416213,"[-0.00023775440590278443, 0.002800340187186027]",0.09829030998281965,0.6966806349516242,1.0,0.6223175965665236,1.0,
+AP,first_warm_season_event,peak_loss_core,True,True,215,101,0.013889524463342077,"[-0.004645997614641708, 0.03242504654132586]",0.14191642563829382,0.6966806349516242,1.0,0.6223175965665236,1.0,

@@ -1,0 +1,12 @@
+{
+  "status": "verified_offline_component",
+  "members": 33,
+  "bytes": 16444149,
+  "archive_sha256": "2bf9888a9c7dbe3b82f452bfd9eeb02bde0b3926939ff59dac516b4c9d3c99cf",
+  "html_sha256": "4d1ee287cec6329c93338a9745c0e20da18cf2e7d4f135a9c6ed3f91dc854710",
+  "all_member_sha_crc_verified": true,
+  "isolated_byte_identical_rebuild": true,
+  "node_tests": 9,
+  "browser_verified": false,
+  "elapsed_seconds": 4.379061792002176
+}

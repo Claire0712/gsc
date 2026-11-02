@@ -1,0 +1,11 @@
+{
+  "status": "numerical_cross_source_checks_passed_render_pending",
+  "outputs": {
+    "conditional_recovery.csv": "3a69016717c416c0e03a1186e446ada0ac6e5bc2786ba06cbb0018ceb77e5b58",
+    "distributions.csv": "ee87ab6d7a3e307626c4b1aca2409edad734c6d4ae93ad27b837bce07fe83aa5",
+    "table3.docx": "7924ad5dbd976fa2b6b5cb93d5858f8cbd21169f926f21591f9a8a09b56b5473",
+    "states.csv": "3f9711696ed73fdfa839d9c217a68ae2fc6d218482806f738fa29d0ef4bdd4a6",
+    "table3_source.json": "5813140676388334ef0f2e40b3eef9faf83f7f91b5493104d4daaf63d742ce5c"
+  },
+  "scope": "One formatted main table component; not the complete four-table set, manuscript integration or whole-study acceptance."
+}

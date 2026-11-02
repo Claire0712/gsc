@@ -1,0 +1,25 @@
+Supplementary figure. AP day-zero contrasts are not uniformly negative across
+short-reference omissions. Points show signed event-day-zero coefficients after
+omitting the indicated reference year from both Q90 threshold and warm-season
+selection and rebuilding the event, baseline and matching stages. Panels show
+(a) Active Probing, (b) BGP and (c) Network Telescope. Black intervals are 95%
+nonstudentized basic country-wild intervals, unadjusted across specifications or
+outcomes. Parentheses give curve groups/countries. Only the omitted-2018 AP
+interval excludes zero. The x-axis limits DIFFER across panels to preserve each
+signal's uncertainty; visual interval lengths must not be compared across panels.
+Percentages express normalized signal deviations, not disconnected people.
+Changing samples prevent interpreting omissions as paired same-event contrasts.
+All 540 terms and 144 covariance diagnostics remain in the accompanying table;
+this selected day-zero figure is not a joint robustness or causal certification.
+
+Selection record: supplementary uncertainty comparison; one mark per omitted-year
+model, no pooling across omissions, no coordinates or map. Chosen: faceted forest
+plot with all four points per signal, zero lines and n. Rejected: bars obscure
+intervals and signs; heatmap encodes intervals poorly; connected lines would imply
+a temporal trajectory across different omitted reference definitions. All 12
+points retained, no significance-based ordering, no truncation of intervals.
+
+QA: Arial found without fallback; PDF fonttype42, SVG text preserved; PDF/SVG/PNG
+at 300dpi exported. PNG visually inspected: no clipped labels, intervals or panel
+letters; zero lines and sample counts readable. This is figure-level QA, not
+final manuscript assembly, journal-specific landed-size or whole-study acceptance.

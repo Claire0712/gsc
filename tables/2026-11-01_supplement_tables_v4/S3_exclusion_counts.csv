@@ -1,0 +1,11 @@
+level,reason,count,denominator,mutually_exclusive
+technical signal-event records,final_sample_review_not_completed,2730,2730,False
+technical signal-event records,incomplete_observation_or_reference,1312,2730,False
+technical signal-event records,target_stop_or_conservative_cyclone_flag,207,2730,False
+technical signal-event records,unknown_end_stop_country_records,102,2730,False
+all intersecting weather events,fails_in_warm_season,3820,5303,False
+all intersecting weather events,fails_complete_analysis_window,105,5303,False
+all intersecting weather events,fails_complete_weather_window,39,5303,False
+all intersecting weather events,fails_isolated_weather_event,496,5303,False
+joint source entity mapping,boundary_not_found,21,253,True
+joint source entity mapping,source_not_exact,37,253,True

@@ -1,0 +1,114 @@
+{
+  "status": "isolated_archive_downstream_rebuild_passed",
+  "created_utc": "2026-11-01T11:59:31.408741+00:00",
+  "archive": "deliverables/2026-11-01_unified_reproduction_v6.zip",
+  "sha256": "d0ab448afddbbc5ff542ec8ec6489731542f9eefdab2aa084eff42c64bf1b4fe",
+  "bytes": 68996651,
+  "elapsed_seconds": 8.71107341699826,
+  "extracted_in_unrelated_temporary_directory": true,
+  "zip_crc_passed": true,
+  "rebuild": {
+    "verified_files": 631,
+    "scope": "Frozen-source tables/manuscript reconstruction with current offline platform and explicit M3 source-status patch; independent scientific/website receipts included. No new raw-global rerun or actual-browser/public-service certification.",
+    "rebuild": {
+      "status": "passed",
+      "elapsed_seconds": 2.1265813750069356,
+      "commands": [
+        {
+          "command": [
+            "scripts/export_main_table1_20261101.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "scripts/export_main_table2_20261101.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "scripts/export_main_table3_20261101.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "scripts/export_main_table4_20261101.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "scripts/export_supplement_tables_20261101.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "scripts/export_proposal_interactions_20261101.py"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "scripts/assemble_manuscript_docx_20261101_v24.py",
+            "--source",
+            "deliverables/2026-11-01_HeatSignal_manuscript_text_v27.txt",
+            "--output",
+            "deliverables/rebuilt_base.docx",
+            "--receipt",
+            "outputs/rebuilt_base.json"
+          ],
+          "returncode": 0
+        }
+      ],
+      "exact_numerical_files": 25,
+      "semantic_table_documents": 6,
+      "composed_documents": 1,
+      "integrated_manuscript_content_images_sections_equal": true,
+      "raw_observational_pipeline_rerun": false,
+      "pdf_rerendered": false,
+      "browser_verified": false
+    }
+  },
+  "verification_commands": [
+    {
+      "command": [
+        "scripts/reproduce_delivery.py",
+        "--rebuild",
+        "--receipt",
+        "/var/folders/74/56y06ytj3056_ftqfx_b4f2w0000gn/T/heatsignal-extracted-r8aikl_q/receipt.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"verified_files\": 631,\n  \"scope\": \"Frozen-source tables/manuscript reconstruction with current offline platform and explicit M3 source-status patch; independent scientific/website receipts included. No new raw-global rerun or actual-browser/public-service certification.\",\n  \"rebuild\": {\n    \"status\": \"passed\",\n    \"elapsed_seconds\": 2.1265813750069356,\n    \"commands\": [\n      {\n        \"command\": [\n          \"scripts/export_main_table1_20261101.py\"\n        ],\n        \"returncode\": 0\n      },\n      {\n        \"command\": [\n          \"scripts/export_main_table2_20261101.py\"\n        ],\n        \"returncode\": 0\n      },\n      {\n        \"command\": [\n          \"scripts/export_main_table3_20261101.py\"\n        ],\n        \"returncode\": 0\n      },\n      {\n        \"command\": [\n          \"scripts/export_main_table4_20261101.py\"\n        ],\n        \"returncode\": 0\n      },\n      {\n        \"command\": [\n          \"scripts/export_supplement_tables_20261101.py\"\n        ],\n        \"returncode\": 0\n      },\n      {\n        \"command\": [\n          \"scripts/export_proposal_interactions_20261101.py\"\n        ],\n        \"returncode\": 0\n      },\n      {\n        \"command\": [\n          \"scripts/assemble_manuscript_docx_20261101_v24.py\",\n          \"--source\",\n          \"deliverables/2026-11-01_HeatSignal_manuscript_text_v27.txt\",\n          \"--output\",\n          \"deliverables/rebuilt_base.docx\",\n          \"--receipt\",\n          \"outputs/rebuilt_base.json\"\n        ],\n        \"returncode\": 0\n      }\n    ],\n    \"exact_numerical_files\": 25,\n    \"semantic_table_documents\": 6,\n    \"composed_documents\": 1,\n    \"integrated_manuscript_content_images_sections_equal\": true,\n    \"raw_observational_pipeline_rerun\": false,\n    \"pdf_rerendered\": false,\n    \"browser_verified\": false\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "tests.test_reproduce_delivery",
+        "tests.test_merge_paper_tables",
+        "tests.test_seven_year_reference"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.660s\n\nOK\n"
+    },
+    {
+      "command": [
+        "--test",
+        "tests/platform_v4_core.test.cjs",
+        "tests/platform_v4_social.test.cjs",
+        "tests/platform_v4_results_integration.test.cjs",
+        "tests/platform_v4_event_integration.test.cjs",
+        "tests/platform_results.test.cjs"
+      ],
+      "returncode": 0,
+      "stdout": "TAP version 13\n# Subtest: fixed reference is distinct from estimated zero, selections preserve original records\nok 1 - fixed reference is distinct from estimated zero, selections preserve original records\n  ---\n  duration_ms: 2.802958\n  type: 'test'\n  ...\n# Subtest: unestimable recovery and missing country never become zero effects\nok 2 - unestimable recovery and missing country never become zero effects\n  ---\n  duration_ms: 0.290875\n  type: 'test'\n  ...\n# Subtest: filters preserve missing and country membership\nok 3 - filters preserve missing and country membership\n  ---\n  duration_ms: 0.570042\n  type: 'test'\n  ...\n# Subtest: zero is an observation and missing is never interpolated\nok 4 - zero is an observation and missing is never interpolated\n  ---\n  duration_ms: 0.119292\n  type: 'test'\n  ...\n# Subtest: map longitude wraps and latitude projects without invented geometry\nok 5 - map longitude wraps and latitude projects without invented geometry\n  ---\n  duration_ms: 0.563292\n  type: 'test'\n  ...\n# Subtest: boundary outlines break at antimeridian rather than spanning the map\nok 6 - boundary outlines break at antimeridian rather than spanning the map\n  ---\n  duration_ms: 0.126458\n  type: 'test'\n  ...\n# Subtest: actual archived dataset drives selection, layers, empty states and downloads\nok 7 - actual archived dataset drives selection, layers, empty states and downloads\n  ---\n  duration_ms: 1203.584875\n  type: 'test'\n  ...\n# Subtest: fixed-sample results controls preserve event data, unavailable recovery and spatial zero\nok 8 - fixed-sample results controls preserve event data, unavailable recovery and spatial zero\n  ---\n  duration_ms: 489.669167\n  type: 'test'\n  ...\n# Subtest: social layer preserves observed zero, excludes other signals and missing\nok 9 - social layer preserves observed zero, excludes other signals and missing\n  ---\n  duration_ms: 0.466417\n  type: 'test'\n  ...\n1..9\n# tests 9\n# suites 0\n# pass 9\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 1272.371583\n",
+      "stderr": ""
+    }
+  ],
+  "whole_study_accepted": false
+}

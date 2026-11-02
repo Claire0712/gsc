@@ -1,0 +1,8 @@
+{
+  "status": "verified",
+  "risk_manifest_sha256": "aa59e6cb7a3887ccd5a3a73b77ee041d0b6b0b2079d537063bceba4df093ff81",
+  "all_four_declared_inputs_verified": true,
+  "technical_counts_match_preserved_primary_figure": true,
+  "positive_risk_counts_and_recoveries_match_original_model_objects": true,
+  "scope": "Numerical source linkage. Cross-signal summaries have different cohorts/mechanisms and are not comparative resilience rankings. Not full-table-set or manuscript integration acceptance."
+}

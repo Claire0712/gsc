@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "native_pages_reviewed": [
+    1,
+    2,
+    3
+  ],
+  "docx_sha256": "0c235b8a082892e3f3e717c9ab6723b1e32e0886ca1a98f8652573adf001fb30",
+  "scope": "Archived numerical source linkage and native table layout; full manuscript integration and whole-study acceptance pending.",
+  "whole_study_accepted": false
+}

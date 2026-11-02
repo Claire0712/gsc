@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "native_pages_reviewed": [
+    1,
+    2
+  ],
+  "table3_docx_sha256": "7924ad5dbd976fa2b6b5cb93d5858f8cbd21169f926f21591f9a8a09b56b5473",
+  "source_data_unchanged_from_first_style": true,
+  "export_script_sha256": "528d7d423f88511c857418687e10ce4a8a47c1b2798cabc2750c85308d325a0f",
+  "scope": "Numerical cross-source checks and native two-page table layout only; other main/supplementary tables and manuscript integration remain incomplete.",
+  "whole_study_accepted": false
+}

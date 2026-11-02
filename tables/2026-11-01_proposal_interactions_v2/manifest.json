@@ -1,0 +1,11 @@
+{
+  "status": "formatted_component_verified",
+  "outputs": {
+    "source.json": "a73851377dce5d9df6b6a29de6da75f30f0cb6daee68083991241e0a46c7443b",
+    "all_30_interactions.csv": "1affba2a70001cb3d381a8a49fe96c1caca05b324393a9e4f1f440841d5dc9d8",
+    "full_window_peak_loss.csv": "f26da1b70c994f7d851cb3ee737031fa9de4eb8efda60712f40e85752dc54527",
+    "interaction_tables.docx": "32685230a475f42b9945149d6a88a627be1fdb21951e846e76e411d41b1c8bd0",
+    "visual_review.json": "0e8f6e3eb3d5858c799871527b1152577252f3fce76d55f1c8aa09f8a1455107"
+  },
+  "whole_study_accepted": false
+}

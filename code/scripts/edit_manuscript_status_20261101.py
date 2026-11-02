@@ -1,0 +1,30 @@
+from pathlib import Path
+import re,json,hashlib
+source=Path('deliverables/2026-11-01_HeatSignal_manuscript_text_v21.txt');old=source.read_text();s='\n\n'.join(' '.join(p.split()) for p in re.split(r'\n\s*\n',old) if p.strip())+'\n';changes=[]
+def edit(a,b):
+ global s
+ assert s.count(a)==1,(s.count(a),a)
+ s=s.replace(a,b);changes.append(dict(old=a,new=b))
+edit('Consolidated manuscript text as of 30 October 2026\n\n','')
+edit('Study acceptance remains incomplete. The 22:00 delivery deadline was not met; no replacement deadline or reduced scope is declared. This text integrates already available evidence and is not a submission-ready final manuscript. The outstanding analyses and acceptance checks remain in 2026-10-28_DELIVERY_STATUS.txt.','Abstract')
+edit('What can be delivered responsibly','Historical replay and interpretation')
+edit('Common-sample checks are now reported below. The remaining proposal-specified sensitivities and final presentation checks must be completed before final submission.','Common-sample and exposure-definition diagnostics are reported in the following sections.')
+edit('Outstanding analyses and interpretation limits','Interpretation limits')
+edit('Modifier models and the narrow wind comparison are completed with the support limitations above; common heat-load country comparisons are not. Alternative temperature-product effects, solar-day, subnational and pixel-exposure checks remain outstanding, DLEP weighting and the four omitted-reference-year curve and model tables have since been completed, as documented in the components and accompanying full tables. Primary model completion does not complete these branches.','Modifier models and the narrow wind comparison retain the support limitations above. Temperature-product agreement, country-clock and pixel-clock weather definitions, subnational support, local pixel exceedance, DLEP weighting and omitted-reference-year results are reported separately below. These diagnostics do not establish common heat-load country effects or alternative-temperature network effects.')
+edit(' Other required sensitivity analyses and final publication/web/reproducibility checks remain incomplete.','')
+edit(' Other outstanding analyses and final publication/web acceptance remain separate.','')
+edit(' Other required robustness and final publication/web work remain open.','')
+edit(' This version remains a working draft, not a complete final delivery or submission-ready paper.','')
+edit('HeatSignal — synchronous-candidate sensitivity addendum Working manuscript component; not a final or submission-ready manuscript','Synchronous-candidate sensitivity')
+edit('Reproducibility and acceptance status','Synchronous-candidate source validation')
+edit('This component does not complete the separate date-block placebo or final delivery acceptance work. The supported nonheat placebo and precipitation daily checks are now reported below. The separate LOYO curve and model components are now available below.','Nonheat pseudo-event, calendar-block, precipitation and LOYO diagnostics are reported separately below.')
+edit('HeatSignal — leave-one-reference-year-out manuscript component Working integration component, not final manuscript acceptance','Leave-one-reference-year-out sensitivity')
+edit(' Remaining mandatory analyses, final publication, replay and reproducibility acceptance are not certified.','')
+edit('HeatSignal — common-membership model component Working integration component; not final study acceptance','Common-membership model support')
+edit('The nonheat placebo and supported precipitation daily results are now reported below; date-block placebo, spatial/day-definition and final manuscript/web/reproducibility acceptance remain open.','Nonheat pseudo-event, precipitation, calendar-block and spatial/day-definition diagnostics are reported below.')
+edit('Integration status, 30 October 2026\n\nThe completed components below are incorporated into this manuscript text rather than held until every analysis is complete. Their numerical and descriptive claims retain their stated samples and limitations. The supported nonheat pseudo-event models have now passed their numerical audits and are integrated below; Telescope remains rank-deficient and unavailable. Sequence-preserving date-block placebo, other outstanding supported exposure checks, final Word/PDF, publication figures, interactive-system acceptance and complete reproducibility delivery are not certified. The original delivery deadline was missed; no replacement date or reduced scope is declared.\n\n','')
+edit('This implements the nonheat-window diagnostic only; the separate sequence- preserving date-block-shift requirement and whole-study acceptance remain open.','This implements the nonheat-window diagnostic; the distinct sequence-preserving calendar-block analysis is reported below.')
+assert not any(k in s for k in ['remain outstanding','requirement and whole-study acceptance remain open','Working integration component','delivery deadline'])
+target=Path('deliverables/2026-11-01_HeatSignal_manuscript_text_v22.txt');assert not target.exists();target.write_text(s)
+out=Path('outputs/2026-11-01_manuscript_editorial_change_record.json');assert not out.exists();out.write_text(json.dumps(dict(source=str(source),source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),output=str(target),output_sha256=hashlib.sha256(target.read_bytes()).hexdigest(),changes=changes,scope='Remove operational status boilerplate and correct stale statements about diagnostics now included; preserve every numerical analysis and unsupported branch. Final delivery and citation acceptance remain pending outside manuscript.',whole_study_accepted=False),ensure_ascii=False,indent=2)+'\n')
+print(len(changes),'editorial corrections')

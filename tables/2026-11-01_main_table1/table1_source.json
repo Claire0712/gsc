@@ -1,0 +1,223 @@
+{
+  "annual_coverage": [
+    {
+      "year": 2022,
+      "signal": "bgp",
+      "source_entities": 253,
+      "qualified_source_entities": 252,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2022,
+      "signal": "merit-nt",
+      "source_entities": 253,
+      "qualified_source_entities": 251,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2022,
+      "signal": "ping-slash24",
+      "source_entities": 253,
+      "qualified_source_entities": 248,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2023,
+      "signal": "bgp",
+      "source_entities": 253,
+      "qualified_source_entities": 252,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2023,
+      "signal": "merit-nt",
+      "source_entities": 253,
+      "qualified_source_entities": 251,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2023,
+      "signal": "ping-slash24",
+      "source_entities": 253,
+      "qualified_source_entities": 248,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2024,
+      "signal": "bgp",
+      "source_entities": 253,
+      "qualified_source_entities": 252,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2024,
+      "signal": "merit-nt",
+      "source_entities": 253,
+      "qualified_source_entities": 167,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 154
+    },
+    {
+      "year": 2024,
+      "signal": "ping-slash24",
+      "source_entities": 253,
+      "qualified_source_entities": 244,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 194
+    },
+    {
+      "year": 2025,
+      "signal": "bgp",
+      "source_entities": 253,
+      "qualified_source_entities": 253,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 195
+    },
+    {
+      "year": 2025,
+      "signal": "merit-nt",
+      "source_entities": 253,
+      "qualified_source_entities": 150,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 141
+    },
+    {
+      "year": 2025,
+      "signal": "ping-slash24",
+      "source_entities": 253,
+      "qualified_source_entities": 247,
+      "exact_joint_entities": 195,
+      "qualified_joint_entities": 195
+    }
+  ],
+  "threshold_support": {
+    "country_calendar_cells": 78110,
+    "tmax_valid": 78110,
+    "tmin_valid": 78110,
+    "min_reference_n": 124,
+    "country_seasons": 214,
+    "reference_daily_valid_fraction_min": 1.0,
+    "loyo_agreement_counts": {
+      "1.0": 163,
+      "0.75": 30,
+      "0.5": 18,
+      "0.25": 3
+    }
+  },
+  "cohorts": [
+    {
+      "signal": "AP",
+      "technical_records": 910,
+      "technical_countries": 151,
+      "complete_observed_clean": 466,
+      "complete_observed_clean_countries": 129,
+      "matched_integral": 233,
+      "matched_integral_countries": 109,
+      "event_curve": 202,
+      "event_curve_countries": 99
+    },
+    {
+      "signal": "BGP",
+      "technical_records": 910,
+      "technical_countries": 151,
+      "complete_observed_clean": 601,
+      "complete_observed_clean_countries": 137,
+      "matched_integral": 384,
+      "matched_integral_countries": 130,
+      "event_curve": 352,
+      "event_curve_countries": 126
+    },
+    {
+      "signal": "Telescope",
+      "technical_records": 910,
+      "technical_countries": 151,
+      "complete_observed_clean": 302,
+      "complete_observed_clean_countries": 93,
+      "matched_integral": 18,
+      "matched_integral_countries": 17,
+      "event_curve": 16,
+      "event_curve_countries": 15
+    }
+  ],
+  "weather_candidates_distribution": [
+    {
+      "field": "hd_c_days",
+      "label": "HD",
+      "unit": "\u00b0C-days",
+      "n": 1327,
+      "minimum": 0.0637851400000037,
+      "q25": 1.6033732960000044,
+      "median": 3.979202193000006,
+      "q75": 9.354966229499999,
+      "maximum": 361.0779838879999
+    },
+    {
+      "field": "peak_excess_c",
+      "label": "Peak excess",
+      "unit": "\u00b0C",
+      "n": 1327,
+      "minimum": 0.0405222049999984,
+      "q25": 0.7883904365000003,
+      "median": 1.4505891299999971,
+      "q75": 2.5046586034999976,
+      "maximum": 8.383385553999997
+    },
+    {
+      "field": "absolute_tmax_c",
+      "label": "Absolute Tmax",
+      "unit": "\u00b0C",
+      "n": 1327,
+      "minimum": 1.295581946,
+      "q25": 30.079069415,
+      "median": 33.08710715,
+      "q75": 36.60201888,
+      "maximum": 49.28721549
+    },
+    {
+      "field": "hot_days",
+      "label": "Hot days",
+      "unit": "days",
+      "n": 1327,
+      "minimum": 2.0,
+      "q25": 2.0,
+      "median": 4.0,
+      "q75": 9.0,
+      "maximum": 363.0
+    },
+    {
+      "field": "span_days",
+      "label": "Event span",
+      "unit": "days",
+      "n": 1327,
+      "minimum": 2.0,
+      "q25": 2.0,
+      "median": 5.0,
+      "q75": 12.0,
+      "maximum": 421.0
+    }
+  ],
+  "weather_analysis_events": 5303,
+  "weather_candidate_events": 1327,
+  "weather_candidate_countries": 211,
+  "source_sha256": {
+    "outputs/2026-11-01_main_table1_sources/manifest.json": "3493a54e5cb5960ae60e1a2a63df20859d49bb69265ba187d172c76d8b2d8f1b",
+    "outputs/2026-11-01_main_table1_sources/thresholds.csv": "e6b31ce28e57a77a45c9dc317ed9da3d53b92aac04a8366b39a08b31f5619c0f",
+    "outputs/2026-11-01_main_table1_sources/warm_seasons.csv": "a15bd5c6dcd1325a6c099c90a0206eb9baae30601593ba67fb075c36471fbedd",
+    "outputs/2026-11-01_main_table1_sources/coverage_annual.csv": "31818de9e9a92186b4e9ce9f62d7f2c829775bc5b8f4c99ae65a4ac84f4bdda1",
+    "outputs/2026-11-01_main_table1_sources/joint_crosswalk.csv": "4ef7f3191a775efafb08cb37f4c701084850ecde229ee357b350beb967100f20",
+    "outputs/2026-11-01_main_table1_sources/quality/manifest.json": "be8f0866c0800d0342f16a14ab9ffcbe22f4ae7540015d5359eb58a25bc1e0ef",
+    "outputs/2026-11-01_seven_year_metadata/analysis_events.csv": "2052c62a916a7c974235c880451a488a8e63bd9883b268f180b5d194f3855715",
+    "analysis/2026-10-12_resilience_metrics/v1/full_outputs/event_metrics.json": "e7ca4ff855fab45daf07b510c40effc4f6cf20082f31aa8c734f96b9ed410585",
+    "deliverables/2026-11-01_primary_figures_v2/source_data.json": "989009434a8c4c2447e1ac56e103441defbf6f4f7f99b505a91f422180287d14",
+    "analysis/2026-10-13_heat_associations/v2/full_outputs/results.json": "1a3c3ccc051ce00dfc771443ce84502d993e69f54457d7f2ff94fca614882151"
+  },
+  "scope": "Archived native observation coverage, weather candidates and separate estimator cohorts; not final fault attribution or a sequential complete-case funnel.",
+  "whole_study_accepted": false
+}

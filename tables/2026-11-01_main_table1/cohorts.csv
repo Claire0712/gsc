@@ -1,0 +1,4 @@
+signal,technical_records,technical_countries,complete_observed_clean,complete_observed_clean_countries,matched_integral,matched_integral_countries,event_curve,event_curve_countries
+AP,910,151,466,129,233,109,202,99
+BGP,910,151,601,137,384,130,352,126
+Telescope,910,151,302,93,18,17,16,15

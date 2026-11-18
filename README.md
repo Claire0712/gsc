@@ -4,6 +4,7 @@
 
 ## 材料入口
 
+- [服务器里有什么、朋友连上能看什么（大白话说明）](SERVER_README.md)
 - [论文稿（44页）](paper.pdf) · [可编辑Word](paper.docx)
 - [补充材料（19页）](supplement.pdf) · [可编辑Word](supplement.docx)
 - [当前proposal](proposal.md)
